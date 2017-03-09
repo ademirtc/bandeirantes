@@ -1,0 +1,45 @@
+\hypertarget{gft__cimage_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-cimage.h File Reference}
+\label{gft__cimage_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-cimage.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-cimage.\-h}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-image32.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-color.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1CImage_1_1cimage}{gft\-::\-C\-Image\-::cimage}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1CImage}{gft\-::\-C\-Image}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structgft_1_1CImage_1_1cimage}{gft\-::\-C\-Image\-::cimage} \hyperlink{namespacegft_1_1CImage_ae3efa12a0ed0755314837d3e5c974556}{gft\-::\-C\-Image\-::\-C\-Image}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+C\-Image $\ast$ \hyperlink{namespacegft_1_1CImage_a6ca3feb88ebee636f0313cdc577c19c7}{gft\-::\-C\-Image\-::\-Create} (int ncols, int nrows)
+\item 
+void \hyperlink{namespacegft_1_1CImage_aaec1f4c104e5af5f9e1bb8f66fc25ab9}{gft\-::\-C\-Image\-::\-Destroy} (C\-Image $\ast$$\ast$cimg)
+\item 
+C\-Image $\ast$ \hyperlink{namespacegft_1_1CImage_afa4b209d5ad1cd4302cc737783e4ca3a}{gft\-::\-C\-Image\-::\-Clone} (C\-Image $\ast$cimg)
+\item 
+C\-Image $\ast$ \hyperlink{namespacegft_1_1CImage_a4642a6abc36f983a43599ab73b2d0600}{gft\-::\-C\-Image\-::\-Read} (char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1CImage_a83286d59c0a9dbf712da5326bf4dd719}{gft\-::\-C\-Image\-::\-Write} (C\-Image $\ast$cimg, char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1CImage_a958264d45e7dfe021dd38cd6cf48bf46}{gft\-::\-C\-Image\-::\-Set} (C\-Image $\ast$cimg, int r, int g, int b)
+\item 
+C\-Image $\ast$ \hyperlink{namespacegft_1_1CImage_a112aed74166b2aed4cc1211ec560b1fa}{gft\-::\-C\-Image\-::\-Colorize\-Label} (Image32\-::\-Image32 $\ast$label)
+\item 
+C\-Image $\ast$ \hyperlink{namespacegft_1_1CImage_a522ff849c4246bc504fd0a5e142b2b5f}{gft\-::\-C\-Image\-::\-R\-G\-B2\-Lab} (C\-Image $\ast$cimg)
+\item 
+Image32\-::\-Image32 $\ast$ \hyperlink{namespacegft_1_1CImage_a8ed35a5fcb90e9e8fa2bcdcd9b1bdc55}{gft\-::\-C\-Image\-::\-Lightness} (C\-Image $\ast$cimg)
+\item 
+Image32\-::\-Image32 $\ast$ \hyperlink{namespacegft_1_1CImage_a8386b0c6a183d26e998403dc611d3e3f}{gft\-::\-C\-Image\-::\-Luminosity} (C\-Image $\ast$cimg)
+\end{DoxyCompactItemize}

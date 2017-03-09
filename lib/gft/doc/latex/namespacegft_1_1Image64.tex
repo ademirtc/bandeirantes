@@ -1,0 +1,142 @@
+\hypertarget{namespacegft_1_1Image64}{\section{gft\-:\-:Image64 Namespace Reference}
+\label{namespacegft_1_1Image64}\index{gft\-::\-Image64@{gft\-::\-Image64}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Image64_1_1__Image64}{\-\_\-\-Image64}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1Image64_1_1__Image64}{gft\-::\-Image64\-::\-\_\-\-Image64} \hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$ \hyperlink{namespacegft_1_1Image64_a6b21c5315c407dfab9d48562bffd18aa}{Create} (int ncols, int nrows)
+\item 
+void \hyperlink{namespacegft_1_1Image64_ad4e315bef549fd02b6aa360a12f1257e}{Destroy} (\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$$\ast$img)
+\item 
+\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$ \hyperlink{namespacegft_1_1Image64_a18d56eac55850a444e967ede8e39d41d}{Convert\-To\-Image64} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$img)
+\item 
+\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$ \hyperlink{namespacegft_1_1Image64_abfdf774cb9cbb358fed29ce835f423e6}{Read} (char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1Image64_afb033b881c692bf92d3495720ce76ab8}{Write} (\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$img, char $\ast$filename)
+\item 
+\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$ \hyperlink{namespacegft_1_1Image64_a88036e75ca35284f293f94c634096fe1}{Compute\-Integral\-Image} (\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$img)
+\item 
+long long \hyperlink{namespacegft_1_1Image64_a79fa6adfbc60ecb59f0360bfd398204e}{Compute\-Sum} (\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$iimg, int x1, int y1, int x2, int y2)
+\item 
+double \hyperlink{namespacegft_1_1Image64_ad13a5058c4253b3d7c39076fb6153429}{Compute\-Variance} (\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$img, int x1, int y1, int x2, int y2)
+\item 
+double \hyperlink{namespacegft_1_1Image64_ac62a9f99a2620ba81e317b6b945fc7b8}{Compute\-Variance} (\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$iimg, \hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$iimg2, int x1, int y1, int x2, int y2)
+\item 
+\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$ \hyperlink{namespacegft_1_1Image64_a07e5b0ae08e70aa0733898815bfe4f49}{Squared} (\hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{Image64} $\ast$img)
+\item 
+int \hyperlink{namespacegft_1_1Image64_ab1676bd86a6f2fc85304cad91a8a844c}{Get\-Pos\-Window\-Max\-Sum} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$img, int tam\-\_\-x, int tam\-\_\-y)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Image64@{Image64}}
+\index{Image64@{Image64}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Image64}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Image64\-::\-\_\-\-Image64}  {\bf gft\-::\-Image64\-::\-Image64}}}\label{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1Image64_a88036e75ca35284f293f94c634096fe1}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Compute\-Integral\-Image@{Compute\-Integral\-Image}}
+\index{Compute\-Integral\-Image@{Compute\-Integral\-Image}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Compute\-Integral\-Image}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image64} $\ast$ gft\-::\-Image64\-::\-Compute\-Integral\-Image (
+\begin{DoxyParamCaption}
+\item[{Image64 $\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_a88036e75ca35284f293f94c634096fe1}
+\hypertarget{namespacegft_1_1Image64_a79fa6adfbc60ecb59f0360bfd398204e}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Compute\-Sum@{Compute\-Sum}}
+\index{Compute\-Sum@{Compute\-Sum}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Compute\-Sum}]{\setlength{\rightskip}{0pt plus 5cm}long long gft\-::\-Image64\-::\-Compute\-Sum (
+\begin{DoxyParamCaption}
+\item[{Image64 $\ast$}]{iimg, }
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_a79fa6adfbc60ecb59f0360bfd398204e}
+\hypertarget{namespacegft_1_1Image64_ad13a5058c4253b3d7c39076fb6153429}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Compute\-Variance@{Compute\-Variance}}
+\index{Compute\-Variance@{Compute\-Variance}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Compute\-Variance}]{\setlength{\rightskip}{0pt plus 5cm}double gft\-::\-Image64\-::\-Compute\-Variance (
+\begin{DoxyParamCaption}
+\item[{Image64 $\ast$}]{img, }
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_ad13a5058c4253b3d7c39076fb6153429}
+\hypertarget{namespacegft_1_1Image64_ac62a9f99a2620ba81e317b6b945fc7b8}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Compute\-Variance@{Compute\-Variance}}
+\index{Compute\-Variance@{Compute\-Variance}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Compute\-Variance}]{\setlength{\rightskip}{0pt plus 5cm}double gft\-::\-Image64\-::\-Compute\-Variance (
+\begin{DoxyParamCaption}
+\item[{Image64 $\ast$}]{iimg, }
+\item[{Image64 $\ast$}]{iimg2, }
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_ac62a9f99a2620ba81e317b6b945fc7b8}
+\hypertarget{namespacegft_1_1Image64_a18d56eac55850a444e967ede8e39d41d}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Convert\-To\-Image64@{Convert\-To\-Image64}}
+\index{Convert\-To\-Image64@{Convert\-To\-Image64}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Convert\-To\-Image64}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image64} $\ast$ gft\-::\-Image64\-::\-Convert\-To\-Image64 (
+\begin{DoxyParamCaption}
+\item[{Image32\-::\-Image32 $\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_a18d56eac55850a444e967ede8e39d41d}
+\hypertarget{namespacegft_1_1Image64_a6b21c5315c407dfab9d48562bffd18aa}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Create@{Create}}
+\index{Create@{Create}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image64} $\ast$ gft\-::\-Image64\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{ncols, }
+\item[{int}]{nrows}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_a6b21c5315c407dfab9d48562bffd18aa}
+\hypertarget{namespacegft_1_1Image64_ad4e315bef549fd02b6aa360a12f1257e}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Image64\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Image64 $\ast$$\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_ad4e315bef549fd02b6aa360a12f1257e}
+\hypertarget{namespacegft_1_1Image64_ab1676bd86a6f2fc85304cad91a8a844c}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Get\-Pos\-Window\-Max\-Sum@{Get\-Pos\-Window\-Max\-Sum}}
+\index{Get\-Pos\-Window\-Max\-Sum@{Get\-Pos\-Window\-Max\-Sum}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Get\-Pos\-Window\-Max\-Sum}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Image64\-::\-Get\-Pos\-Window\-Max\-Sum (
+\begin{DoxyParamCaption}
+\item[{Image32\-::\-Image32 $\ast$}]{img, }
+\item[{int}]{tam\-\_\-x, }
+\item[{int}]{tam\-\_\-y}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_ab1676bd86a6f2fc85304cad91a8a844c}
+\hypertarget{namespacegft_1_1Image64_abfdf774cb9cbb358fed29ce835f423e6}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Read@{Read}}
+\index{Read@{Read}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Read}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image64} $\ast$ gft\-::\-Image64\-::\-Read (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_abfdf774cb9cbb358fed29ce835f423e6}
+\hypertarget{namespacegft_1_1Image64_a07e5b0ae08e70aa0733898815bfe4f49}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Squared@{Squared}}
+\index{Squared@{Squared}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Squared}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image64} $\ast$ gft\-::\-Image64\-::\-Squared (
+\begin{DoxyParamCaption}
+\item[{Image64 $\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_a07e5b0ae08e70aa0733898815bfe4f49}
+\hypertarget{namespacegft_1_1Image64_afb033b881c692bf92d3495720ce76ab8}{\index{gft\-::\-Image64@{gft\-::\-Image64}!Write@{Write}}
+\index{Write@{Write}!gft::Image64@{gft\-::\-Image64}}
+\subsubsection[{Write}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Image64\-::\-Write (
+\begin{DoxyParamCaption}
+\item[{Image64 $\ast$}]{img, }
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image64_afb033b881c692bf92d3495720ce76ab8}

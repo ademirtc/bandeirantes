@@ -1,0 +1,155 @@
+\hypertarget{namespacegft_1_1AdjSeedmap3}{\section{gft\-:\-:Adj\-Seedmap3 Namespace Reference}
+\label{namespacegft_1_1AdjSeedmap3}\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}}
+}
+
+
+Data structures for fast accessing seed pixels of a fuzzy model (e.\-g., C\-S\-M).  
+
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1AdjSeedmap3_1_1__adjseedmap3}{\-\_\-adjseedmap3}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1AdjSeedmap3_1_1__adjseedmap3}{gft\-::\-Adj\-Seedmap3\-::\-\_\-adjseedmap3} \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$ \hyperlink{namespacegft_1_1AdjSeedmap3_a977c53069645704d8aca5ad701fd9c73}{Create} (int nobjs)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_ac5dd804cffcd4f3baf11529ec11fafae}{Destroy} (\hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$$\ast$asmap)
+\item 
+\hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$ \hyperlink{namespacegft_1_1AdjSeedmap3_aa67ddef9f22370690967d2ad27658b93}{Create} (\hyperlink{namespacegft_1_1RegionCloud3_ae97ab7136c2a2a97ccc56e60025d0a1a}{Region\-Cloud3\-::\-Region\-Cloud3} $\ast$rcloud)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_a251b3f03f808c23edcb703d8d4cd5e30}{Draw\-Object} (\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$asmap, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, int l, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_aca3ea23679405a8dca191c368abf8534}{Draw\-Obj\-Border} (\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$asmap, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, int l, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_a0ae5c5616ceeb9ca3534493c55a5b948}{Draw\-Bkg\-Border} (\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$asmap, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, int l, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_a7617dfc5ee99d621baade731da77629d}{Draw\-Uncertainty} (\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$asmap, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, int l, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_a23a22f24acd8aabe38c341fa522464c4}{Copy\-Uncertainty} (\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$dest, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$src, \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$asmap, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, int l)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_ac38dd9a7d23e9a6c8ed517f886a6573d}{Add\-Uncertainty} (\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$dest, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$src, \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$asmap, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, int l)
+\item 
+void \hyperlink{namespacegft_1_1AdjSeedmap3_adbee559ea293126fd26e798ed496dba7}{Cloud\-Arc\-Weight} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$arcw, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$wobj, \hyperlink{namespacegft_1_1Gradient3_acc3ba84d5f1e1fd680f64f29da6ac0eb}{Gradient3\-::\-Gradient3} $\ast$grad, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, \hyperlink{namespacegft_1_1BorderCloud3_a798c6bba07803dbc165e7b806bad3e71}{Border\-Cloud3\-::\-Border\-Cloud3} $\ast$bcloud, \hyperlink{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{Adj\-Seedmap3} $\ast$asmap, int l, float w)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data structures for fast accessing seed pixels of a fuzzy model (e.\-g., C\-S\-M). 
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Adj\-Seedmap3@{Adj\-Seedmap3}}
+\index{Adj\-Seedmap3@{Adj\-Seedmap3}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Adj\-Seedmap3}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Adj\-Seedmap3\-::\-\_\-adjseedmap3}  {\bf gft\-::\-Adj\-Seedmap3\-::\-Adj\-Seedmap3}}}\label{namespacegft_1_1AdjSeedmap3_a5af15912c0c5243c6d835f204006b32a}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1AdjSeedmap3_ac38dd9a7d23e9a6c8ed517f886a6573d}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Add\-Uncertainty@{Add\-Uncertainty}}
+\index{Add\-Uncertainty@{Add\-Uncertainty}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Add\-Uncertainty}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Add\-Uncertainty (
+\begin{DoxyParamCaption}
+\item[{Scene8\-::\-Scene8 $\ast$}]{dest, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{src, }
+\item[{Adj\-Seedmap3 $\ast$}]{asmap, }
+\item[{Voxel}]{u, }
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_ac38dd9a7d23e9a6c8ed517f886a6573d}
+\hypertarget{namespacegft_1_1AdjSeedmap3_adbee559ea293126fd26e798ed496dba7}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Cloud\-Arc\-Weight@{Cloud\-Arc\-Weight}}
+\index{Cloud\-Arc\-Weight@{Cloud\-Arc\-Weight}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Cloud\-Arc\-Weight}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Cloud\-Arc\-Weight (
+\begin{DoxyParamCaption}
+\item[{Scene16\-::\-Scene16 $\ast$}]{arcw, }
+\item[{Scene16\-::\-Scene16 $\ast$}]{wobj, }
+\item[{Gradient3\-::\-Gradient3 $\ast$}]{grad, }
+\item[{Voxel}]{u, }
+\item[{Border\-Cloud3\-::\-Border\-Cloud3 $\ast$}]{bcloud, }
+\item[{Adj\-Seedmap3 $\ast$}]{asmap, }
+\item[{int}]{l, }
+\item[{float}]{w}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_adbee559ea293126fd26e798ed496dba7}
+\hypertarget{namespacegft_1_1AdjSeedmap3_a23a22f24acd8aabe38c341fa522464c4}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Copy\-Uncertainty@{Copy\-Uncertainty}}
+\index{Copy\-Uncertainty@{Copy\-Uncertainty}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Copy\-Uncertainty}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Copy\-Uncertainty (
+\begin{DoxyParamCaption}
+\item[{Scene8\-::\-Scene8 $\ast$}]{dest, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{src, }
+\item[{Adj\-Seedmap3 $\ast$}]{asmap, }
+\item[{Voxel}]{u, }
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_a23a22f24acd8aabe38c341fa522464c4}
+\hypertarget{namespacegft_1_1AdjSeedmap3_a977c53069645704d8aca5ad701fd9c73}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Create@{Create}}
+\index{Create@{Create}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Adj\-Seedmap3} $\ast$ gft\-::\-Adj\-Seedmap3\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{nobjs}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_a977c53069645704d8aca5ad701fd9c73}
+\hypertarget{namespacegft_1_1AdjSeedmap3_aa67ddef9f22370690967d2ad27658b93}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Create@{Create}}
+\index{Create@{Create}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Adj\-Seedmap3} $\ast$ gft\-::\-Adj\-Seedmap3\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{Region\-Cloud3\-::\-Region\-Cloud3 $\ast$}]{rcloud}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_aa67ddef9f22370690967d2ad27658b93}
+\hypertarget{namespacegft_1_1AdjSeedmap3_ac5dd804cffcd4f3baf11529ec11fafae}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Adj\-Seedmap3 $\ast$$\ast$}]{asmap}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_ac5dd804cffcd4f3baf11529ec11fafae}
+\hypertarget{namespacegft_1_1AdjSeedmap3_a0ae5c5616ceeb9ca3534493c55a5b948}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Draw\-Bkg\-Border@{Draw\-Bkg\-Border}}
+\index{Draw\-Bkg\-Border@{Draw\-Bkg\-Border}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Draw\-Bkg\-Border}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Draw\-Bkg\-Border (
+\begin{DoxyParamCaption}
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{Adj\-Seedmap3 $\ast$}]{asmap, }
+\item[{Voxel}]{u, }
+\item[{int}]{l, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_a0ae5c5616ceeb9ca3534493c55a5b948}
+\hypertarget{namespacegft_1_1AdjSeedmap3_aca3ea23679405a8dca191c368abf8534}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Draw\-Obj\-Border@{Draw\-Obj\-Border}}
+\index{Draw\-Obj\-Border@{Draw\-Obj\-Border}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Draw\-Obj\-Border}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Draw\-Obj\-Border (
+\begin{DoxyParamCaption}
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{Adj\-Seedmap3 $\ast$}]{asmap, }
+\item[{Voxel}]{u, }
+\item[{int}]{l, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_aca3ea23679405a8dca191c368abf8534}
+\hypertarget{namespacegft_1_1AdjSeedmap3_a251b3f03f808c23edcb703d8d4cd5e30}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Draw\-Object@{Draw\-Object}}
+\index{Draw\-Object@{Draw\-Object}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Draw\-Object}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Draw\-Object (
+\begin{DoxyParamCaption}
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{Adj\-Seedmap3 $\ast$}]{asmap, }
+\item[{Voxel}]{u, }
+\item[{int}]{l, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_a251b3f03f808c23edcb703d8d4cd5e30}
+\hypertarget{namespacegft_1_1AdjSeedmap3_a7617dfc5ee99d621baade731da77629d}{\index{gft\-::\-Adj\-Seedmap3@{gft\-::\-Adj\-Seedmap3}!Draw\-Uncertainty@{Draw\-Uncertainty}}
+\index{Draw\-Uncertainty@{Draw\-Uncertainty}!gft::AdjSeedmap3@{gft\-::\-Adj\-Seedmap3}}
+\subsubsection[{Draw\-Uncertainty}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Seedmap3\-::\-Draw\-Uncertainty (
+\begin{DoxyParamCaption}
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{Adj\-Seedmap3 $\ast$}]{asmap, }
+\item[{Voxel}]{u, }
+\item[{int}]{l, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjSeedmap3_a7617dfc5ee99d621baade731da77629d}

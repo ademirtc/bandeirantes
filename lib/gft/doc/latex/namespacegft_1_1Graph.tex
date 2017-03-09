@@ -1,0 +1,76 @@
+\hypertarget{namespacegft_1_1Graph}{\section{gft\-:\-:Graph Namespace Reference}
+\label{namespacegft_1_1Graph}\index{gft\-::\-Graph@{gft\-::\-Graph}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Graph_1_1__Node}{\-\_\-\-Node}
+\item 
+struct \hyperlink{structgft_1_1Graph_1_1__Graph}{\-\_\-\-Graph}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structgft_1_1Graph_1_1__Node}{gft\-::\-Graph\-::\-\_\-\-Node} \hyperlink{namespacegft_1_1Graph_a86c9c9e21a6c7f4770150ec13209cd89}{Graph\-Node}
+\item 
+typedef struct \hyperlink{structgft_1_1Graph_1_1__Graph}{gft\-::\-Graph\-::\-\_\-\-Graph} \hyperlink{namespacegft_1_1Graph_a95acabdf6e7f5b884255558bef5d3f8b}{Graph}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1Graph_a95acabdf6e7f5b884255558bef5d3f8b}{Graph} $\ast$ \hyperlink{namespacegft_1_1Graph_ab976f11dedd1b0388a6997b8ed85d729}{Create} (int nnodes, int outdegree, float $\ast$Wnodes)
+\item 
+void \hyperlink{namespacegft_1_1Graph_a3750ee0b435a7b8e237ae947c291c6c0}{Destroy} (\hyperlink{namespacegft_1_1Graph_a95acabdf6e7f5b884255558bef5d3f8b}{Graph} $\ast$$\ast$graph)
+\item 
+void \hyperlink{namespacegft_1_1Graph_a40d830adee3798449005f923120f5fdb}{add\-Edge} (\hyperlink{namespacegft_1_1Graph_a95acabdf6e7f5b884255558bef5d3f8b}{Graph} $\ast$graph, int src, int dest, float w)
+\item 
+void \hyperlink{namespacegft_1_1Graph_a44d425a3196b95a27bd2c5ed8f54322c}{add\-Directed\-Edge} (\hyperlink{namespacegft_1_1Graph_a95acabdf6e7f5b884255558bef5d3f8b}{Graph} $\ast$graph, int src, int dest, float w)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1Graph_a95acabdf6e7f5b884255558bef5d3f8b}{\index{gft\-::\-Graph@{gft\-::\-Graph}!Graph@{Graph}}
+\index{Graph@{Graph}!gft::Graph@{gft\-::\-Graph}}
+\subsubsection[{Graph}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Graph\-::\-\_\-\-Graph}  {\bf gft\-::\-Graph\-::\-Graph}}}\label{namespacegft_1_1Graph_a95acabdf6e7f5b884255558bef5d3f8b}
+\hypertarget{namespacegft_1_1Graph_a86c9c9e21a6c7f4770150ec13209cd89}{\index{gft\-::\-Graph@{gft\-::\-Graph}!Graph\-Node@{Graph\-Node}}
+\index{Graph\-Node@{Graph\-Node}!gft::Graph@{gft\-::\-Graph}}
+\subsubsection[{Graph\-Node}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Graph\-::\-\_\-\-Node}  {\bf gft\-::\-Graph\-::\-Graph\-Node}}}\label{namespacegft_1_1Graph_a86c9c9e21a6c7f4770150ec13209cd89}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1Graph_a44d425a3196b95a27bd2c5ed8f54322c}{\index{gft\-::\-Graph@{gft\-::\-Graph}!add\-Directed\-Edge@{add\-Directed\-Edge}}
+\index{add\-Directed\-Edge@{add\-Directed\-Edge}!gft::Graph@{gft\-::\-Graph}}
+\subsubsection[{add\-Directed\-Edge}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Graph\-::add\-Directed\-Edge (
+\begin{DoxyParamCaption}
+\item[{Graph $\ast$}]{graph, }
+\item[{int}]{src, }
+\item[{int}]{dest, }
+\item[{float}]{w}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Graph_a44d425a3196b95a27bd2c5ed8f54322c}
+\hypertarget{namespacegft_1_1Graph_a40d830adee3798449005f923120f5fdb}{\index{gft\-::\-Graph@{gft\-::\-Graph}!add\-Edge@{add\-Edge}}
+\index{add\-Edge@{add\-Edge}!gft::Graph@{gft\-::\-Graph}}
+\subsubsection[{add\-Edge}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Graph\-::add\-Edge (
+\begin{DoxyParamCaption}
+\item[{Graph $\ast$}]{graph, }
+\item[{int}]{src, }
+\item[{int}]{dest, }
+\item[{float}]{w}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Graph_a40d830adee3798449005f923120f5fdb}
+\hypertarget{namespacegft_1_1Graph_ab976f11dedd1b0388a6997b8ed85d729}{\index{gft\-::\-Graph@{gft\-::\-Graph}!Create@{Create}}
+\index{Create@{Create}!gft::Graph@{gft\-::\-Graph}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Graph} $\ast$ gft\-::\-Graph\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{nnodes, }
+\item[{int}]{outdegree, }
+\item[{float $\ast$}]{Wnodes}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Graph_ab976f11dedd1b0388a6997b8ed85d729}
+\hypertarget{namespacegft_1_1Graph_a3750ee0b435a7b8e237ae947c291c6c0}{\index{gft\-::\-Graph@{gft\-::\-Graph}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::Graph@{gft\-::\-Graph}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Graph\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Graph $\ast$$\ast$}]{graph}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Graph_a3750ee0b435a7b8e237ae947c291c6c0}

@@ -1,0 +1,156 @@
+\hypertarget{namespacegft_1_1GQueue}{\section{gft\-:\-:G\-Queue Namespace Reference}
+\label{namespacegft_1_1GQueue}\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1GQueue_1_1__gqnode}{\-\_\-gqnode}
+\item 
+struct \hyperlink{structgft_1_1GQueue_1_1__gdoublylinkedlists}{\-\_\-gdoublylinkedlists}
+\item 
+struct \hyperlink{structgft_1_1GQueue_1_1__gcircularqueue}{\-\_\-gcircularqueue}
+\item 
+struct \hyperlink{structgft_1_1GQueue_1_1__gqueue}{\-\_\-gqueue}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structgft_1_1GQueue_1_1__gqnode}{gft\-::\-G\-Queue\-::\-\_\-gqnode} \hyperlink{namespacegft_1_1GQueue_ac7674cc67b8bc9f99e7be02c493f473e}{G\-Q\-Node}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1GQueue_1_1__gdoublylinkedlists}{gft\-::\-G\-Queue\-::\-\_\-gdoublylinkedlists} \hyperlink{namespacegft_1_1GQueue_a0e26f1e55446a32e3d979146492805e3}{G\-Doubly\-Linked\-Lists}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1GQueue_1_1__gcircularqueue}{gft\-::\-G\-Queue\-::\-\_\-gcircularqueue} \hyperlink{namespacegft_1_1GQueue_a4e50e86d194a07f26216a096b1f5a067}{G\-Circular\-Queue}
+\item 
+typedef struct \hyperlink{structgft_1_1GQueue_1_1__gqueue}{gft\-::\-G\-Queue\-::\-\_\-gqueue} \hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$ \hyperlink{namespacegft_1_1GQueue_ada76aabe7c7f45bb1f2ce0dac320d60d}{Create} (int nbuckets, int nelems, int $\ast$value)
+\item 
+void \hyperlink{namespacegft_1_1GQueue_ac3cd561537db894b3171e339eb04e6aa}{Reset} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$Q)
+\item 
+void \hyperlink{namespacegft_1_1GQueue_a787782db0c921364fe5398ed58c11baa}{Destroy} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$$\ast$Q)
+\item 
+\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$ \hyperlink{namespacegft_1_1GQueue_a140f73a8697dab98107203e5f03ad043}{Grow} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$$\ast$Q, int nbuckets)
+\item 
+void \hyperlink{namespacegft_1_1GQueue_a779ac1a5a6a6d1838b6746aa5810bb89}{Insert} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$$\ast$Q, int elem)
+\item 
+int \hyperlink{namespacegft_1_1GQueue_a8a367a688d0492d002bcf8580f33af31}{Remove} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$Q)
+\item 
+void \hyperlink{namespacegft_1_1GQueue_a94432de5a2e09e2e6fb3078cbee92a0d}{Remove\-Elem} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1GQueue_a9bdc24d4b7e9d5387d1877b21a0eb6f7}{Update} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$$\ast$Q, int elem, int newvalue)
+\item 
+int \hyperlink{namespacegft_1_1GQueue_ada95b281f6340c79a7b6f2836dc3a234}{Is\-Empty} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$Q)
+\item 
+void \hyperlink{namespacegft_1_1GQueue_a282cf644c1eb0eeb45629aec9106924d}{Set\-Tie\-Break} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$Q, char tiebreak)
+\item 
+void \hyperlink{namespacegft_1_1GQueue_a68628a2261a578d86340f57766a7bad6}{Set\-Removal\-Policy} (\hyperlink{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{G\-Queue} $\ast$Q, char policy)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1GQueue_a4e50e86d194a07f26216a096b1f5a067}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!G\-Circular\-Queue@{G\-Circular\-Queue}}
+\index{G\-Circular\-Queue@{G\-Circular\-Queue}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{G\-Circular\-Queue}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-G\-Queue\-::\-\_\-gcircularqueue}  {\bf gft\-::\-G\-Queue\-::\-G\-Circular\-Queue}}}\label{namespacegft_1_1GQueue_a4e50e86d194a07f26216a096b1f5a067}
+\hypertarget{namespacegft_1_1GQueue_a0e26f1e55446a32e3d979146492805e3}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!G\-Doubly\-Linked\-Lists@{G\-Doubly\-Linked\-Lists}}
+\index{G\-Doubly\-Linked\-Lists@{G\-Doubly\-Linked\-Lists}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{G\-Doubly\-Linked\-Lists}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-G\-Queue\-::\-\_\-gdoublylinkedlists}  {\bf gft\-::\-G\-Queue\-::\-G\-Doubly\-Linked\-Lists}}}\label{namespacegft_1_1GQueue_a0e26f1e55446a32e3d979146492805e3}
+\hypertarget{namespacegft_1_1GQueue_ac7674cc67b8bc9f99e7be02c493f473e}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!G\-Q\-Node@{G\-Q\-Node}}
+\index{G\-Q\-Node@{G\-Q\-Node}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{G\-Q\-Node}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-G\-Queue\-::\-\_\-gqnode}  {\bf gft\-::\-G\-Queue\-::\-G\-Q\-Node}}}\label{namespacegft_1_1GQueue_ac7674cc67b8bc9f99e7be02c493f473e}
+\hypertarget{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!G\-Queue@{G\-Queue}}
+\index{G\-Queue@{G\-Queue}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{G\-Queue}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-G\-Queue\-::\-\_\-gqueue}  {\bf gft\-::\-G\-Queue\-::\-G\-Queue}}}\label{namespacegft_1_1GQueue_a3ed1b095d0e60d83f93c6e9a64a6058d}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1GQueue_ada76aabe7c7f45bb1f2ce0dac320d60d}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Create@{Create}}
+\index{Create@{Create}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf G\-Queue} $\ast$ gft\-::\-G\-Queue\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{nbuckets, }
+\item[{int}]{nelems, }
+\item[{int $\ast$}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_ada76aabe7c7f45bb1f2ce0dac320d60d}
+\hypertarget{namespacegft_1_1GQueue_a787782db0c921364fe5398ed58c11baa}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-G\-Queue\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$$\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_a787782db0c921364fe5398ed58c11baa}
+\hypertarget{namespacegft_1_1GQueue_a140f73a8697dab98107203e5f03ad043}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Grow@{Grow}}
+\index{Grow@{Grow}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Grow}]{\setlength{\rightskip}{0pt plus 5cm}{\bf G\-Queue} $\ast$ gft\-::\-G\-Queue\-::\-Grow (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$$\ast$}]{Q, }
+\item[{int}]{nbuckets}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_a140f73a8697dab98107203e5f03ad043}
+\hypertarget{namespacegft_1_1GQueue_a779ac1a5a6a6d1838b6746aa5810bb89}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Insert@{Insert}}
+\index{Insert@{Insert}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Insert}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-G\-Queue\-::\-Insert (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$$\ast$}]{Q, }
+\item[{int}]{elem}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_a779ac1a5a6a6d1838b6746aa5810bb89}
+\hypertarget{namespacegft_1_1GQueue_ada95b281f6340c79a7b6f2836dc3a234}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Is\-Empty@{Is\-Empty}}
+\index{Is\-Empty@{Is\-Empty}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-G\-Queue\-::\-Is\-Empty (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_ada95b281f6340c79a7b6f2836dc3a234}
+\hypertarget{namespacegft_1_1GQueue_a8a367a688d0492d002bcf8580f33af31}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Remove@{Remove}}
+\index{Remove@{Remove}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Remove}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-G\-Queue\-::\-Remove (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_a8a367a688d0492d002bcf8580f33af31}
+moves to next element \hypertarget{namespacegft_1_1GQueue_a94432de5a2e09e2e6fb3078cbee92a0d}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Remove\-Elem@{Remove\-Elem}}
+\index{Remove\-Elem@{Remove\-Elem}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Remove\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-G\-Queue\-::\-Remove\-Elem (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$}]{Q, }
+\item[{int}]{elem}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_a94432de5a2e09e2e6fb3078cbee92a0d}
+\hypertarget{namespacegft_1_1GQueue_ac3cd561537db894b3171e339eb04e6aa}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Reset@{Reset}}
+\index{Reset@{Reset}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-G\-Queue\-::\-Reset (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_ac3cd561537db894b3171e339eb04e6aa}
+\hypertarget{namespacegft_1_1GQueue_a68628a2261a578d86340f57766a7bad6}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Set\-Removal\-Policy@{Set\-Removal\-Policy}}
+\index{Set\-Removal\-Policy@{Set\-Removal\-Policy}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Set\-Removal\-Policy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-G\-Queue\-::\-Set\-Removal\-Policy (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$}]{Q, }
+\item[{char}]{policy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1GQueue_a68628a2261a578d86340f57766a7bad6}
+\hypertarget{namespacegft_1_1GQueue_a282cf644c1eb0eeb45629aec9106924d}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Set\-Tie\-Break@{Set\-Tie\-Break}}
+\index{Set\-Tie\-Break@{Set\-Tie\-Break}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Set\-Tie\-Break}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-G\-Queue\-::\-Set\-Tie\-Break (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$}]{Q, }
+\item[{char}]{tiebreak}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1GQueue_a282cf644c1eb0eeb45629aec9106924d}
+\hypertarget{namespacegft_1_1GQueue_a9bdc24d4b7e9d5387d1877b21a0eb6f7}{\index{gft\-::\-G\-Queue@{gft\-::\-G\-Queue}!Update@{Update}}
+\index{Update@{Update}!gft::GQueue@{gft\-::\-G\-Queue}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-G\-Queue\-::\-Update (
+\begin{DoxyParamCaption}
+\item[{G\-Queue $\ast$$\ast$}]{Q, }
+\item[{int}]{elem, }
+\item[{int}]{newvalue}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1GQueue_a9bdc24d4b7e9d5387d1877b21a0eb6f7}

@@ -1,0 +1,178 @@
+\hypertarget{namespacegft_1_1FileList}{\section{gft\-:\-:File\-List Namespace Reference}
+\label{namespacegft_1_1FileList}\index{gft\-::\-File\-List@{gft\-::\-File\-List}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1FileList_1_1__fileList}{\-\_\-file\-List}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1FileList_1_1__fileList}{gft\-::\-File\-List\-::\-\_\-file\-List} \hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$ \hyperlink{namespacegft_1_1FileList_a96a5b9ca248328eec3a5ca774f0e1980}{Create} (int cap)
+\item 
+void \hyperlink{namespacegft_1_1FileList_a380a0473adbc1addcfd0f54d2932d561}{Destroy} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$$\ast$L)
+\item 
+\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$ \hyperlink{namespacegft_1_1FileList_ad3fb00641cbcccbbcae02d84e07a43c9}{Read} (char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1FileList_af26aca840cfe694c9f2564bf803f59f8}{Write} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L, char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1FileList_a5a09d41277e3ee79c98b4e5203e20e53}{Add\-File} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L, char $\ast$file)
+\item 
+char $\ast$ \hyperlink{namespacegft_1_1FileList_a5cc9caa68851ec9e9b013fe1907b5a06}{Get\-File} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L, int index)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1FileList_a2f965975f5251f61dc0e46cea6cfc3ea}{Has\-File} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L, char $\ast$file)
+\item 
+void \hyperlink{namespacegft_1_1FileList_a4475f92f0e27150c45eca1a796c4da2a}{Add\-Files\-In\-Dir} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L, char $\ast$dir)
+\item 
+void \hyperlink{namespacegft_1_1FileList_a52713df34120773914947725af457612}{Add\-Files\-In\-Dir\-Rec} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L, char $\ast$dir)
+\item 
+void \hyperlink{namespacegft_1_1FileList_ae282488ea9506e097b3bace7fe8f08e6}{Randomize} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L)
+\item 
+void \hyperlink{namespacegft_1_1FileList_aab110cfe13e70819eb39264c20d705c1}{Resize} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L, int n)
+\item 
+void \hyperlink{namespacegft_1_1FileList_a721080b76776da4c110a50e954c7f493}{Trim2\-Size} (\hyperlink{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{File\-List} $\ast$L)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1FileList_a37b07eed572939d85c33b19caeed0638}{File\-Exists} (char $\ast$file)
+\item 
+void \hyperlink{namespacegft_1_1FileList_aea89ca0e145504b2ab029759f3a86a78}{Remove\-File\-Extension} (char $\ast$file)
+\item 
+void \hyperlink{namespacegft_1_1FileList_a7a4c89d2abe8c90a900b6c6a02b3f35f}{Remove\-File\-Directory} (char $\ast$file)
+\item 
+void \hyperlink{namespacegft_1_1FileList_a8c3697e7b43be661e2e354bd261cd3d9}{Merge\-Relative\-Path} (char $\ast$dir, char $\ast$rel)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!File\-List@{File\-List}}
+\index{File\-List@{File\-List}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{File\-List}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-File\-List\-::\-\_\-file\-List}  {\bf gft\-::\-File\-List\-::\-File\-List}}}\label{namespacegft_1_1FileList_a3a0ba3f59376d46215f21160690c6be1}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1FileList_a5a09d41277e3ee79c98b4e5203e20e53}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Add\-File@{Add\-File}}
+\index{Add\-File@{Add\-File}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Add\-File}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Add\-File (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L, }
+\item[{char $\ast$}]{file}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a5a09d41277e3ee79c98b4e5203e20e53}
+\hypertarget{namespacegft_1_1FileList_a4475f92f0e27150c45eca1a796c4da2a}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Add\-Files\-In\-Dir@{Add\-Files\-In\-Dir}}
+\index{Add\-Files\-In\-Dir@{Add\-Files\-In\-Dir}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Add\-Files\-In\-Dir}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Add\-Files\-In\-Dir (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L, }
+\item[{char $\ast$}]{dir}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a4475f92f0e27150c45eca1a796c4da2a}
+\hypertarget{namespacegft_1_1FileList_a52713df34120773914947725af457612}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Add\-Files\-In\-Dir\-Rec@{Add\-Files\-In\-Dir\-Rec}}
+\index{Add\-Files\-In\-Dir\-Rec@{Add\-Files\-In\-Dir\-Rec}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Add\-Files\-In\-Dir\-Rec}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Add\-Files\-In\-Dir\-Rec (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L, }
+\item[{char $\ast$}]{dir}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a52713df34120773914947725af457612}
+\hypertarget{namespacegft_1_1FileList_a96a5b9ca248328eec3a5ca774f0e1980}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Create@{Create}}
+\index{Create@{Create}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf File\-List} $\ast$ gft\-::\-File\-List\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{cap}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a96a5b9ca248328eec3a5ca774f0e1980}
+\hypertarget{namespacegft_1_1FileList_a380a0473adbc1addcfd0f54d2932d561}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$$\ast$}]{L}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a380a0473adbc1addcfd0f54d2932d561}
+\hypertarget{namespacegft_1_1FileList_a37b07eed572939d85c33b19caeed0638}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!File\-Exists@{File\-Exists}}
+\index{File\-Exists@{File\-Exists}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{File\-Exists}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-File\-List\-::\-File\-Exists (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{file}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a37b07eed572939d85c33b19caeed0638}
+\hypertarget{namespacegft_1_1FileList_a5cc9caa68851ec9e9b013fe1907b5a06}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Get\-File@{Get\-File}}
+\index{Get\-File@{Get\-File}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Get\-File}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$ gft\-::\-File\-List\-::\-Get\-File (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L, }
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a5cc9caa68851ec9e9b013fe1907b5a06}
+\hypertarget{namespacegft_1_1FileList_a2f965975f5251f61dc0e46cea6cfc3ea}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Has\-File@{Has\-File}}
+\index{Has\-File@{Has\-File}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Has\-File}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-File\-List\-::\-Has\-File (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L, }
+\item[{char $\ast$}]{file}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a2f965975f5251f61dc0e46cea6cfc3ea}
+\hypertarget{namespacegft_1_1FileList_a8c3697e7b43be661e2e354bd261cd3d9}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Merge\-Relative\-Path@{Merge\-Relative\-Path}}
+\index{Merge\-Relative\-Path@{Merge\-Relative\-Path}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Merge\-Relative\-Path}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Merge\-Relative\-Path (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{dir, }
+\item[{char $\ast$}]{rel}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a8c3697e7b43be661e2e354bd261cd3d9}
+\hypertarget{namespacegft_1_1FileList_ae282488ea9506e097b3bace7fe8f08e6}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Randomize@{Randomize}}
+\index{Randomize@{Randomize}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Randomize}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Randomize (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_ae282488ea9506e097b3bace7fe8f08e6}
+\hypertarget{namespacegft_1_1FileList_ad3fb00641cbcccbbcae02d84e07a43c9}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Read@{Read}}
+\index{Read@{Read}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Read}]{\setlength{\rightskip}{0pt plus 5cm}{\bf File\-List} $\ast$ gft\-::\-File\-List\-::\-Read (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_ad3fb00641cbcccbbcae02d84e07a43c9}
+\hypertarget{namespacegft_1_1FileList_a7a4c89d2abe8c90a900b6c6a02b3f35f}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Remove\-File\-Directory@{Remove\-File\-Directory}}
+\index{Remove\-File\-Directory@{Remove\-File\-Directory}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Remove\-File\-Directory}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Remove\-File\-Directory (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{file}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a7a4c89d2abe8c90a900b6c6a02b3f35f}
+\hypertarget{namespacegft_1_1FileList_aea89ca0e145504b2ab029759f3a86a78}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Remove\-File\-Extension@{Remove\-File\-Extension}}
+\index{Remove\-File\-Extension@{Remove\-File\-Extension}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Remove\-File\-Extension}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Remove\-File\-Extension (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{file}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_aea89ca0e145504b2ab029759f3a86a78}
+\hypertarget{namespacegft_1_1FileList_aab110cfe13e70819eb39264c20d705c1}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Resize@{Resize}}
+\index{Resize@{Resize}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Resize}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Resize (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L, }
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_aab110cfe13e70819eb39264c20d705c1}
+\hypertarget{namespacegft_1_1FileList_a721080b76776da4c110a50e954c7f493}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Trim2\-Size@{Trim2\-Size}}
+\index{Trim2\-Size@{Trim2\-Size}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Trim2\-Size}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Trim2\-Size (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_a721080b76776da4c110a50e954c7f493}
+\hypertarget{namespacegft_1_1FileList_af26aca840cfe694c9f2564bf803f59f8}{\index{gft\-::\-File\-List@{gft\-::\-File\-List}!Write@{Write}}
+\index{Write@{Write}!gft::FileList@{gft\-::\-File\-List}}
+\subsubsection[{Write}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-File\-List\-::\-Write (
+\begin{DoxyParamCaption}
+\item[{File\-List $\ast$}]{L, }
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1FileList_af26aca840cfe694c9f2564bf803f59f8}

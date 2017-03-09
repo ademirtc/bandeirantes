@@ -1,0 +1,340 @@
+\hypertarget{namespacegft_1_1AdjRegion3}{\section{gft\-:\-:Adj\-Region3 Namespace Reference}
+\label{namespacegft_1_1AdjRegion3}\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+union \hyperlink{uniongft_1_1AdjRegion3_1_1__displacement3}{\-\_\-displacement3}
+\item 
+struct \hyperlink{structgft_1_1AdjRegion3_1_1__adjregion3}{\-\_\-adjregion3}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef union \\*
+\hyperlink{uniongft_1_1AdjRegion3_1_1__displacement3}{gft\-::\-Adj\-Region3\-::\-\_\-displacement3} \hyperlink{namespacegft_1_1AdjRegion3_a36e3b3c33b2dfaebe493f4abf791ee4c}{Displacement3}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1AdjRegion3_1_1__adjregion3}{gft\-::\-Adj\-Region3\-::\-\_\-adjregion3} \hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$ \hyperlink{namespacegft_1_1AdjRegion3_a46673f797eee3f6a3aa77466528f73cb}{Create} (int n)
+\item 
+\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$ \hyperlink{namespacegft_1_1AdjRegion3_a68afe58e3417c7af9b4ba6f5cbfa6fda}{Create} (\hyperlink{namespacegft_1_1AdjRel3_a0d54e2f148bf5636f3a3faf70d4eb5ae}{Adj\-Rel3\-::\-Adj\-Rel3} $\ast$A)
+\item 
+\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$ \hyperlink{namespacegft_1_1AdjRegion3_a7aaed3ca266ba1b703cb77aac9e26b9e}{Create} (\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$mask, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} Ref)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a59b035195e4592cb8e0b2fd31dce1e05}{Destroy} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$$\ast$adjreg)
+\item 
+\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$ \hyperlink{namespacegft_1_1AdjRegion3_acc29d6e78dc3cb4f1659d38e5289d24b}{Clone} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg)
+\item 
+\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$ \hyperlink{namespacegft_1_1AdjRegion3_a8a1962362c8fb2baf8e68d466a49e474}{Merge} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$r1, \hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$r2)
+\item 
+\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$ \hyperlink{namespacegft_1_1AdjRegion3_a3554041a80484c26b14e8fc0395bcd79}{Export2\-Mask} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a66bf474f57959cf6d9131a9ef4c7ae7e}{Draw} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_ac1cd18c793b4acee801ee5985b2be353}{Draw} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, \hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a1607bb487c9d34a57017232b9c3faa8d}{Draw} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene32_ae492ac529c9149889605a7bebd647c46}{Scene32\-::\-Scene32} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, int val)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_ada60ec2a529886684bf46d92b1783891}{Draw\-Opt} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, int p, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a3d3e867ec8db1d66224ae1c342e7ec3e}{Draw\-Opt} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$scn, int p, \hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} val)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a0d9a76b10a15813823fab6db4498cdea}{Draw\-Opt} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene32_ae492ac529c9149889605a7bebd647c46}{Scene32\-::\-Scene32} $\ast$scn, int p, int val)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a5c3fc3833342d975b83f2c94f769894e}{Optimize} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, int xsize, int ysize)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_aceca7be9e9ffbfe250d27e2093321345}{Optimize} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a4f3c239313b2fbf9566ac8f45bff0d9f}{Optimize} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$scn)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a93e4417039582a11ed326a36c9c0d111}{Optimize} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene32_ae492ac529c9149889605a7bebd647c46}{Scene32\-::\-Scene32} $\ast$scn)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a8d6e60136c3fdb51e166dc4f741b9098}{Refresh\-Limits} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_ac0f6b0a1017ab2b31aa48ab901f110b2}{Get\-Limits} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, int $\ast$dx\-\_\-min, int $\ast$dy\-\_\-min, int $\ast$dz\-\_\-min, int $\ast$dx\-\_\-max, int $\ast$dy\-\_\-max, int $\ast$dz\-\_\-max)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1AdjRegion3_a6827e53ca1a69137d796cfe1d022d53c}{Fit\-Inside} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} vx, int xsize, int ysize, int zsize, int sz)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1AdjRegion3_a51de5628526ec20522086a2f9740a8bd}{Fit\-Inside} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} vx, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, int sz)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1AdjRegion3_a2027a515b217682bda28dc3b412169c5}{Fit\-Inside} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} vx, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$scn, int sz)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1AdjRegion3_a5a5b8ca5486faf0d516ce6e5f9e11120}{Fit\-Inside} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} vx, \hyperlink{namespacegft_1_1Scene32_ae492ac529c9149889605a7bebd647c46}{Scene32\-::\-Scene32} $\ast$scn, int sz)
+\item 
+float \hyperlink{namespacegft_1_1AdjRegion3_aa8d74caaed7c3da5d3ce2d87e3a74516}{Inner\-Mean} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} vx, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$scn)
+\item 
+float \hyperlink{namespacegft_1_1AdjRegion3_a48fa95009bfadc5706bf9ed33ce2a84e}{Inner\-Sum} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} vx, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16\-::\-Scene16} $\ast$scn)
+\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_adc14b6b1d72479f3f0d2f1818e5360a9}{M\-T\-\_\-\-Draw} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} u, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\begin{DoxyCompactList}\small\item\em $\ast$/ \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1AdjRegion3_a19c677b262007ab0bc76ebfc9deb78b4}{M\-T\-\_\-\-Draw\-Opt} (\hyperlink{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{Adj\-Region3} $\ast$adjreg, \hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$scn, int p, \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{uchar} val)
+\begin{DoxyCompactList}\small\item\em $\ast$/ \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Adj\-Region3@{Adj\-Region3}}
+\index{Adj\-Region3@{Adj\-Region3}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Adj\-Region3}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Adj\-Region3\-::\-\_\-adjregion3}  {\bf gft\-::\-Adj\-Region3\-::\-Adj\-Region3}}}\label{namespacegft_1_1AdjRegion3_a50e41e32ed23c8a2c4027f2ea29d501b}
+\hypertarget{namespacegft_1_1AdjRegion3_a36e3b3c33b2dfaebe493f4abf791ee4c}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Displacement3@{Displacement3}}
+\index{Displacement3@{Displacement3}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Displacement3}]{\setlength{\rightskip}{0pt plus 5cm}typedef union {\bf gft\-::\-Adj\-Region3\-::\-\_\-displacement3}  {\bf gft\-::\-Adj\-Region3\-::\-Displacement3}}}\label{namespacegft_1_1AdjRegion3_a36e3b3c33b2dfaebe493f4abf791ee4c}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1AdjRegion3_acc29d6e78dc3cb4f1659d38e5289d24b}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Clone@{Clone}}
+\index{Clone@{Clone}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Clone}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Adj\-Region3} $\ast$ gft\-::\-Adj\-Region3\-::\-Clone (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_acc29d6e78dc3cb4f1659d38e5289d24b}
+\hypertarget{namespacegft_1_1AdjRegion3_a46673f797eee3f6a3aa77466528f73cb}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Create@{Create}}
+\index{Create@{Create}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Adj\-Region3} $\ast$ gft\-::\-Adj\-Region3\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a46673f797eee3f6a3aa77466528f73cb}
+\hypertarget{namespacegft_1_1AdjRegion3_a68afe58e3417c7af9b4ba6f5cbfa6fda}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Create@{Create}}
+\index{Create@{Create}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Adj\-Region3} $\ast$ gft\-::\-Adj\-Region3\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{Adj\-Rel3\-::\-Adj\-Rel3 $\ast$}]{A}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a68afe58e3417c7af9b4ba6f5cbfa6fda}
+\hypertarget{namespacegft_1_1AdjRegion3_a7aaed3ca266ba1b703cb77aac9e26b9e}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Create@{Create}}
+\index{Create@{Create}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Adj\-Region3} $\ast$ gft\-::\-Adj\-Region3\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{Scene8\-::\-Scene8 $\ast$}]{mask, }
+\item[{Voxel}]{Ref}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a7aaed3ca266ba1b703cb77aac9e26b9e}
+\hypertarget{namespacegft_1_1AdjRegion3_a59b035195e4592cb8e0b2fd31dce1e05}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$$\ast$}]{adjreg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a59b035195e4592cb8e0b2fd31dce1e05}
+\hypertarget{namespacegft_1_1AdjRegion3_a66bf474f57959cf6d9131a9ef4c7ae7e}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Draw@{Draw}}
+\index{Draw@{Draw}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Draw (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{Voxel}]{u, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a66bf474f57959cf6d9131a9ef4c7ae7e}
+\hypertarget{namespacegft_1_1AdjRegion3_ac1cd18c793b4acee801ee5985b2be353}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Draw@{Draw}}
+\index{Draw@{Draw}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Draw (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene16\-::\-Scene16 $\ast$}]{scn, }
+\item[{Voxel}]{u, }
+\item[{ushort}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_ac1cd18c793b4acee801ee5985b2be353}
+\hypertarget{namespacegft_1_1AdjRegion3_a1607bb487c9d34a57017232b9c3faa8d}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Draw@{Draw}}
+\index{Draw@{Draw}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Draw (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene32\-::\-Scene32 $\ast$}]{scn, }
+\item[{Voxel}]{u, }
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a1607bb487c9d34a57017232b9c3faa8d}
+\hypertarget{namespacegft_1_1AdjRegion3_ada60ec2a529886684bf46d92b1783891}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Draw\-Opt@{Draw\-Opt}}
+\index{Draw\-Opt@{Draw\-Opt}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Draw\-Opt}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Draw\-Opt (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{int}]{p, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_ada60ec2a529886684bf46d92b1783891}
+\hypertarget{namespacegft_1_1AdjRegion3_a3d3e867ec8db1d66224ae1c342e7ec3e}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Draw\-Opt@{Draw\-Opt}}
+\index{Draw\-Opt@{Draw\-Opt}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Draw\-Opt}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Draw\-Opt (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene16\-::\-Scene16 $\ast$}]{scn, }
+\item[{int}]{p, }
+\item[{ushort}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a3d3e867ec8db1d66224ae1c342e7ec3e}
+\hypertarget{namespacegft_1_1AdjRegion3_a0d9a76b10a15813823fab6db4498cdea}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Draw\-Opt@{Draw\-Opt}}
+\index{Draw\-Opt@{Draw\-Opt}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Draw\-Opt}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Draw\-Opt (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene32\-::\-Scene32 $\ast$}]{scn, }
+\item[{int}]{p, }
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a0d9a76b10a15813823fab6db4498cdea}
+\hypertarget{namespacegft_1_1AdjRegion3_a3554041a80484c26b14e8fc0395bcd79}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Export2\-Mask@{Export2\-Mask}}
+\index{Export2\-Mask@{Export2\-Mask}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Export2\-Mask}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene8\-::\-Scene8} $\ast$ gft\-::\-Adj\-Region3\-::\-Export2\-Mask (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a3554041a80484c26b14e8fc0395bcd79}
+\hypertarget{namespacegft_1_1AdjRegion3_a6827e53ca1a69137d796cfe1d022d53c}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Fit\-Inside@{Fit\-Inside}}
+\index{Fit\-Inside@{Fit\-Inside}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Fit\-Inside}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Adj\-Region3\-::\-Fit\-Inside (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Voxel}]{vx, }
+\item[{int}]{xsize, }
+\item[{int}]{ysize, }
+\item[{int}]{zsize, }
+\item[{int}]{sz}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a6827e53ca1a69137d796cfe1d022d53c}
+\hypertarget{namespacegft_1_1AdjRegion3_a51de5628526ec20522086a2f9740a8bd}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Fit\-Inside@{Fit\-Inside}}
+\index{Fit\-Inside@{Fit\-Inside}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Fit\-Inside}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Adj\-Region3\-::\-Fit\-Inside (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Voxel}]{vx, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{int}]{sz}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a51de5628526ec20522086a2f9740a8bd}
+\hypertarget{namespacegft_1_1AdjRegion3_a2027a515b217682bda28dc3b412169c5}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Fit\-Inside@{Fit\-Inside}}
+\index{Fit\-Inside@{Fit\-Inside}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Fit\-Inside}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Adj\-Region3\-::\-Fit\-Inside (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Voxel}]{vx, }
+\item[{Scene16\-::\-Scene16 $\ast$}]{scn, }
+\item[{int}]{sz}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a2027a515b217682bda28dc3b412169c5}
+\hypertarget{namespacegft_1_1AdjRegion3_a5a5b8ca5486faf0d516ce6e5f9e11120}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Fit\-Inside@{Fit\-Inside}}
+\index{Fit\-Inside@{Fit\-Inside}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Fit\-Inside}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Adj\-Region3\-::\-Fit\-Inside (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Voxel}]{vx, }
+\item[{Scene32\-::\-Scene32 $\ast$}]{scn, }
+\item[{int}]{sz}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a5a5b8ca5486faf0d516ce6e5f9e11120}
+\hypertarget{namespacegft_1_1AdjRegion3_ac0f6b0a1017ab2b31aa48ab901f110b2}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Get\-Limits@{Get\-Limits}}
+\index{Get\-Limits@{Get\-Limits}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Get\-Limits}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Get\-Limits (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{int $\ast$}]{dx\-\_\-min, }
+\item[{int $\ast$}]{dy\-\_\-min, }
+\item[{int $\ast$}]{dz\-\_\-min, }
+\item[{int $\ast$}]{dx\-\_\-max, }
+\item[{int $\ast$}]{dy\-\_\-max, }
+\item[{int $\ast$}]{dz\-\_\-max}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_ac0f6b0a1017ab2b31aa48ab901f110b2}
+\hypertarget{namespacegft_1_1AdjRegion3_aa8d74caaed7c3da5d3ce2d87e3a74516}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Inner\-Mean@{Inner\-Mean}}
+\index{Inner\-Mean@{Inner\-Mean}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Inner\-Mean}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Adj\-Region3\-::\-Inner\-Mean (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Voxel}]{vx, }
+\item[{Scene16\-::\-Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_aa8d74caaed7c3da5d3ce2d87e3a74516}
+\hypertarget{namespacegft_1_1AdjRegion3_a48fa95009bfadc5706bf9ed33ce2a84e}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Inner\-Sum@{Inner\-Sum}}
+\index{Inner\-Sum@{Inner\-Sum}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Inner\-Sum}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Adj\-Region3\-::\-Inner\-Sum (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Voxel}]{vx, }
+\item[{Scene16\-::\-Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a48fa95009bfadc5706bf9ed33ce2a84e}
+\hypertarget{namespacegft_1_1AdjRegion3_a8a1962362c8fb2baf8e68d466a49e474}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Merge@{Merge}}
+\index{Merge@{Merge}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Merge}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Adj\-Region3} $\ast$ gft\-::\-Adj\-Region3\-::\-Merge (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{r1, }
+\item[{Adj\-Region3 $\ast$}]{r2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a8a1962362c8fb2baf8e68d466a49e474}
+\hypertarget{namespacegft_1_1AdjRegion3_adc14b6b1d72479f3f0d2f1818e5360a9}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!M\-T\-\_\-\-Draw@{M\-T\-\_\-\-Draw}}
+\index{M\-T\-\_\-\-Draw@{M\-T\-\_\-\-Draw}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{M\-T\-\_\-\-Draw}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-M\-T\-\_\-\-Draw (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{Voxel}]{u, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_adc14b6b1d72479f3f0d2f1818e5360a9}
+
+
+$\ast$/ 
+
+\hypertarget{namespacegft_1_1AdjRegion3_a19c677b262007ab0bc76ebfc9deb78b4}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!M\-T\-\_\-\-Draw\-Opt@{M\-T\-\_\-\-Draw\-Opt}}
+\index{M\-T\-\_\-\-Draw\-Opt@{M\-T\-\_\-\-Draw\-Opt}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{M\-T\-\_\-\-Draw\-Opt}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-M\-T\-\_\-\-Draw\-Opt (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn, }
+\item[{int}]{p, }
+\item[{uchar}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a19c677b262007ab0bc76ebfc9deb78b4}
+
+
+$\ast$/ 
+
+\hypertarget{namespacegft_1_1AdjRegion3_a5c3fc3833342d975b83f2c94f769894e}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Optimize@{Optimize}}
+\index{Optimize@{Optimize}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Optimize}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Optimize (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{int}]{xsize, }
+\item[{int}]{ysize}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a5c3fc3833342d975b83f2c94f769894e}
+\hypertarget{namespacegft_1_1AdjRegion3_aceca7be9e9ffbfe250d27e2093321345}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Optimize@{Optimize}}
+\index{Optimize@{Optimize}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Optimize}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Optimize (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene8\-::\-Scene8 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_aceca7be9e9ffbfe250d27e2093321345}
+\hypertarget{namespacegft_1_1AdjRegion3_a4f3c239313b2fbf9566ac8f45bff0d9f}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Optimize@{Optimize}}
+\index{Optimize@{Optimize}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Optimize}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Optimize (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene16\-::\-Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a4f3c239313b2fbf9566ac8f45bff0d9f}
+\hypertarget{namespacegft_1_1AdjRegion3_a93e4417039582a11ed326a36c9c0d111}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Optimize@{Optimize}}
+\index{Optimize@{Optimize}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Optimize}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Optimize (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg, }
+\item[{Scene32\-::\-Scene32 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a93e4417039582a11ed326a36c9c0d111}
+\hypertarget{namespacegft_1_1AdjRegion3_a8d6e60136c3fdb51e166dc4f741b9098}{\index{gft\-::\-Adj\-Region3@{gft\-::\-Adj\-Region3}!Refresh\-Limits@{Refresh\-Limits}}
+\index{Refresh\-Limits@{Refresh\-Limits}!gft::AdjRegion3@{gft\-::\-Adj\-Region3}}
+\subsubsection[{Refresh\-Limits}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Adj\-Region3\-::\-Refresh\-Limits (
+\begin{DoxyParamCaption}
+\item[{Adj\-Region3 $\ast$}]{adjreg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1AdjRegion3_a8d6e60136c3fdb51e166dc4f741b9098}

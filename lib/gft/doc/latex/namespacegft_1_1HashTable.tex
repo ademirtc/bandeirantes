@@ -1,0 +1,103 @@
+\hypertarget{namespacegft_1_1HashTable}{\section{gft\-:\-:Hash\-Table Namespace Reference}
+\label{namespacegft_1_1HashTable}\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1HashTable_1_1__hashnode}{\-\_\-hashnode}
+\begin{DoxyCompactList}\small\item\em A hashing table node. \end{DoxyCompactList}\item 
+struct \hyperlink{structgft_1_1HashTable_1_1__hashtable}{\-\_\-hashtable}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1HashTable_1_1__hashnode}{gft\-::\-Hash\-Table\-::\-\_\-hashnode} \hyperlink{namespacegft_1_1HashTable_a4eada131a57cbf3ab87cfb50823b3613}{Hash\-Node}
+\begin{DoxyCompactList}\small\item\em A hashing table node. \end{DoxyCompactList}\item 
+typedef struct \\*
+\hyperlink{structgft_1_1HashTable_1_1__hashtable}{gft\-::\-Hash\-Table\-::\-\_\-hashtable} \hyperlink{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}{Hash\-Table}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}{Hash\-Table} $\ast$ \hyperlink{namespacegft_1_1HashTable_a977f7db61201c9aa4264cab823f3ef52}{Create} (int size)
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1HashTable_acdf4668e292f30fa93ecae9aedbb6dcb}{Destroy} (\hyperlink{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}{Hash\-Table} $\ast$$\ast$ht)
+\begin{DoxyCompactList}\small\item\em A destructor. \end{DoxyCompactList}\item 
+int \hyperlink{namespacegft_1_1HashTable_a5066eb008d3e8dafa7f24150b008b9a4}{Hash\-Position} (\hyperlink{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}{Hash\-Table} $\ast$ht, char $\ast$key)
+\item 
+void \hyperlink{namespacegft_1_1HashTable_abe37b84ec8ea18838399cc5374f144d8}{Insert} (\hyperlink{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}{Hash\-Table} $\ast$ht, char $\ast$key, void $\ast$value)
+\begin{DoxyCompactList}\small\item\em Insert the pair (key, value) in the hash table. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{namespacegft_1_1HashTable_a64f675241fe647270d867c2f51167288}{Search} (\hyperlink{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}{Hash\-Table} $\ast$ht, char $\ast$key)
+\begin{DoxyCompactList}\small\item\em Search for the value associated with a key. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1HashTable_a4eada131a57cbf3ab87cfb50823b3613}{\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}!Hash\-Node@{Hash\-Node}}
+\index{Hash\-Node@{Hash\-Node}!gft::HashTable@{gft\-::\-Hash\-Table}}
+\subsubsection[{Hash\-Node}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Hash\-Table\-::\-\_\-hashnode}  {\bf gft\-::\-Hash\-Table\-::\-Hash\-Node}}}\label{namespacegft_1_1HashTable_a4eada131a57cbf3ab87cfb50823b3613}
+
+
+A hashing table node. 
+
+\hypertarget{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}{\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}!Hash\-Table@{Hash\-Table}}
+\index{Hash\-Table@{Hash\-Table}!gft::HashTable@{gft\-::\-Hash\-Table}}
+\subsubsection[{Hash\-Table}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Hash\-Table\-::\-\_\-hashtable}  {\bf gft\-::\-Hash\-Table\-::\-Hash\-Table}}}\label{namespacegft_1_1HashTable_a02013deb74406aa4895230360fc84a94}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1HashTable_a977f7db61201c9aa4264cab823f3ef52}{\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}!Create@{Create}}
+\index{Create@{Create}!gft::HashTable@{gft\-::\-Hash\-Table}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Hash\-Table} $\ast$ gft\-::\-Hash\-Table\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1HashTable_a977f7db61201c9aa4264cab823f3ef52}
+
+
+A constructor. 
+
+\hypertarget{namespacegft_1_1HashTable_acdf4668e292f30fa93ecae9aedbb6dcb}{\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::HashTable@{gft\-::\-Hash\-Table}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Hash\-Table\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Hash\-Table $\ast$$\ast$}]{ht}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1HashTable_acdf4668e292f30fa93ecae9aedbb6dcb}
+
+
+A destructor. 
+
+\hypertarget{namespacegft_1_1HashTable_a5066eb008d3e8dafa7f24150b008b9a4}{\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}!Hash\-Position@{Hash\-Position}}
+\index{Hash\-Position@{Hash\-Position}!gft::HashTable@{gft\-::\-Hash\-Table}}
+\subsubsection[{Hash\-Position}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Hash\-Table\-::\-Hash\-Position (
+\begin{DoxyParamCaption}
+\item[{Hash\-Table $\ast$}]{ht, }
+\item[{char $\ast$}]{key}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1HashTable_a5066eb008d3e8dafa7f24150b008b9a4}
+\hypertarget{namespacegft_1_1HashTable_abe37b84ec8ea18838399cc5374f144d8}{\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}!Insert@{Insert}}
+\index{Insert@{Insert}!gft::HashTable@{gft\-::\-Hash\-Table}}
+\subsubsection[{Insert}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Hash\-Table\-::\-Insert (
+\begin{DoxyParamCaption}
+\item[{Hash\-Table $\ast$}]{ht, }
+\item[{char $\ast$}]{key, }
+\item[{void $\ast$}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1HashTable_abe37b84ec8ea18838399cc5374f144d8}
+
+
+Insert the pair (key, value) in the hash table. 
+
+\hypertarget{namespacegft_1_1HashTable_a64f675241fe647270d867c2f51167288}{\index{gft\-::\-Hash\-Table@{gft\-::\-Hash\-Table}!Search@{Search}}
+\index{Search@{Search}!gft::HashTable@{gft\-::\-Hash\-Table}}
+\subsubsection[{Search}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ gft\-::\-Hash\-Table\-::\-Search (
+\begin{DoxyParamCaption}
+\item[{Hash\-Table $\ast$}]{ht, }
+\item[{char $\ast$}]{key}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1HashTable_a64f675241fe647270d867c2f51167288}
+
+
+Search for the value associated with a key. 
+

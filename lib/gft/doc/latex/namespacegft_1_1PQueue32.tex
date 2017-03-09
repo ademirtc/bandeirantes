@@ -1,0 +1,256 @@
+\hypertarget{namespacegft_1_1PQueue32}{\section{gft\-:\-:P\-Queue32 Namespace Reference}
+\label{namespacegft_1_1PQueue32}\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1PQueue32_1_1__pqnode}{\-\_\-pqnode}
+\item 
+struct \hyperlink{structgft_1_1PQueue32_1_1__pqdoublylinkedlists}{\-\_\-pqdoublylinkedlists}
+\item 
+struct \hyperlink{structgft_1_1PQueue32_1_1__pqcircularqueue}{\-\_\-pqcircularqueue}
+\item 
+struct \hyperlink{structgft_1_1PQueue32_1_1__priorityqueue}{\-\_\-priorityqueue}
+\begin{DoxyCompactList}\small\item\em Priority queue by Dial implemented as proposed by A.\-X. Falcao with circular and growing features. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue32_1_1__pqnode}{gft\-::\-P\-Queue32\-::\-\_\-pqnode} \hyperlink{namespacegft_1_1PQueue32_ae52de18ce37cbf998885ae2ea5843494}{P\-Q\-Node}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue32_1_1__pqdoublylinkedlists}{gft\-::\-P\-Queue32\-::\-\_\-pqdoublylinkedlists} \hyperlink{namespacegft_1_1PQueue32_a0f1b06428dba7567e75fedd80ecadc05}{P\-Q\-Doubly\-Linked\-Lists}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue32_1_1__pqcircularqueue}{gft\-::\-P\-Queue32\-::\-\_\-pqcircularqueue} \hyperlink{namespacegft_1_1PQueue32_aefaf7157b45d644a8eed22d16d5ae865}{P\-Q\-Circular\-Queue}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue32_1_1__priorityqueue}{gft\-::\-P\-Queue32\-::\-\_\-priorityqueue} \hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32}
+\begin{DoxyCompactList}\small\item\em Priority queue by Dial implemented as proposed by A.\-X. Falcao with circular and growing features. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$ \hyperlink{namespacegft_1_1PQueue32_a96ba9f507866e578862dcef05b82c101}{Create} (int nbuckets, int nelems, int $\ast$value)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_a9c1ec41912ee427cff7425ff4048d29a}{Destroy} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$$\ast$Q)
+\item 
+\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$ \hyperlink{namespacegft_1_1PQueue32_a5dc83e5e36ed9a3a22f0b16a87066854}{Grow} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$$\ast$Q, int nbuckets)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_a29365352a9afa987b9239a5bb14e958b}{Reset} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_a7e43098472b9f69413974b505fff8810}{Insert\-Elem} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$$\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_a0413b1dfa6c7dda7e21b6cc907481a78}{Remove\-Elem} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_a18c8cf3ae8f0c425766a0a562a0ebc14}{Update\-Elem} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$$\ast$Q, int elem, int newvalue)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_af348da84505ce5cab41c78e472d698b1}{Remove\-Min\-F\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_a885b0ac4cbada8fa386b5435c953ff5d}{Remove\-Min\-L\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_a0cf69b5a9e9a42d4508e22ffbb1c9a2c}{Remove\-Max\-F\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_ac60665e66550803e6c833dbf2f5c1326}{Remove\-Max\-L\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_ab5bae54bfd6b5bbce3b3e80152d58e87}{Fast\-Insert\-Elem} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_ae89deb12c29cee56c57bd96eeeb959a9}{Fast\-Insert\-Elem\-As\-First} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_ad7a98035b23b3eba7e0c81489d3c2cd8}{Fast\-Remove\-Elem} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue32_a9cb2321bf551da3e5e9358e12ed9ce40}{Fast\-Update\-Elem} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q, int elem, int newvalue)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_ad1bfef2403acda7b6f75b2ebcd77b661}{Fast\-Remove\-Min\-F\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_acc6f5f1e9f2fc877d4248d7011cd0a80}{Fast\-Remove\-Min\-L\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_a23d1692d12a325509c600e1f2d524dcd}{Fast\-Remove\-Max\-F\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue32_a0380ab8c771144afb74bcf072219066f}{Fast\-Remove\-Max\-L\-I\-F\-O} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1PQueue32_abca961d6e7d640423191f61c45f53143}{Is\-Empty} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1PQueue32_af3600f33c9ad56ae1e8a6a7cac1adc06}{Is\-Full} (\hyperlink{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{P\-Queue32} $\ast$Q)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1PQueue32_aefaf7157b45d644a8eed22d16d5ae865}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!P\-Q\-Circular\-Queue@{P\-Q\-Circular\-Queue}}
+\index{P\-Q\-Circular\-Queue@{P\-Q\-Circular\-Queue}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{P\-Q\-Circular\-Queue}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-P\-Queue32\-::\-\_\-pqcircularqueue}  {\bf gft\-::\-P\-Queue32\-::\-P\-Q\-Circular\-Queue}}}\label{namespacegft_1_1PQueue32_aefaf7157b45d644a8eed22d16d5ae865}
+\hypertarget{namespacegft_1_1PQueue32_a0f1b06428dba7567e75fedd80ecadc05}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!P\-Q\-Doubly\-Linked\-Lists@{P\-Q\-Doubly\-Linked\-Lists}}
+\index{P\-Q\-Doubly\-Linked\-Lists@{P\-Q\-Doubly\-Linked\-Lists}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{P\-Q\-Doubly\-Linked\-Lists}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-P\-Queue32\-::\-\_\-pqdoublylinkedlists}  {\bf gft\-::\-P\-Queue32\-::\-P\-Q\-Doubly\-Linked\-Lists}}}\label{namespacegft_1_1PQueue32_a0f1b06428dba7567e75fedd80ecadc05}
+\hypertarget{namespacegft_1_1PQueue32_ae52de18ce37cbf998885ae2ea5843494}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!P\-Q\-Node@{P\-Q\-Node}}
+\index{P\-Q\-Node@{P\-Q\-Node}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{P\-Q\-Node}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-P\-Queue32\-::\-\_\-pqnode}  {\bf gft\-::\-P\-Queue32\-::\-P\-Q\-Node}}}\label{namespacegft_1_1PQueue32_ae52de18ce37cbf998885ae2ea5843494}
+\hypertarget{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!P\-Queue32@{P\-Queue32}}
+\index{P\-Queue32@{P\-Queue32}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{P\-Queue32}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-P\-Queue32\-::\-\_\-priorityqueue}  {\bf gft\-::\-P\-Queue32\-::\-P\-Queue32}}}\label{namespacegft_1_1PQueue32_a27686e3155a7097ff40a4e88958bb50e}
+
+
+Priority queue by Dial implemented as proposed by A.\-X. Falcao with circular and growing features. 
+
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1PQueue32_a96ba9f507866e578862dcef05b82c101}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Create@{Create}}
+\index{Create@{Create}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf P\-Queue32} $\ast$ gft\-::\-P\-Queue32\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{nbuckets, }
+\item[{int}]{nelems, }
+\item[{int $\ast$}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a96ba9f507866e578862dcef05b82c101}
+\hypertarget{namespacegft_1_1PQueue32_a9c1ec41912ee427cff7425ff4048d29a}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$$\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a9c1ec41912ee427cff7425ff4048d29a}
+\hypertarget{namespacegft_1_1PQueue32_ab5bae54bfd6b5bbce3b3e80152d58e87}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Insert\-Elem@{Fast\-Insert\-Elem}}
+\index{Fast\-Insert\-Elem@{Fast\-Insert\-Elem}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Insert\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Fast\-Insert\-Elem (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q, }
+\item[{int}]{elem}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_ab5bae54bfd6b5bbce3b3e80152d58e87}
+Faster version to be used when values are in fixed range \href{e.g., watershed transform}{\tt 0, nbuckets-\/1}. \hypertarget{namespacegft_1_1PQueue32_ae89deb12c29cee56c57bd96eeeb959a9}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Insert\-Elem\-As\-First@{Fast\-Insert\-Elem\-As\-First}}
+\index{Fast\-Insert\-Elem\-As\-First@{Fast\-Insert\-Elem\-As\-First}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Insert\-Elem\-As\-First}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Fast\-Insert\-Elem\-As\-First (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q, }
+\item[{int}]{elem}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_ae89deb12c29cee56c57bd96eeeb959a9}
+\hypertarget{namespacegft_1_1PQueue32_ad7a98035b23b3eba7e0c81489d3c2cd8}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Remove\-Elem@{Fast\-Remove\-Elem}}
+\index{Fast\-Remove\-Elem@{Fast\-Remove\-Elem}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Remove\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Fast\-Remove\-Elem (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q, }
+\item[{int}]{elem}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_ad7a98035b23b3eba7e0c81489d3c2cd8}
+Faster version to be used when values are in fixed range \href{e.g., watershed transform}{\tt 0, nbuckets-\/1}. \hypertarget{namespacegft_1_1PQueue32_a23d1692d12a325509c600e1f2d524dcd}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Remove\-Max\-F\-I\-F\-O@{Fast\-Remove\-Max\-F\-I\-F\-O}}
+\index{Fast\-Remove\-Max\-F\-I\-F\-O@{Fast\-Remove\-Max\-F\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Remove\-Max\-F\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Fast\-Remove\-Max\-F\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a23d1692d12a325509c600e1f2d524dcd}
+Faster version to be used when values are in fixed range \href{e.g., watershed transform}{\tt 0, nbuckets-\/1}. \hypertarget{namespacegft_1_1PQueue32_a0380ab8c771144afb74bcf072219066f}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Remove\-Max\-L\-I\-F\-O@{Fast\-Remove\-Max\-L\-I\-F\-O}}
+\index{Fast\-Remove\-Max\-L\-I\-F\-O@{Fast\-Remove\-Max\-L\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Remove\-Max\-L\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Fast\-Remove\-Max\-L\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a0380ab8c771144afb74bcf072219066f}
+Faster version to be used when values are in fixed range \href{e.g., watershed transform}{\tt 0, nbuckets-\/1}. \hypertarget{namespacegft_1_1PQueue32_ad1bfef2403acda7b6f75b2ebcd77b661}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Remove\-Min\-F\-I\-F\-O@{Fast\-Remove\-Min\-F\-I\-F\-O}}
+\index{Fast\-Remove\-Min\-F\-I\-F\-O@{Fast\-Remove\-Min\-F\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Remove\-Min\-F\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Fast\-Remove\-Min\-F\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_ad1bfef2403acda7b6f75b2ebcd77b661}
+Faster version to be used when values are in fixed range \href{e.g., watershed transform}{\tt 0, nbuckets-\/1}. \hypertarget{namespacegft_1_1PQueue32_acc6f5f1e9f2fc877d4248d7011cd0a80}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Remove\-Min\-L\-I\-F\-O@{Fast\-Remove\-Min\-L\-I\-F\-O}}
+\index{Fast\-Remove\-Min\-L\-I\-F\-O@{Fast\-Remove\-Min\-L\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Remove\-Min\-L\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Fast\-Remove\-Min\-L\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_acc6f5f1e9f2fc877d4248d7011cd0a80}
+Faster version to be used when values are in fixed range \href{e.g., watershed transform}{\tt 0, nbuckets-\/1}. \hypertarget{namespacegft_1_1PQueue32_a9cb2321bf551da3e5e9358e12ed9ce40}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Fast\-Update\-Elem@{Fast\-Update\-Elem}}
+\index{Fast\-Update\-Elem@{Fast\-Update\-Elem}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Fast\-Update\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Fast\-Update\-Elem (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q, }
+\item[{int}]{elem, }
+\item[{int}]{newvalue}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a9cb2321bf551da3e5e9358e12ed9ce40}
+Faster version to be used when values are in fixed range \href{e.g., watershed transform}{\tt 0, nbuckets-\/1}. \hypertarget{namespacegft_1_1PQueue32_a5dc83e5e36ed9a3a22f0b16a87066854}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Grow@{Grow}}
+\index{Grow@{Grow}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Grow}]{\setlength{\rightskip}{0pt plus 5cm}{\bf P\-Queue32} $\ast$ gft\-::\-P\-Queue32\-::\-Grow (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$$\ast$}]{Q, }
+\item[{int}]{nbuckets}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a5dc83e5e36ed9a3a22f0b16a87066854}
+\hypertarget{namespacegft_1_1PQueue32_a7e43098472b9f69413974b505fff8810}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Insert\-Elem@{Insert\-Elem}}
+\index{Insert\-Elem@{Insert\-Elem}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Insert\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Insert\-Elem (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$$\ast$}]{Q, }
+\item[{int}]{elem}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a7e43098472b9f69413974b505fff8810}
+Generic version with circular and growing features. \hypertarget{namespacegft_1_1PQueue32_abca961d6e7d640423191f61c45f53143}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Is\-Empty@{Is\-Empty}}
+\index{Is\-Empty@{Is\-Empty}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-P\-Queue32\-::\-Is\-Empty (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1PQueue32_abca961d6e7d640423191f61c45f53143}
+\hypertarget{namespacegft_1_1PQueue32_af3600f33c9ad56ae1e8a6a7cac1adc06}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Is\-Full@{Is\-Full}}
+\index{Is\-Full@{Is\-Full}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Is\-Full}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-P\-Queue32\-::\-Is\-Full (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1PQueue32_af3600f33c9ad56ae1e8a6a7cac1adc06}
+\hypertarget{namespacegft_1_1PQueue32_a0413b1dfa6c7dda7e21b6cc907481a78}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Remove\-Elem@{Remove\-Elem}}
+\index{Remove\-Elem@{Remove\-Elem}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Remove\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Remove\-Elem (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q, }
+\item[{int}]{elem}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a0413b1dfa6c7dda7e21b6cc907481a78}
+Generic version with circular and growing features. \hypertarget{namespacegft_1_1PQueue32_a0cf69b5a9e9a42d4508e22ffbb1c9a2c}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Remove\-Max\-F\-I\-F\-O@{Remove\-Max\-F\-I\-F\-O}}
+\index{Remove\-Max\-F\-I\-F\-O@{Remove\-Max\-F\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Remove\-Max\-F\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Remove\-Max\-F\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a0cf69b5a9e9a42d4508e22ffbb1c9a2c}
+Generic version with circular and growing features. \hypertarget{namespacegft_1_1PQueue32_ac60665e66550803e6c833dbf2f5c1326}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Remove\-Max\-L\-I\-F\-O@{Remove\-Max\-L\-I\-F\-O}}
+\index{Remove\-Max\-L\-I\-F\-O@{Remove\-Max\-L\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Remove\-Max\-L\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Remove\-Max\-L\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_ac60665e66550803e6c833dbf2f5c1326}
+Generic version with circular and growing features. \hypertarget{namespacegft_1_1PQueue32_af348da84505ce5cab41c78e472d698b1}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Remove\-Min\-F\-I\-F\-O@{Remove\-Min\-F\-I\-F\-O}}
+\index{Remove\-Min\-F\-I\-F\-O@{Remove\-Min\-F\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Remove\-Min\-F\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Remove\-Min\-F\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_af348da84505ce5cab41c78e472d698b1}
+Generic version with circular and growing features. \hypertarget{namespacegft_1_1PQueue32_a885b0ac4cbada8fa386b5435c953ff5d}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Remove\-Min\-L\-I\-F\-O@{Remove\-Min\-L\-I\-F\-O}}
+\index{Remove\-Min\-L\-I\-F\-O@{Remove\-Min\-L\-I\-F\-O}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Remove\-Min\-L\-I\-F\-O}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-P\-Queue32\-::\-Remove\-Min\-L\-I\-F\-O (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a885b0ac4cbada8fa386b5435c953ff5d}
+Generic version with circular and growing features. \hypertarget{namespacegft_1_1PQueue32_a29365352a9afa987b9239a5bb14e958b}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Reset@{Reset}}
+\index{Reset@{Reset}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Reset (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$}]{Q}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a29365352a9afa987b9239a5bb14e958b}
+\hypertarget{namespacegft_1_1PQueue32_a18c8cf3ae8f0c425766a0a562a0ebc14}{\index{gft\-::\-P\-Queue32@{gft\-::\-P\-Queue32}!Update\-Elem@{Update\-Elem}}
+\index{Update\-Elem@{Update\-Elem}!gft::PQueue32@{gft\-::\-P\-Queue32}}
+\subsubsection[{Update\-Elem}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-P\-Queue32\-::\-Update\-Elem (
+\begin{DoxyParamCaption}
+\item[{P\-Queue32 $\ast$$\ast$}]{Q, }
+\item[{int}]{elem, }
+\item[{int}]{newvalue}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1PQueue32_a18c8cf3ae8f0c425766a0a562a0ebc14}
+Generic version with circular and growing features. 

@@ -1,0 +1,84 @@
+\hypertarget{gft__adjrel3_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-adjrel3.h File Reference}
+\label{gft__adjrel3_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-adjrel3.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-adjrel3.\-h}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-scene.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+union \hyperlink{uniongft_1_1AdjRel3_1_1__displacement3}{gft\-::\-Adj\-Rel3\-::\-\_\-displacement3}
+\item 
+struct \hyperlink{structgft_1_1AdjRel3_1_1__adjrel3}{gft\-::\-Adj\-Rel3\-::\-\_\-adjrel3}
+\item 
+struct \hyperlink{structgft_1_1AdjRel3_1_1__adjvxl}{gft\-::\-Adj\-Rel3\-::\-\_\-adjvxl}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1AdjRel3}{gft\-::\-Adj\-Rel3}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef union \\*
+\hyperlink{uniongft_1_1AdjRel3_1_1__displacement3}{gft\-::\-Adj\-Rel3\-::\-\_\-displacement3} \hyperlink{namespacegft_1_1AdjRel3_a8939e0d3e5e0afd8c4e28e4b400de74e}{gft\-::\-Adj\-Rel3\-::\-Displacement3}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1AdjRel3_1_1__adjrel3}{gft\-::\-Adj\-Rel3\-::\-\_\-adjrel3} \hyperlink{namespacegft_1_1AdjRel3_a0d54e2f148bf5636f3a3faf70d4eb5ae}{gft\-::\-Adj\-Rel3\-::\-Adj\-Rel3}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1AdjRel3_1_1__adjvxl}{gft\-::\-Adj\-Rel3\-::\-\_\-adjvxl} \hyperlink{namespacegft_1_1AdjRel3_af816b2f50a2bbe691cddc961d58b16da}{gft\-::\-Adj\-Rel3\-::\-Adj\-Vxl}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a7dfeb22ab8f6eb84642291bac033a10b}{gft\-::\-Adj\-Rel3\-::\-Create} (int n)
+\item 
+void \hyperlink{namespacegft_1_1AdjRel3_ad6f126ce86bde099aa796178a82fff3e}{gft\-::\-Adj\-Rel3\-::\-Destroy} (Adj\-Rel3 $\ast$$\ast$A)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_ad4dd76816f2794ea9d8305a8de5651c7}{gft\-::\-Adj\-Rel3\-::\-Clone} (Adj\-Rel3 $\ast$A)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_aec5edb5a47fb598c812b46af5ab99280}{gft\-::\-Adj\-Rel3\-::\-Spheric} (float r)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a14dbef9a69129eb93ac447d6d52ea0a3}{gft\-::\-Adj\-Rel3\-::\-Ellipsoid} (float rx, float ry, float rz)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_ab466ea16f4dcc2f9c45e495c4610e8cc}{gft\-::\-Adj\-Rel3\-::\-Spherical\-Shell} (float inner\-\_\-radius, float outer\-\_\-radius)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a136e1245bbd9c5233037e1c6c45b0f85}{gft\-::\-Adj\-Rel3\-::\-Box} (int xsize, int ysize, int zsize)
+\item 
+void \hyperlink{namespacegft_1_1AdjRel3_ab67435f8f4a806c6b4989ee12501738f}{gft\-::\-Adj\-Rel3\-::\-Scale} (Adj\-Rel3 $\ast$A, float Sx, float Sy, float Sz)
+\item 
+void \hyperlink{namespacegft_1_1AdjRel3_ad463fc40358db17d22f44d38a4489404}{gft\-::\-Adj\-Rel3\-::\-Clip\-X} (Adj\-Rel3 $\ast$A, int lower, int higher)
+\item 
+void \hyperlink{namespacegft_1_1AdjRel3_a155462e5056978331864d72d022ea554}{gft\-::\-Adj\-Rel3\-::\-Clip\-Y} (Adj\-Rel3 $\ast$A, int lower, int higher)
+\item 
+void \hyperlink{namespacegft_1_1AdjRel3_ae3ee71d6e2a046734e7060bf110e0f64}{gft\-::\-Adj\-Rel3\-::\-Clip\-Z} (Adj\-Rel3 $\ast$A, int lower, int higher)
+\item 
+int \hyperlink{namespacegft_1_1AdjRel3_a43482bf8de59535406ff560fb945b708}{gft\-::\-Adj\-Rel3\-::\-Get\-Frame\-Size} (Adj\-Rel3 $\ast$A)
+\item 
+void \hyperlink{namespacegft_1_1AdjRel3_aedc3139d4afc88fcf042852256fbd3fc}{gft\-::\-Adj\-Rel3\-::\-Get\-Frame\-Size} (Adj\-Rel3 $\ast$A, int $\ast$sz\-\_\-x, int $\ast$sz\-\_\-y, int $\ast$sz\-\_\-z)
+\item 
+float $\ast$ \hyperlink{namespacegft_1_1AdjRel3_ac74cc260c7fd05e7a02d4fb31c678ebd}{gft\-::\-Adj\-Rel3\-::\-Get\-Distance\-Array} (Adj\-Rel3 $\ast$A)
+\item 
+void \hyperlink{namespacegft_1_1AdjRel3_a6954112efe5b723fb5cb83fb15555e84}{gft\-::\-Adj\-Rel3\-::\-Destroy\-Adj\-Vxl} (Adj\-Vxl $\ast$$\ast$N)
+\item 
+Adj\-Vxl $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a06cf2ec816df1fe005bb928351114fa4}{gft\-::\-Adj\-Rel3\-::\-Adj\-Voxels} (Adj\-Rel3 $\ast$A, int xsize, int ysize)
+\item 
+Adj\-Vxl $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a4a2e8efbf627a0f7b0d8eaedaa43de72}{gft\-::\-Adj\-Rel3\-::\-Adj\-Voxels} (Adj\-Rel3 $\ast$A, Scene32\-::\-Scene32 $\ast$scn)
+\item 
+Adj\-Vxl $\ast$ \hyperlink{namespacegft_1_1AdjRel3_adeaff510ba339681aa2e47a723841b0a}{gft\-::\-Adj\-Rel3\-::\-Adj\-Voxels} (Adj\-Rel3 $\ast$A, Scene16\-::\-Scene16 $\ast$scn)
+\item 
+Adj\-Vxl $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a20269c1f93cde99acec0ef8b34f68419}{gft\-::\-Adj\-Rel3\-::\-Adj\-Voxels} (Adj\-Rel3 $\ast$A, Scene8\-::\-Scene8 $\ast$scn)
+\item 
+Adj\-Vxl $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a0e65849cf4e695c68613ce9810aa39ca}{gft\-::\-Adj\-Rel3\-::\-Adj\-Voxels} (Adj\-Rel3 $\ast$A, Scene\-::\-Scene $\ast$scn)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a825774eda705aabe24f2cd617ee40a85}{gft\-::\-Adj\-Rel3\-::\-Spherical\-\_\-mm} (Scene32\-::\-Scene32 $\ast$scn, float r\-\_\-mm)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a775896e40bf872f5a878fdcbc9c0d59a}{gft\-::\-Adj\-Rel3\-::\-Spherical\-Grid\-\_\-mm} (float dx, float dy, float dz, float r\-\_\-mm, float spacement\-\_\-mm)
+\item 
+Adj\-Rel3 $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a12cc35221a68412f5db1d1a7de8606f9}{gft\-::\-Adj\-Rel3\-::\-Spherical\-Grid\-\_\-mm} (Scene32\-::\-Scene32 $\ast$scn, float r\-\_\-mm, float spacement\-\_\-mm)
+\item 
+float $\ast$ \hyperlink{namespacegft_1_1AdjRel3_a63be61e955a0e21bebc2b91d56d672c4}{gft\-::\-Adj\-Rel3\-::\-Get\-Distance\-Array\-\_\-mm} (Adj\-Rel3 $\ast$A, Scene32\-::\-Scene32 $\ast$scn)
+\end{DoxyCompactItemize}

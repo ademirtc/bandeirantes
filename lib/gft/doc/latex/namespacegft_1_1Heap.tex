@@ -1,0 +1,132 @@
+\hypertarget{namespacegft_1_1Heap}{\section{gft\-:\-:Heap Namespace Reference}
+\label{namespacegft_1_1Heap}\index{gft\-::\-Heap@{gft\-::\-Heap}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Heap_1_1__heap}{\-\_\-heap}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structgft_1_1Heap_1_1__heap}{gft\-::\-Heap\-::\-\_\-heap} \hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacegft_1_1Heap_a7b36154672ef70039ebded83a20451f3}{Set\-Removal\-Policy} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H, char policy)
+\item 
+void \hyperlink{namespacegft_1_1Heap_a749cb0fbc221c68015249884f905d8df}{Go\-Up} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H, int i)
+\item 
+void \hyperlink{namespacegft_1_1Heap_ad0c1c0c77a2a8ba1e3ffb07733244041}{Go\-Down} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H, int i)
+\item 
+char \hyperlink{namespacegft_1_1Heap_abff765913421a49ddc225dab176e0e63}{Is\-Full} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H)
+\item 
+char \hyperlink{namespacegft_1_1Heap_a2ff888b905d6d284dc027ea5ba8e8c1e}{Is\-Empty} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H)
+\item 
+\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$ \hyperlink{namespacegft_1_1Heap_a1dea4d0b1f92c9b85597be84f41306a2}{Create} (int n, float $\ast$cost)
+\item 
+void \hyperlink{namespacegft_1_1Heap_a469ebad46a0e799ab1ea1ea2fba31085}{Destroy} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$$\ast$H)
+\item 
+char \hyperlink{namespacegft_1_1Heap_afab84a90468ed4cfcce6a1ca7a731605}{Insert} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H, int pixel)
+\item 
+char \hyperlink{namespacegft_1_1Heap_a4f8f88a445d027dde579cf2c65ab02ac}{Remove} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H, int $\ast$pixel)
+\item 
+void \hyperlink{namespacegft_1_1Heap_a77db3ca066391ec1eea52a596aa43a64}{Update} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H, int p, float value)
+\item 
+void \hyperlink{namespacegft_1_1Heap_a44430a3dbf4fd4095f5f8e68929832d3}{Reset} (\hyperlink{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{Heap} $\ast$H)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Heap@{Heap}}
+\index{Heap@{Heap}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Heap}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Heap\-::\-\_\-heap}  {\bf gft\-::\-Heap\-::\-Heap}}}\label{namespacegft_1_1Heap_a0d90f0f86ac580f565de0c8e294ece4c}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1Heap_a1dea4d0b1f92c9b85597be84f41306a2}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Create@{Create}}
+\index{Create@{Create}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Heap} $\ast$ gft\-::\-Heap\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{n, }
+\item[{float $\ast$}]{cost}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a1dea4d0b1f92c9b85597be84f41306a2}
+\hypertarget{namespacegft_1_1Heap_a469ebad46a0e799ab1ea1ea2fba31085}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Heap\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$$\ast$}]{H}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a469ebad46a0e799ab1ea1ea2fba31085}
+\hypertarget{namespacegft_1_1Heap_ad0c1c0c77a2a8ba1e3ffb07733244041}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Go\-Down@{Go\-Down}}
+\index{Go\-Down@{Go\-Down}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Go\-Down}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Heap\-::\-Go\-Down (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H, }
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_ad0c1c0c77a2a8ba1e3ffb07733244041}
+\hypertarget{namespacegft_1_1Heap_a749cb0fbc221c68015249884f905d8df}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Go\-Up@{Go\-Up}}
+\index{Go\-Up@{Go\-Up}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Go\-Up}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Heap\-::\-Go\-Up (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H, }
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a749cb0fbc221c68015249884f905d8df}
+\hypertarget{namespacegft_1_1Heap_afab84a90468ed4cfcce6a1ca7a731605}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Insert@{Insert}}
+\index{Insert@{Insert}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Insert}]{\setlength{\rightskip}{0pt plus 5cm}char gft\-::\-Heap\-::\-Insert (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H, }
+\item[{int}]{pixel}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_afab84a90468ed4cfcce6a1ca7a731605}
+\hypertarget{namespacegft_1_1Heap_a2ff888b905d6d284dc027ea5ba8e8c1e}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Is\-Empty@{Is\-Empty}}
+\index{Is\-Empty@{Is\-Empty}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}char gft\-::\-Heap\-::\-Is\-Empty (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a2ff888b905d6d284dc027ea5ba8e8c1e}
+\hypertarget{namespacegft_1_1Heap_abff765913421a49ddc225dab176e0e63}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Is\-Full@{Is\-Full}}
+\index{Is\-Full@{Is\-Full}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Is\-Full}]{\setlength{\rightskip}{0pt plus 5cm}char gft\-::\-Heap\-::\-Is\-Full (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_abff765913421a49ddc225dab176e0e63}
+\hypertarget{namespacegft_1_1Heap_a4f8f88a445d027dde579cf2c65ab02ac}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Remove@{Remove}}
+\index{Remove@{Remove}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Remove}]{\setlength{\rightskip}{0pt plus 5cm}char gft\-::\-Heap\-::\-Remove (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H, }
+\item[{int $\ast$}]{pixel}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a4f8f88a445d027dde579cf2c65ab02ac}
+\hypertarget{namespacegft_1_1Heap_a44430a3dbf4fd4095f5f8e68929832d3}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Reset@{Reset}}
+\index{Reset@{Reset}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Reset}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Heap\-::\-Reset (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a44430a3dbf4fd4095f5f8e68929832d3}
+\hypertarget{namespacegft_1_1Heap_a7b36154672ef70039ebded83a20451f3}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Set\-Removal\-Policy@{Set\-Removal\-Policy}}
+\index{Set\-Removal\-Policy@{Set\-Removal\-Policy}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Set\-Removal\-Policy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Heap\-::\-Set\-Removal\-Policy (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H, }
+\item[{char}]{policy}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a7b36154672ef70039ebded83a20451f3}
+\hypertarget{namespacegft_1_1Heap_a77db3ca066391ec1eea52a596aa43a64}{\index{gft\-::\-Heap@{gft\-::\-Heap}!Update@{Update}}
+\index{Update@{Update}!gft::Heap@{gft\-::\-Heap}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Heap\-::\-Update (
+\begin{DoxyParamCaption}
+\item[{Heap $\ast$}]{H, }
+\item[{int}]{p, }
+\item[{float}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Heap_a77db3ca066391ec1eea52a596aa43a64}

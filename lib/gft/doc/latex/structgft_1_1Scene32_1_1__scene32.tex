@@ -1,0 +1,76 @@
+\hypertarget{structgft_1_1Scene32_1_1__scene32}{\section{gft\-:\-:Scene32\-:\-:\-\_\-scene32 Struct Reference}
+\label{structgft_1_1Scene32_1_1__scene32}\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+}
+
+
+{\ttfamily \#include $<$gft\-\_\-scene32.\-h$>$}
+
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{structgft_1_1Scene32_1_1__scene32_ad8f0a2cac9d910500269fca4e8c435fa}{data}
+\item 
+int $\ast$$\ast$$\ast$ \hyperlink{structgft_1_1Scene32_1_1__scene32_a438883984869d1b9716fb7d8bee74b56}{array}
+\item 
+int \hyperlink{structgft_1_1Scene32_1_1__scene32_a89930668fe4a94196d383cd25abec2a9}{xsize}
+\item 
+int \hyperlink{structgft_1_1Scene32_1_1__scene32_aa77d48ddba1f5845e63aa4f14d78aeaa}{ysize}
+\item 
+int \hyperlink{structgft_1_1Scene32_1_1__scene32_af18d678198189cc926207beba928dedd}{zsize}
+\item 
+float \hyperlink{structgft_1_1Scene32_1_1__scene32_aaba85b569f07295bbaf686c0d1df304d}{dx}
+\item 
+float \hyperlink{structgft_1_1Scene32_1_1__scene32_a929d2abebc85a0d848cd3cc0d34fc93a}{dy}
+\item 
+float \hyperlink{structgft_1_1Scene32_1_1__scene32_a76e9c55696d214a152b875824dda6825}{dz}
+\item 
+int \hyperlink{structgft_1_1Scene32_1_1__scene32_a42b25d5d4256cf65b3c4d75afd5d7f0b}{maxval}
+\item 
+int \hyperlink{structgft_1_1Scene32_1_1__scene32_ab97e3e918bb4d87db5f493cd9c13757f}{n}
+\item 
+nifti\-\_\-image $\ast$ \hyperlink{structgft_1_1Scene32_1_1__scene32_aa0167371c596e5754402dfd7f6ede5f8}{nii\-\_\-hdr}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+It supports both linear and three-\/dimensional access (i.\-e., scn-\/$>$data\mbox{[}p\mbox{]} or scn-\/$>$array\mbox{[}z\mbox{]}\mbox{[}y\mbox{]}\mbox{[}x\mbox{]} for a voxel (x,y,z) at address p=x+y$\ast$xsize+z$\ast$xsize$\ast$ysize). 
+
+\subsection{Member Data Documentation}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_a438883984869d1b9716fb7d8bee74b56}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!array@{array}}
+\index{array@{array}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{array}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$$\ast$$\ast$ gft\-::\-Scene32\-::\-\_\-scene32\-::array}}\label{structgft_1_1Scene32_1_1__scene32_a438883984869d1b9716fb7d8bee74b56}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_ad8f0a2cac9d910500269fca4e8c435fa}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!data@{data}}
+\index{data@{data}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ gft\-::\-Scene32\-::\-\_\-scene32\-::data}}\label{structgft_1_1Scene32_1_1__scene32_ad8f0a2cac9d910500269fca4e8c435fa}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_aaba85b569f07295bbaf686c0d1df304d}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!dx@{dx}}
+\index{dx@{dx}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{dx}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Scene32\-::\-\_\-scene32\-::dx}}\label{structgft_1_1Scene32_1_1__scene32_aaba85b569f07295bbaf686c0d1df304d}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_a929d2abebc85a0d848cd3cc0d34fc93a}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!dy@{dy}}
+\index{dy@{dy}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{dy}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Scene32\-::\-\_\-scene32\-::dy}}\label{structgft_1_1Scene32_1_1__scene32_a929d2abebc85a0d848cd3cc0d34fc93a}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_a76e9c55696d214a152b875824dda6825}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!dz@{dz}}
+\index{dz@{dz}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{dz}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Scene32\-::\-\_\-scene32\-::dz}}\label{structgft_1_1Scene32_1_1__scene32_a76e9c55696d214a152b875824dda6825}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_a42b25d5d4256cf65b3c4d75afd5d7f0b}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!maxval@{maxval}}
+\index{maxval@{maxval}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{maxval}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene32\-::\-\_\-scene32\-::maxval}}\label{structgft_1_1Scene32_1_1__scene32_a42b25d5d4256cf65b3c4d75afd5d7f0b}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_ab97e3e918bb4d87db5f493cd9c13757f}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!n@{n}}
+\index{n@{n}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene32\-::\-\_\-scene32\-::n}}\label{structgft_1_1Scene32_1_1__scene32_ab97e3e918bb4d87db5f493cd9c13757f}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_aa0167371c596e5754402dfd7f6ede5f8}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!nii\-\_\-hdr@{nii\-\_\-hdr}}
+\index{nii\-\_\-hdr@{nii\-\_\-hdr}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{nii\-\_\-hdr}]{\setlength{\rightskip}{0pt plus 5cm}nifti\-\_\-image$\ast$ gft\-::\-Scene32\-::\-\_\-scene32\-::nii\-\_\-hdr}}\label{structgft_1_1Scene32_1_1__scene32_aa0167371c596e5754402dfd7f6ede5f8}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_a89930668fe4a94196d383cd25abec2a9}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!xsize@{xsize}}
+\index{xsize@{xsize}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{xsize}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene32\-::\-\_\-scene32\-::xsize}}\label{structgft_1_1Scene32_1_1__scene32_a89930668fe4a94196d383cd25abec2a9}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_aa77d48ddba1f5845e63aa4f14d78aeaa}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!ysize@{ysize}}
+\index{ysize@{ysize}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{ysize}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene32\-::\-\_\-scene32\-::ysize}}\label{structgft_1_1Scene32_1_1__scene32_aa77d48ddba1f5845e63aa4f14d78aeaa}
+\hypertarget{structgft_1_1Scene32_1_1__scene32_af18d678198189cc926207beba928dedd}{\index{gft\-::\-Scene32\-::\-\_\-scene32@{gft\-::\-Scene32\-::\-\_\-scene32}!zsize@{zsize}}
+\index{zsize@{zsize}!gft::Scene32::_scene32@{gft\-::\-Scene32\-::\-\_\-scene32}}
+\subsubsection[{zsize}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene32\-::\-\_\-scene32\-::zsize}}\label{structgft_1_1Scene32_1_1__scene32_af18d678198189cc926207beba928dedd}
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/pavm/programming/lib/gft/include/\hyperlink{gft__scene32_8h}{gft\-\_\-scene32.\-h}\end{DoxyCompactItemize}

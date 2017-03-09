@@ -1,0 +1,48 @@
+\hypertarget{gft__image64_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-image64.h File Reference}
+\label{gft__image64_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-image64.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-image64.\-h}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-image32.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Image64_1_1__Image64}{gft\-::\-Image64\-::\-\_\-\-Image64}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Image64}{gft\-::\-Image64}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1Image64_1_1__Image64}{gft\-::\-Image64\-::\-\_\-\-Image64} \hyperlink{namespacegft_1_1Image64_ac41e270d01650c5cce783ab7e97ccab0}{gft\-::\-Image64\-::\-Image64}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Image64 $\ast$ \hyperlink{namespacegft_1_1Image64_a6b21c5315c407dfab9d48562bffd18aa}{gft\-::\-Image64\-::\-Create} (int ncols, int nrows)
+\item 
+void \hyperlink{namespacegft_1_1Image64_ad4e315bef549fd02b6aa360a12f1257e}{gft\-::\-Image64\-::\-Destroy} (Image64 $\ast$$\ast$img)
+\item 
+Image64 $\ast$ \hyperlink{namespacegft_1_1Image64_a18d56eac55850a444e967ede8e39d41d}{gft\-::\-Image64\-::\-Convert\-To\-Image64} (Image32\-::\-Image32 $\ast$img)
+\item 
+Image64 $\ast$ \hyperlink{namespacegft_1_1Image64_abfdf774cb9cbb358fed29ce835f423e6}{gft\-::\-Image64\-::\-Read} (char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1Image64_afb033b881c692bf92d3495720ce76ab8}{gft\-::\-Image64\-::\-Write} (Image64 $\ast$img, char $\ast$filename)
+\item 
+Image64 $\ast$ \hyperlink{namespacegft_1_1Image64_a88036e75ca35284f293f94c634096fe1}{gft\-::\-Image64\-::\-Compute\-Integral\-Image} (Image64 $\ast$img)
+\item 
+long long \hyperlink{namespacegft_1_1Image64_a79fa6adfbc60ecb59f0360bfd398204e}{gft\-::\-Image64\-::\-Compute\-Sum} (Image64 $\ast$iimg, int x1, int y1, int x2, int y2)
+\item 
+double \hyperlink{namespacegft_1_1Image64_ad13a5058c4253b3d7c39076fb6153429}{gft\-::\-Image64\-::\-Compute\-Variance} (Image64 $\ast$img, int x1, int y1, int x2, int y2)
+\item 
+double \hyperlink{namespacegft_1_1Image64_ac62a9f99a2620ba81e317b6b945fc7b8}{gft\-::\-Image64\-::\-Compute\-Variance} (Image64 $\ast$iimg, Image64 $\ast$iimg2, int x1, int y1, int x2, int y2)
+\item 
+Image64 $\ast$ \hyperlink{namespacegft_1_1Image64_a07e5b0ae08e70aa0733898815bfe4f49}{gft\-::\-Image64\-::\-Squared} (Image64 $\ast$img)
+\item 
+int \hyperlink{namespacegft_1_1Image64_ab1676bd86a6f2fc85304cad91a8a844c}{gft\-::\-Image64\-::\-Get\-Pos\-Window\-Max\-Sum} (Image32\-::\-Image32 $\ast$img, int tam\-\_\-x, int tam\-\_\-y)
+\end{DoxyCompactItemize}

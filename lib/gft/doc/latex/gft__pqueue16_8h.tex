@@ -1,0 +1,80 @@
+\hypertarget{gft__pqueue16_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-pqueue16.h File Reference}
+\label{gft__pqueue16_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-pqueue16.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-pqueue16.\-h}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-common.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1PQueue16_1_1__pqnode}{gft\-::\-P\-Queue16\-::\-\_\-pqnode}
+\item 
+struct \hyperlink{structgft_1_1PQueue16_1_1__pqdoublylinkedlists}{gft\-::\-P\-Queue16\-::\-\_\-pqdoublylinkedlists}
+\item 
+struct \hyperlink{structgft_1_1PQueue16_1_1__pqcircularqueue}{gft\-::\-P\-Queue16\-::\-\_\-pqcircularqueue}
+\item 
+struct \hyperlink{structgft_1_1PQueue16_1_1__priorityqueue}{gft\-::\-P\-Queue16\-::\-\_\-priorityqueue}
+\begin{DoxyCompactList}\small\item\em Priority queue by Dial implemented as proposed by A.\-X. Falcao with circular and growing features. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1PQueue16}{gft\-::\-P\-Queue16}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue16_1_1__pqnode}{gft\-::\-P\-Queue16\-::\-\_\-pqnode} \hyperlink{namespacegft_1_1PQueue16_a2dc28c8f2a9eaeb5d7d7ae7ec5429314}{gft\-::\-P\-Queue16\-::\-P\-Q\-Node}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue16_1_1__pqdoublylinkedlists}{gft\-::\-P\-Queue16\-::\-\_\-pqdoublylinkedlists} \hyperlink{namespacegft_1_1PQueue16_a2e506a5582bb0b3b911d561e82164a46}{gft\-::\-P\-Queue16\-::\-P\-Q\-Doubly\-Linked\-Lists}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue16_1_1__pqcircularqueue}{gft\-::\-P\-Queue16\-::\-\_\-pqcircularqueue} \hyperlink{namespacegft_1_1PQueue16_a9170c804b2c99b8035274bfc820f968e}{gft\-::\-P\-Queue16\-::\-P\-Q\-Circular\-Queue}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1PQueue16_1_1__priorityqueue}{gft\-::\-P\-Queue16\-::\-\_\-priorityqueue} \hyperlink{namespacegft_1_1PQueue16_afab9efb91a79a40b6b74c53c0c19da3d}{gft\-::\-P\-Queue16\-::\-P\-Queue16}
+\begin{DoxyCompactList}\small\item\em Priority queue by Dial implemented as proposed by A.\-X. Falcao with circular and growing features. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+P\-Queue16 $\ast$ \hyperlink{namespacegft_1_1PQueue16_a3ac0b66b0b6d6d9904560c9b440ef754}{gft\-::\-P\-Queue16\-::\-Create} (int nbuckets, int nelems, ushort $\ast$value)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_a0df7fe603e2c64797969aaed2761980c}{gft\-::\-P\-Queue16\-::\-Destroy} (P\-Queue16 $\ast$$\ast$Q)
+\item 
+P\-Queue16 $\ast$ \hyperlink{namespacegft_1_1PQueue16_aeb4364ff5fc2e762f5491758b39c325a}{gft\-::\-P\-Queue16\-::\-Grow} (P\-Queue16 $\ast$$\ast$Q, int nbuckets)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_a1c9ceadbab25dfee3f2b5348fe3a524c}{gft\-::\-P\-Queue16\-::\-Reset} (P\-Queue16 $\ast$Q)
+\item 
+bool \hyperlink{namespacegft_1_1PQueue16_a33773d2b4cb0647b43282bafa6d4379b}{gft\-::\-P\-Queue16\-::\-Is\-Empty} (P\-Queue16 $\ast$Q)
+\item 
+bool \hyperlink{namespacegft_1_1PQueue16_ad5649be20360c6fef29c6581be6f7271}{gft\-::\-P\-Queue16\-::\-Is\-Full} (P\-Queue16 $\ast$Q)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_aceba12c8e4a72989c32ae9622a678594}{gft\-::\-P\-Queue16\-::\-Insert\-Elem} (P\-Queue16 $\ast$$\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_a06fff433316b7d62a80459dff4048e8a}{gft\-::\-P\-Queue16\-::\-Remove\-Elem} (P\-Queue16 $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_a69b76e15712538323fec12c18a916342}{gft\-::\-P\-Queue16\-::\-Update\-Elem} (P\-Queue16 $\ast$$\ast$Q, int elem, ushort newvalue)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_ad941c55ff86456e7fd3259ddd186359f}{gft\-::\-P\-Queue16\-::\-Remove\-Min\-F\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_a9fef7c321324d4ccb71fd510a97f9ad1}{gft\-::\-P\-Queue16\-::\-Remove\-Min\-L\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_ac660562e12c719fbe346f9958405490b}{gft\-::\-P\-Queue16\-::\-Remove\-Max\-F\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_a3a208e688f51a8cbfabdf55c0204727f}{gft\-::\-P\-Queue16\-::\-Remove\-Max\-L\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_a2fc6593ccd5a3b727aec43e59e1ece0f}{gft\-::\-P\-Queue16\-::\-Fast\-Insert\-Elem} (P\-Queue16 $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_ad8d4caea9e345f3b6abe8b67b390ff82}{gft\-::\-P\-Queue16\-::\-Fast\-Remove\-Elem} (P\-Queue16 $\ast$Q, int elem)
+\item 
+void \hyperlink{namespacegft_1_1PQueue16_a2f2daca9969086a069adc819f8182758}{gft\-::\-P\-Queue16\-::\-Fast\-Update\-Elem} (P\-Queue16 $\ast$Q, int elem, ushort newvalue)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_aff6da227a3288d230c1dd9fb5593632d}{gft\-::\-P\-Queue16\-::\-Fast\-Remove\-Min\-F\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_a614a4363de70bb1822be458652175af6}{gft\-::\-P\-Queue16\-::\-Fast\-Remove\-Min\-L\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_ac196d8dc71ca0557ec4c1e52e7aa2bdd}{gft\-::\-P\-Queue16\-::\-Fast\-Remove\-Max\-F\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\item 
+int \hyperlink{namespacegft_1_1PQueue16_a45bd7c11b4e0ee9da50baf439a5cc366}{gft\-::\-P\-Queue16\-::\-Fast\-Remove\-Max\-L\-I\-F\-O} (P\-Queue16 $\ast$Q)
+\end{DoxyCompactItemize}

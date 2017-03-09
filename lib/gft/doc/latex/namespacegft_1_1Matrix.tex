@@ -1,0 +1,283 @@
+\hypertarget{namespacegft_1_1Matrix}{\section{gft\-:\-:Matrix Namespace Reference}
+\label{namespacegft_1_1Matrix}\index{gft\-::\-Matrix@{gft\-::\-Matrix}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Matrix_1_1__matrix}{\-\_\-matrix}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structgft_1_1Matrix_1_1__matrix}{gft\-::\-Matrix\-::\-\_\-matrix} \hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_ae6a2a044a2d14349592a86c7c6818617}{Create} (int ncols, int nrows)
+\item 
+void \hyperlink{namespacegft_1_1Matrix_a3cb60e1ef34405968cd04d0749309cae}{Destroy} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$$\ast$mat)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_a260d70969b2b5d491db627a0f37c840e}{Clone} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$mat)
+\item 
+void \hyperlink{namespacegft_1_1Matrix_a6f9aec9897cada536ccc04375bb41de6}{Copy} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$dest, \hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$src)
+\item 
+void \hyperlink{namespacegft_1_1Matrix_ada9e9fba8fee3797821a84cd4c574ed1}{Print} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M)
+\item 
+void \hyperlink{namespacegft_1_1Matrix_ab8a4a23e3bb76f54412a6a254e63f6cd}{Print\-Dimension} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_a35846f5ffcd9e19e3958681e4e399bb7}{Invert} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$A)
+\item 
+float \hyperlink{namespacegft_1_1Matrix_a9ed2b387eef5ab3335c6a23050225355}{Get\-Trace} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_a0d1066ccb59072a0577e3ca9c68fb5ae}{Mult} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$A, \hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$B)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_ad68411dccb25c13df2a15bde1b075511}{Mult\-By\-Scalar} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$A, float k)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_aa0eb01485f2ee434e78d6e8187afe13d}{Sub} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$A, \hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$B)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_a4a6b0a2470987697fe14353484672aea}{Add} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$A, \hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$B)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_afb597972edec29ec6aa64603b30663a7}{Transpose} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$A)
+\item 
+float \hyperlink{namespacegft_1_1Matrix_a7ccc9b1d85321f55f60ad2de8afcea03}{Compute\-Distance\-L2} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$Y, \hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$X)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_a5ac0577e95b5b062f96501e9d470ca0b}{Read} (char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1Matrix_abcf44518e519452765be89bfe38e9ba2}{Write} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M, char $\ast$filename)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1Matrix_ab48b98d11734286a7b9066253460aa2e}{Is\-Valid\-Entry} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M, int i, int j)
+\item 
+float \hyperlink{namespacegft_1_1Matrix_a47e3aeb2a3ea13db9551eda65f3230ff}{Get\-Maximum\-Value} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M)
+\item 
+float \hyperlink{namespacegft_1_1Matrix_a0c79e498a23a2769eea14de3addbbc78}{Get\-Minimum\-Value} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M)
+\item 
+void \hyperlink{namespacegft_1_1Matrix_abda1b97e822504017275cb46f3e702ec}{Fill} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M, float value)
+\item 
+void \hyperlink{namespacegft_1_1Matrix_aba52e5904870a4e515a8516864ea1f02}{Change\-Value} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M, float old\-\_\-value, float new\-\_\-value)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$ \hyperlink{namespacegft_1_1Matrix_a723e5bc1d8a1d76372cfa52f7097c6fa}{Convert2\-Image} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$ \hyperlink{namespacegft_1_1Matrix_aeb27ac9716ff7edc884741481d125da5}{Threshold} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$M, float lower, float higher)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_a9329f1fa07d1f1eeab81e1991ad6eea4}{Rotation\-Matrix3} (int axis, float th)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_af29dec6cfd7cb57b50e3b16b9cd4652d}{Translation\-Matrix3} (float dx, float dy, float dz)
+\item 
+\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$ \hyperlink{namespacegft_1_1Matrix_aefbf44b7059c7c386f0f7c85e22207be}{Transform\-Voxel} (\hyperlink{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{Matrix} $\ast$m, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{gft\-::\-Voxel} v)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Matrix}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Matrix\-::\-\_\-matrix}  {\bf gft\-::\-Matrix\-::\-Matrix}}}\label{namespacegft_1_1Matrix_aac4dc9ea9c8dc9abade70a84fbea7939}
+It supports both linear and two-\/dimensional access (i.\-e., M-\/$>$val\mbox{[}0\mbox{]}\mbox{[}p\mbox{]} or M-\/$>$val\mbox{[}i\mbox{]}\mbox{[}j\mbox{]} for an entry (i,j) at address p=j+i$\ast$ncols). 
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1Matrix_a4a6b0a2470987697fe14353484672aea}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Add@{Add}}
+\index{Add@{Add}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Add}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Add (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{A, }
+\item[{Matrix $\ast$}]{B}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a4a6b0a2470987697fe14353484672aea}
+\hypertarget{namespacegft_1_1Matrix_aba52e5904870a4e515a8516864ea1f02}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Change\-Value@{Change\-Value}}
+\index{Change\-Value@{Change\-Value}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Change\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Matrix\-::\-Change\-Value (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M, }
+\item[{float}]{old\-\_\-value, }
+\item[{float}]{new\-\_\-value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_aba52e5904870a4e515a8516864ea1f02}
+\hypertarget{namespacegft_1_1Matrix_a260d70969b2b5d491db627a0f37c840e}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Clone@{Clone}}
+\index{Clone@{Clone}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Clone}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Clone (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{mat}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a260d70969b2b5d491db627a0f37c840e}
+\hypertarget{namespacegft_1_1Matrix_a7ccc9b1d85321f55f60ad2de8afcea03}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Compute\-Distance\-L2@{Compute\-Distance\-L2}}
+\index{Compute\-Distance\-L2@{Compute\-Distance\-L2}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Compute\-Distance\-L2}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Matrix\-::\-Compute\-Distance\-L2 (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{Y, }
+\item[{Matrix $\ast$}]{X}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a7ccc9b1d85321f55f60ad2de8afcea03}
+\hypertarget{namespacegft_1_1Matrix_a723e5bc1d8a1d76372cfa52f7097c6fa}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Convert2\-Image@{Convert2\-Image}}
+\index{Convert2\-Image@{Convert2\-Image}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Convert2\-Image}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32\-::\-Image32} $\ast$ gft\-::\-Matrix\-::\-Convert2\-Image (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a723e5bc1d8a1d76372cfa52f7097c6fa}
+\hypertarget{namespacegft_1_1Matrix_a6f9aec9897cada536ccc04375bb41de6}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Copy@{Copy}}
+\index{Copy@{Copy}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Copy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Matrix\-::\-Copy (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{dest, }
+\item[{Matrix $\ast$}]{src}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a6f9aec9897cada536ccc04375bb41de6}
+\hypertarget{namespacegft_1_1Matrix_ae6a2a044a2d14349592a86c7c6818617}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Create@{Create}}
+\index{Create@{Create}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{ncols, }
+\item[{int}]{nrows}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_ae6a2a044a2d14349592a86c7c6818617}
+\hypertarget{namespacegft_1_1Matrix_a3cb60e1ef34405968cd04d0749309cae}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Matrix\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$$\ast$}]{mat}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a3cb60e1ef34405968cd04d0749309cae}
+\hypertarget{namespacegft_1_1Matrix_abda1b97e822504017275cb46f3e702ec}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Fill@{Fill}}
+\index{Fill@{Fill}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Fill}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Matrix\-::\-Fill (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M, }
+\item[{float}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_abda1b97e822504017275cb46f3e702ec}
+\hypertarget{namespacegft_1_1Matrix_a47e3aeb2a3ea13db9551eda65f3230ff}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Get\-Maximum\-Value@{Get\-Maximum\-Value}}
+\index{Get\-Maximum\-Value@{Get\-Maximum\-Value}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Get\-Maximum\-Value}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Matrix\-::\-Get\-Maximum\-Value (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a47e3aeb2a3ea13db9551eda65f3230ff}
+\hypertarget{namespacegft_1_1Matrix_a0c79e498a23a2769eea14de3addbbc78}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Get\-Minimum\-Value@{Get\-Minimum\-Value}}
+\index{Get\-Minimum\-Value@{Get\-Minimum\-Value}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Get\-Minimum\-Value}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Matrix\-::\-Get\-Minimum\-Value (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a0c79e498a23a2769eea14de3addbbc78}
+\hypertarget{namespacegft_1_1Matrix_a9ed2b387eef5ab3335c6a23050225355}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Get\-Trace@{Get\-Trace}}
+\index{Get\-Trace@{Get\-Trace}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Get\-Trace}]{\setlength{\rightskip}{0pt plus 5cm}float gft\-::\-Matrix\-::\-Get\-Trace (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a9ed2b387eef5ab3335c6a23050225355}
+\hypertarget{namespacegft_1_1Matrix_a35846f5ffcd9e19e3958681e4e399bb7}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Invert@{Invert}}
+\index{Invert@{Invert}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Invert}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Invert (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{A}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a35846f5ffcd9e19e3958681e4e399bb7}
+\hypertarget{namespacegft_1_1Matrix_ab48b98d11734286a7b9066253460aa2e}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Is\-Valid\-Entry@{Is\-Valid\-Entry}}
+\index{Is\-Valid\-Entry@{Is\-Valid\-Entry}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Is\-Valid\-Entry}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Matrix\-::\-Is\-Valid\-Entry (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M, }
+\item[{int}]{i, }
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_ab48b98d11734286a7b9066253460aa2e}
+\hypertarget{namespacegft_1_1Matrix_a0d1066ccb59072a0577e3ca9c68fb5ae}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Mult@{Mult}}
+\index{Mult@{Mult}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Mult}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Mult (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{A, }
+\item[{Matrix $\ast$}]{B}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a0d1066ccb59072a0577e3ca9c68fb5ae}
+\hypertarget{namespacegft_1_1Matrix_ad68411dccb25c13df2a15bde1b075511}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Mult\-By\-Scalar@{Mult\-By\-Scalar}}
+\index{Mult\-By\-Scalar@{Mult\-By\-Scalar}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Mult\-By\-Scalar}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Mult\-By\-Scalar (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{A, }
+\item[{float}]{k}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_ad68411dccb25c13df2a15bde1b075511}
+\hypertarget{namespacegft_1_1Matrix_ada9e9fba8fee3797821a84cd4c574ed1}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Print@{Print}}
+\index{Print@{Print}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Print}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Matrix\-::\-Print (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_ada9e9fba8fee3797821a84cd4c574ed1}
+\hypertarget{namespacegft_1_1Matrix_ab8a4a23e3bb76f54412a6a254e63f6cd}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Print\-Dimension@{Print\-Dimension}}
+\index{Print\-Dimension@{Print\-Dimension}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Print\-Dimension}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Matrix\-::\-Print\-Dimension (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_ab8a4a23e3bb76f54412a6a254e63f6cd}
+\hypertarget{namespacegft_1_1Matrix_a5ac0577e95b5b062f96501e9d470ca0b}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Read@{Read}}
+\index{Read@{Read}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Read}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Read (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a5ac0577e95b5b062f96501e9d470ca0b}
+\hypertarget{namespacegft_1_1Matrix_a9329f1fa07d1f1eeab81e1991ad6eea4}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Rotation\-Matrix3@{Rotation\-Matrix3}}
+\index{Rotation\-Matrix3@{Rotation\-Matrix3}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Rotation\-Matrix3}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Rotation\-Matrix3 (
+\begin{DoxyParamCaption}
+\item[{int}]{axis, }
+\item[{float}]{th}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_a9329f1fa07d1f1eeab81e1991ad6eea4}
+
+\begin{DoxyParams}{Parameters}
+{\em axis} & an option (0-\/$>$x / 1-\/$>$y / 2-\/$>$z). \\
+\hline
+\end{DoxyParams}
+\hypertarget{namespacegft_1_1Matrix_aa0eb01485f2ee434e78d6e8187afe13d}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Sub@{Sub}}
+\index{Sub@{Sub}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Sub}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Sub (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{A, }
+\item[{Matrix $\ast$}]{B}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_aa0eb01485f2ee434e78d6e8187afe13d}
+\hypertarget{namespacegft_1_1Matrix_aeb27ac9716ff7edc884741481d125da5}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Threshold@{Threshold}}
+\index{Threshold@{Threshold}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Threshold}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32\-::\-Image32} $\ast$ gft\-::\-Matrix\-::\-Threshold (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M, }
+\item[{float}]{lower, }
+\item[{float}]{higher}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_aeb27ac9716ff7edc884741481d125da5}
+\hypertarget{namespacegft_1_1Matrix_aefbf44b7059c7c386f0f7c85e22207be}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Transform\-Voxel@{Transform\-Voxel}}
+\index{Transform\-Voxel@{Transform\-Voxel}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Transform\-Voxel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Transform\-Voxel (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{m, }
+\item[{{\bf gft\-::\-Voxel}}]{v}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_aefbf44b7059c7c386f0f7c85e22207be}
+\hypertarget{namespacegft_1_1Matrix_af29dec6cfd7cb57b50e3b16b9cd4652d}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Translation\-Matrix3@{Translation\-Matrix3}}
+\index{Translation\-Matrix3@{Translation\-Matrix3}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Translation\-Matrix3}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Translation\-Matrix3 (
+\begin{DoxyParamCaption}
+\item[{float}]{dx, }
+\item[{float}]{dy, }
+\item[{float}]{dz}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_af29dec6cfd7cb57b50e3b16b9cd4652d}
+\hypertarget{namespacegft_1_1Matrix_afb597972edec29ec6aa64603b30663a7}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Transpose@{Transpose}}
+\index{Transpose@{Transpose}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Transpose}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} $\ast$ gft\-::\-Matrix\-::\-Transpose (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{A}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_afb597972edec29ec6aa64603b30663a7}
+\hypertarget{namespacegft_1_1Matrix_abcf44518e519452765be89bfe38e9ba2}{\index{gft\-::\-Matrix@{gft\-::\-Matrix}!Write@{Write}}
+\index{Write@{Write}!gft::Matrix@{gft\-::\-Matrix}}
+\subsubsection[{Write}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Matrix\-::\-Write (
+\begin{DoxyParamCaption}
+\item[{Matrix $\ast$}]{M, }
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Matrix_abcf44518e519452765be89bfe38e9ba2}

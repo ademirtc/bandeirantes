@@ -1,0 +1,202 @@
+\hypertarget{namespacegft_1_1Image32}{\section{gft\-:\-:Image32 Namespace Reference}
+\label{namespacegft_1_1Image32}\index{gft\-::\-Image32@{gft\-::\-Image32}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Image32_1_1__image32}{\-\_\-image32}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1Image32_1_1__image32}{gft\-::\-Image32\-::\-\_\-image32} \hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_aa1dc6b37e4b078f6a7957e1f4599fec6}{Sobel\-Filter} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_a2d12581cb7829426c3a3401c0a45e7ef}{Linear\-Filter} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, \hyperlink{namespacegft_1_1Kernel_a88f2f8f5778d1d17a52a77e1f2518ab3}{Kernel\-::\-Kernel} $\ast$K)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_a673f7fb9c237e0897132e35fd02d00d7}{Image\-Magnitude} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$imgx, \hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$imgy)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_aafef8dafc4fe11b3ad9384bc88f9282d}{Create} (int ncols, int nrows)
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1Image32_a8af9ff5a2bd012ec196a0c1a2ee70d8c}{Destroy} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$$\ast$img)
+\begin{DoxyCompactList}\small\item\em A destructor. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_a39385351619f9249e1178a86bdc7d641}{Clone} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img)
+\begin{DoxyCompactList}\small\item\em A copy constructor. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_a9a6ebcc61becc0cf51d7f5e2b00a2b13}{Read} (char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1Image32_a505d58287ec93993f052b3790a474368}{Write} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, char $\ast$filename)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_a2e5383b2fbe8ce694817ab91fd3782ba}{Convert\-To\-Nbits} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, int N)
+\item 
+int \hyperlink{namespacegft_1_1Image32_a636e6a116ad8d8ed2d165fe6c418abd9}{Get\-Minimum\-Value} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img)
+\item 
+int \hyperlink{namespacegft_1_1Image32_a750d825c8a367d711b92b5fd517b0c95}{Get\-Maximum\-Value} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img)
+\item 
+void \hyperlink{namespacegft_1_1Image32_a438912502a65d8184ca8281f54732b04}{Set} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, int value)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1Image32_a4d4f4345c1fcd3f53f7cdb2bbcd5f5df}{Is\-Valid\-Pixel} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, int x, int y)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$ \hyperlink{namespacegft_1_1Image32_a5de6c6d8b8af8c7231719f7fd368c34c}{Threshold} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, int L, int H)
+\item 
+void \hyperlink{namespacegft_1_1Image32_a2f2526c9e47451a20ad5a0ef5af4283e}{Draw\-Rectangle} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, int x1, int y1, int x2, int y2, int val)
+\item 
+void \hyperlink{namespacegft_1_1Image32_a4f0d74d9624a853cfc4ad98dd89ba1f9}{Draw\-Line\-D\-D\-A} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32} $\ast$img, int x1, int y1, int xn, int yn, int val)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Image32@{Image32}}
+\index{Image32@{Image32}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Image32}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Image32\-::\-\_\-image32}  {\bf gft\-::\-Image32\-::\-Image32}}}\label{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}
+It supports both linear and two-\/dimensional access (i.\-e., img-\/$>$data\mbox{[}p\mbox{]} or img-\/$>$array\mbox{[}y\mbox{]}\mbox{[}x\mbox{]} for a pixel (x,y) at address p=x+y$\ast$xsize). 
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1Image32_a39385351619f9249e1178a86bdc7d641}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Clone@{Clone}}
+\index{Clone@{Clone}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Clone}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Clone (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a39385351619f9249e1178a86bdc7d641}
+
+
+A copy constructor. 
+
+\hypertarget{namespacegft_1_1Image32_a2e5383b2fbe8ce694817ab91fd3782ba}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Convert\-To\-Nbits@{Convert\-To\-Nbits}}
+\index{Convert\-To\-Nbits@{Convert\-To\-Nbits}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Convert\-To\-Nbits}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Convert\-To\-Nbits (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{int}]{N}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a2e5383b2fbe8ce694817ab91fd3782ba}
+\hypertarget{namespacegft_1_1Image32_aafef8dafc4fe11b3ad9384bc88f9282d}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Create@{Create}}
+\index{Create@{Create}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{ncols, }
+\item[{int}]{nrows}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_aafef8dafc4fe11b3ad9384bc88f9282d}
+
+
+A constructor. 
+
+\hypertarget{namespacegft_1_1Image32_a8af9ff5a2bd012ec196a0c1a2ee70d8c}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Image32\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$$\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a8af9ff5a2bd012ec196a0c1a2ee70d8c}
+
+
+A destructor. 
+
+\hypertarget{namespacegft_1_1Image32_a4f0d74d9624a853cfc4ad98dd89ba1f9}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Draw\-Line\-D\-D\-A@{Draw\-Line\-D\-D\-A}}
+\index{Draw\-Line\-D\-D\-A@{Draw\-Line\-D\-D\-A}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Draw\-Line\-D\-D\-A}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Image32\-::\-Draw\-Line\-D\-D\-A (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{xn, }
+\item[{int}]{yn, }
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a4f0d74d9624a853cfc4ad98dd89ba1f9}
+\hypertarget{namespacegft_1_1Image32_a2f2526c9e47451a20ad5a0ef5af4283e}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Draw\-Rectangle@{Draw\-Rectangle}}
+\index{Draw\-Rectangle@{Draw\-Rectangle}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Draw\-Rectangle}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Image32\-::\-Draw\-Rectangle (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{int}]{x1, }
+\item[{int}]{y1, }
+\item[{int}]{x2, }
+\item[{int}]{y2, }
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a2f2526c9e47451a20ad5a0ef5af4283e}
+\hypertarget{namespacegft_1_1Image32_a750d825c8a367d711b92b5fd517b0c95}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Get\-Maximum\-Value@{Get\-Maximum\-Value}}
+\index{Get\-Maximum\-Value@{Get\-Maximum\-Value}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Get\-Maximum\-Value}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Image32\-::\-Get\-Maximum\-Value (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a750d825c8a367d711b92b5fd517b0c95}
+\hypertarget{namespacegft_1_1Image32_a636e6a116ad8d8ed2d165fe6c418abd9}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Get\-Minimum\-Value@{Get\-Minimum\-Value}}
+\index{Get\-Minimum\-Value@{Get\-Minimum\-Value}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Get\-Minimum\-Value}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Image32\-::\-Get\-Minimum\-Value (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a636e6a116ad8d8ed2d165fe6c418abd9}
+\hypertarget{namespacegft_1_1Image32_a673f7fb9c237e0897132e35fd02d00d7}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Image\-Magnitude@{Image\-Magnitude}}
+\index{Image\-Magnitude@{Image\-Magnitude}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Image\-Magnitude}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Image\-Magnitude (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{imgx, }
+\item[{Image32 $\ast$}]{imgy}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a673f7fb9c237e0897132e35fd02d00d7}
+\hypertarget{namespacegft_1_1Image32_a4d4f4345c1fcd3f53f7cdb2bbcd5f5df}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Is\-Valid\-Pixel@{Is\-Valid\-Pixel}}
+\index{Is\-Valid\-Pixel@{Is\-Valid\-Pixel}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Is\-Valid\-Pixel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Image32\-::\-Is\-Valid\-Pixel (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a4d4f4345c1fcd3f53f7cdb2bbcd5f5df}
+\hypertarget{namespacegft_1_1Image32_a2d12581cb7829426c3a3401c0a45e7ef}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Linear\-Filter@{Linear\-Filter}}
+\index{Linear\-Filter@{Linear\-Filter}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Linear\-Filter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Linear\-Filter (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{Kernel\-::\-Kernel $\ast$}]{K}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a2d12581cb7829426c3a3401c0a45e7ef}
+\hypertarget{namespacegft_1_1Image32_a9a6ebcc61becc0cf51d7f5e2b00a2b13}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Read@{Read}}
+\index{Read@{Read}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Read}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Read (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a9a6ebcc61becc0cf51d7f5e2b00a2b13}
+\hypertarget{namespacegft_1_1Image32_a438912502a65d8184ca8281f54732b04}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Set@{Set}}
+\index{Set@{Set}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Set}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Image32\-::\-Set (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a438912502a65d8184ca8281f54732b04}
+\hypertarget{namespacegft_1_1Image32_aa1dc6b37e4b078f6a7957e1f4599fec6}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Sobel\-Filter@{Sobel\-Filter}}
+\index{Sobel\-Filter@{Sobel\-Filter}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Sobel\-Filter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Sobel\-Filter (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_aa1dc6b37e4b078f6a7957e1f4599fec6}
+\hypertarget{namespacegft_1_1Image32_a5de6c6d8b8af8c7231719f7fd368c34c}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Threshold@{Threshold}}
+\index{Threshold@{Threshold}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Threshold}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32} $\ast$ gft\-::\-Image32\-::\-Threshold (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{int}]{L, }
+\item[{int}]{H}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a5de6c6d8b8af8c7231719f7fd368c34c}
+\hypertarget{namespacegft_1_1Image32_a505d58287ec93993f052b3790a474368}{\index{gft\-::\-Image32@{gft\-::\-Image32}!Write@{Write}}
+\index{Write@{Write}!gft::Image32@{gft\-::\-Image32}}
+\subsubsection[{Write}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Image32\-::\-Write (
+\begin{DoxyParamCaption}
+\item[{Image32 $\ast$}]{img, }
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Image32_a505d58287ec93993f052b3790a474368}

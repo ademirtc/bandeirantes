@@ -1,0 +1,98 @@
+\hypertarget{gft__scene32_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-scene32.h File Reference}
+\label{gft__scene32_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-scene32.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-scene32.\-h}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nifti1\-\_\-io.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-scene16.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-scene8.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Scene32_1_1__scene32}{gft\-::\-Scene32\-::\-\_\-scene32}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Scene32}{gft\-::\-Scene32}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1Scene32_1_1__scene32}{gft\-::\-Scene32\-::\-\_\-scene32} \hyperlink{namespacegft_1_1Scene32_ae492ac529c9149889605a7bebd647c46}{gft\-::\-Scene32\-::\-Scene32}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_ac5ddca32b712b667a1acf7826726791f}{gft\-::\-Scene32\-::\-Create} (int xsize, int ysize, int zsize)
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a7fe14573de0e82544f799c67386071e0}{gft\-::\-Scene32\-::\-Create} (Scene32 $\ast$scn)
+\begin{DoxyCompactList}\small\item\em A constructor taking a reference scene as template. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1Scene32_ac2981ab08e433d5b115b47814a407c5e}{gft\-::\-Scene32\-::\-Destroy} (Scene32 $\ast$$\ast$scn)
+\begin{DoxyCompactList}\small\item\em A destructor. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1Scene32_ab2f59dd2231ae82cdebc6dfe571e8f1d}{gft\-::\-Scene32\-::\-Copy} (Scene32 $\ast$dest, Scene32 $\ast$src)
+\item 
+void \hyperlink{namespacegft_1_1Scene32_a331a6e7fad80ba2af66ce45c06e938c8}{gft\-::\-Scene32\-::\-Copy} (Scene32 $\ast$dest, Scene32 $\ast$src, Voxel v)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_aeb1c221c798ad626f2b00617a1075d88}{gft\-::\-Scene32\-::\-Clone} (Scene32 $\ast$scn)
+\begin{DoxyCompactList}\small\item\em A copy constructor. \end{DoxyCompactList}\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_ad1f1803253126b2a4ccfe0490de71a8b}{gft\-::\-Scene32\-::\-Sub\-Scene} (Scene32 $\ast$scn, Voxel l, Voxel h)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a1ad4156074f32a49f535e605e0c5fac2}{gft\-::\-Scene32\-::\-Sub\-Scene} (Scene32 $\ast$scn, int xl, int yl, int zl, int xh, int yh, int zh)
+\item 
+void \hyperlink{namespacegft_1_1Scene32_a9ef7bcb587e520beed0b5998a3de1a6f}{gft\-::\-Scene32\-::\-Fill} (Scene32 $\ast$scn, int value)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a6537c07a9f2d88cece6cbc39f7eb62fb}{gft\-::\-Scene32\-::\-Read} (char $\ast$filename)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a6fb1f7e5a4203fd1fa2e93759d3f5669}{gft\-::\-Scene32\-::\-Read\-Compressed} (char $\ast$filename)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a00fa51d5f6bc9fec06fa2546557592e0}{gft\-::\-Scene32\-::\-Read\-Nifti1} (char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1Scene32_a3cdc54552852f28e23be4a01206f9e36}{gft\-::\-Scene32\-::\-Write} (Scene32 $\ast$scn, char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1Scene32_ac74af9c8d4eb8b372549030669a9a0d3}{gft\-::\-Scene32\-::\-Write\-Compressed} (Scene32 $\ast$scn, char $\ast$filename)
+\item 
+void \hyperlink{namespacegft_1_1Scene32_a1c722e59752b3c56f118bdabd2bdf252}{gft\-::\-Scene32\-::\-Write\-Nifti1} (Scene32 $\ast$scn, char $\ast$filename)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_a017bcdc4d8c5fba5346c3e2a5d3ad37f}{gft\-::\-Scene32\-::\-Get\-Value} (Scene32 $\ast$scn, Voxel v)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_a141e62930103ac067fc168b3cd17e6dd}{gft\-::\-Scene32\-::\-Get\-Value} (Scene32 $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_adf53f51fa22c17ab4d23d1b5c8d1b6f2}{gft\-::\-Scene32\-::\-Get\-Value} (Scene32 $\ast$scn, int x, int y, int z)
+\item 
+float \hyperlink{namespacegft_1_1Scene32_a3f75cdc6d9b6c4e14609d0157846a978}{gft\-::\-Scene32\-::\-Get\-Value\-\_\-trilinear} (Scene32 $\ast$scn, float x, float y, float z)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_acf97b745be3741a55e02c16c5d18a027}{gft\-::\-Scene32\-::\-Get\-Value\-\_\-nn} (Scene32 $\ast$scn, float x, float y, float z)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_ae2cc79248b84cc16ab9f8194085ed49e}{gft\-::\-Scene32\-::\-Get\-Address\-X} (Scene32 $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_a3bc096ad08f2a7ea5c2f6ec9a6e2a880}{gft\-::\-Scene32\-::\-Get\-Address\-Y} (Scene32 $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_ad1da4079cc29934d63278d80adff7828}{gft\-::\-Scene32\-::\-Get\-Address\-Z} (Scene32 $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_a5d3e6ded9b488b4842302e37f17964b5}{gft\-::\-Scene32\-::\-Get\-Voxel\-Address} (Scene32 $\ast$scn, Voxel v)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_aa00a9028f5b6fbada5e003d16fc6570d}{gft\-::\-Scene32\-::\-Get\-Voxel\-Address} (Scene32 $\ast$scn, int x, int y, int z)
+\item 
+bool \hyperlink{namespacegft_1_1Scene32_a8506af9883a0737676748f2c05e77484}{gft\-::\-Scene32\-::\-Is\-Valid\-Voxel} (Scene32 $\ast$scn, int x, int y, int z)
+\item 
+bool \hyperlink{namespacegft_1_1Scene32_a798416bd53573a35e57585322492b3d3}{gft\-::\-Scene32\-::\-Is\-Valid\-Voxel} (Scene32 $\ast$scn, Voxel v)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_aa2fd8bff6d4f29fa2a21a3db3bc24bc1}{gft\-::\-Scene32\-::\-Get\-Maximum\-Value} (Scene32 $\ast$scn)
+\item 
+int \hyperlink{namespacegft_1_1Scene32_a4f746fbae7bf0005e87e583ba40e3be3}{gft\-::\-Scene32\-::\-Get\-Minimum\-Value} (Scene32 $\ast$scn)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a21028252586e6400cb426dcd9b3b0541}{gft\-::\-Scene32\-::\-M\-B\-B} (Scene32 $\ast$scn)
+\item 
+void \hyperlink{namespacegft_1_1Scene32_a200a19f166412659da00232760759fef}{gft\-::\-Scene32\-::\-M\-B\-B} (Scene32 $\ast$scn, Voxel $\ast$l, Voxel $\ast$h)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a0f25d40f8ec80639c307aeaaaba8a6f6}{gft\-::\-Scene32\-::\-Add\-Frame} (Scene32 $\ast$scn, int sz, int value)
+\item 
+Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene32_a62c8a9345bd7daabfa1c11bd53c09d2e}{gft\-::\-Scene32\-::\-Rem\-Frame} (Scene32 $\ast$fscn, int sz)
+\item 
+Scene16\-::\-Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene32_a39783d154b1e2ccd9abb7713ce07c366}{gft\-::\-Scene32\-::\-Convert\-To16} (Scene32 $\ast$scn)
+\item 
+Scene8\-::\-Scene8 $\ast$ \hyperlink{namespacegft_1_1Scene32_a194c66681e120f6af6cac8939d4cecee}{gft\-::\-Scene32\-::\-Convert\-To8} (Scene32 $\ast$scn)
+\end{DoxyCompactItemize}

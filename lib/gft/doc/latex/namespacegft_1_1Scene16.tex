@@ -1,0 +1,498 @@
+\hypertarget{namespacegft_1_1Scene16}{\section{gft\-:\-:Scene16 Namespace Reference}
+\label{namespacegft_1_1Scene16}\index{gft\-::\-Scene16@{gft\-::\-Scene16}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Scene16_1_1__scene16}{\-\_\-scene16}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1Scene16_1_1__scene16}{gft\-::\-Scene16\-::\-\_\-scene16} \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1Curve_acc891f63f04c17f7b2cafe7ed9ecffdb}{Curve\-::\-Curve} $\ast$ \hyperlink{namespacegft_1_1Scene16_a4348db9e82ed5b133df9c6bcc9730cc8}{Histogram} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int binwidth)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_a549e2be62ddbc808f15f2618a72225a8}{Linear\-Stretchinplace} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int omin, int omax, int nmin, int nmax)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_afc66938b527550aca75ae95448bd1b31}{Linear\-Stretch} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int omin, int omax, int nmin, int nmax)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a5670ec6f80a34562bd9b1d841ce9d50b}{Create} (int xsize, int ysize, int zsize)
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a060e453508078f16d404483157275cfd}{Create} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\begin{DoxyCompactList}\small\item\em A constructor taking a reference scene as template. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1Scene16_af18edf0cca9663e969d241e32a26f114}{Destroy} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$$\ast$scn)
+\begin{DoxyCompactList}\small\item\em A destructor. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a7793ae34e03ab37cb41bf0ac7a7c4090}{Clone} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\begin{DoxyCompactList}\small\item\em A copy constructor. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a96823e843813d5501a21ccac32ab56ef}{Sub\-Scene} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} l, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} h)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a5ff57462597822aaef548bef239655d0}{Sub\-Scene} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int xl, int yl, int zl, int xh, int yh, int zh)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_aadf3d423473e161451a723fb19f26747}{Copy} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$dest, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$src)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_a8634a924f565018cd693cf78dc815898}{Copy} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$dest, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$src, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} v)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_a3da9fb32f1de72ea5eb7f5e60c198bfa}{Fill} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, \hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} value)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_a86ae2fa9229c928fd55c982f54dba374}{Write} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, char $\ast$filename)
+\item 
+\hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} \hyperlink{namespacegft_1_1Scene16_ad7874fa92918c9b05e0728bacbbd41d3}{Get\-Value\-\_\-nn} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, float x, float y, float z)
+\item 
+\hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} \hyperlink{namespacegft_1_1Scene16_ad5520ba6e50bbb048fb8b01303f9e621}{Get\-Maximum\-Value} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\item 
+\hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} \hyperlink{namespacegft_1_1Scene16_a1de25b9ee5b803367aadbe1573dd3ffa}{Get\-Minimum\-Value} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_adeaf2e174a45dd586331749b79d78917}{M\-B\-B} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} $\ast$l, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} $\ast$h)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a18f87c7a63a930bb0ac931b676a269fa}{M\-B\-B} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_ac95ce918b74bc22306f906049c156a21}{Add\-Frame} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int sz, \hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} value)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_ada1a586124aa434cf15c4ee5ba412591}{Rem\-Frame} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$fscn, int sz)
+\item 
+\hyperlink{namespacegft_1_1Scene32_ae492ac529c9149889605a7bebd647c46}{Scene32\-::\-Scene32} $\ast$ \hyperlink{namespacegft_1_1Scene16_ac57d292a3ba37d27b57a2947c403a862}{Convert\-To32} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\item 
+\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$ \hyperlink{namespacegft_1_1Scene16_ae2fead2700048ed33fbabfd3bcd956c0}{Convert\-To8} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a5bf49e8de124b3110ee2726e7ceddbd8}{Sub} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_aaa057e39dd30be9221ee5dd68dddc354}{Subinplace} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a25c40b6ee082f1c479f541ce6eecf0b7}{Add} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_aecca7468cb140144d150052c167bfff6}{Add} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, \hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} value)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_aecfa67c7f03ac1ec34406e626fdc2a13}{Addinplace} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_ae51eeb82a1aefeb23e04f3d1b1351c49}{Mult} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a9de8f8cfaded8f90262b142f9b452f3a}{Or} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_aa7871813f3ad11eb81f781f9afdf08b4}{Orinplace} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_ac3e1cbe9db6b3a8f452ffdc41c68ee93}{And} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_a3ebf6940f293328c6bcea356b582bd94}{X\-Or} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn1, \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn2)
+\item 
+\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$ \hyperlink{namespacegft_1_1Scene16_af0a853d59a778ecdfa5a5cb94366bb77}{Complement} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn)
+\item 
+\hyperlink{namespacegft_1_1Scene8_a78f9a172f8a505f9577adac7f85bc009}{Scene8\-::\-Scene8} $\ast$ \hyperlink{namespacegft_1_1Scene16_a5a87aee8b1b7decd6ee96cbd6a964fca}{Threshold} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int lower, int higher)
+\item 
+\hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} \hyperlink{namespacegft_1_1Scene16_a6f7b805c82d685e64d05addd3eb080ed}{Get\-Value} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} v)
+\item 
+\hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} \hyperlink{namespacegft_1_1Scene16_a33c2daad8034fcabc9c49cd8b3cac6c3}{Get\-Value} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int p)
+\item 
+\hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{ushort} \hyperlink{namespacegft_1_1Scene16_a2b657fdd4e43bcdaa4352933ac5ff0e8}{Get\-Value} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int x, int y, int z)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ad89b446bbffa7f1c50ef346942f3d226}{Get\-Address\-X} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_afdebe8bff4de2db6d0158bf90555779d}{Get\-Address\-Y} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ac580f50ee7d9460976e950b002ce41ea}{Get\-Address\-Z} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ade630f4948df38db477427b7e47a685b}{Get\-Voxel\-Address} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} v)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ad23eb7a26580afe79537b979e3f327c4}{Get\-Voxel\-Address} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int x, int y, int z)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1Scene16_aabeec9ed19938564887ba79c5d88204f}{Is\-Valid\-Voxel} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, int x, int y, int z)
+\item 
+\hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{bool} \hyperlink{namespacegft_1_1Scene16_ad9004888b2b652cb25ff067745e59872}{Is\-Valid\-Voxel} (\hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{Scene16} $\ast$scn, \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{Voxel} v)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Scene16@{Scene16}}
+\index{Scene16@{Scene16}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Scene16}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Scene16\-::\-\_\-scene16}  {\bf gft\-::\-Scene16\-::\-Scene16}}}\label{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}
+It supports both linear and three-\/dimensional access (i.\-e., scn-\/$>$data\mbox{[}p\mbox{]} or scn-\/$>$array\mbox{[}z\mbox{]}\mbox{[}y\mbox{]}\mbox{[}x\mbox{]} for a voxel (x,y,z) at address p=x+y$\ast$xsize+z$\ast$xsize$\ast$ysize). 
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1Scene16_a25c40b6ee082f1c479f541ce6eecf0b7}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Add@{Add}}
+\index{Add@{Add}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Add}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Add (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a25c40b6ee082f1c479f541ce6eecf0b7}
+\hypertarget{namespacegft_1_1Scene16_aecca7468cb140144d150052c167bfff6}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Add@{Add}}
+\index{Add@{Add}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Add}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Add (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{ushort}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_aecca7468cb140144d150052c167bfff6}
+\hypertarget{namespacegft_1_1Scene16_ac95ce918b74bc22306f906049c156a21}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Add\-Frame@{Add\-Frame}}
+\index{Add\-Frame@{Add\-Frame}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Add\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Add\-Frame (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{sz, }
+\item[{ushort}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ac95ce918b74bc22306f906049c156a21}
+\hypertarget{namespacegft_1_1Scene16_aecfa67c7f03ac1ec34406e626fdc2a13}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Addinplace@{Addinplace}}
+\index{Addinplace@{Addinplace}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Addinplace}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Addinplace (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_aecfa67c7f03ac1ec34406e626fdc2a13}
+Inplace version. \hypertarget{namespacegft_1_1Scene16_ac3e1cbe9db6b3a8f452ffdc41c68ee93}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!And@{And}}
+\index{And@{And}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{And}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-And (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ac3e1cbe9db6b3a8f452ffdc41c68ee93}
+\hypertarget{namespacegft_1_1Scene16_a7793ae34e03ab37cb41bf0ac7a7c4090}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Clone@{Clone}}
+\index{Clone@{Clone}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Clone}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Clone (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a7793ae34e03ab37cb41bf0ac7a7c4090}
+
+
+A copy constructor. 
+
+\hypertarget{namespacegft_1_1Scene16_af0a853d59a778ecdfa5a5cb94366bb77}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Complement@{Complement}}
+\index{Complement@{Complement}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Complement}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Complement (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_af0a853d59a778ecdfa5a5cb94366bb77}
+\hypertarget{namespacegft_1_1Scene16_ac57d292a3ba37d27b57a2947c403a862}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Convert\-To32@{Convert\-To32}}
+\index{Convert\-To32@{Convert\-To32}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Convert\-To32}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene32\-::\-Scene32} $\ast$ gft\-::\-Scene16\-::\-Convert\-To32 (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ac57d292a3ba37d27b57a2947c403a862}
+\hypertarget{namespacegft_1_1Scene16_ae2fead2700048ed33fbabfd3bcd956c0}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Convert\-To8@{Convert\-To8}}
+\index{Convert\-To8@{Convert\-To8}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Convert\-To8}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene8\-::\-Scene8} $\ast$ gft\-::\-Scene16\-::\-Convert\-To8 (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ae2fead2700048ed33fbabfd3bcd956c0}
+\hypertarget{namespacegft_1_1Scene16_aadf3d423473e161451a723fb19f26747}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Copy@{Copy}}
+\index{Copy@{Copy}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Copy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Copy (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{dest, }
+\item[{Scene16 $\ast$}]{src}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_aadf3d423473e161451a723fb19f26747}
+\hypertarget{namespacegft_1_1Scene16_a8634a924f565018cd693cf78dc815898}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Copy@{Copy}}
+\index{Copy@{Copy}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Copy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Copy (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{dest, }
+\item[{Scene16 $\ast$}]{src, }
+\item[{Voxel}]{v}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a8634a924f565018cd693cf78dc815898}
+\hypertarget{namespacegft_1_1Scene16_a5670ec6f80a34562bd9b1d841ce9d50b}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Create@{Create}}
+\index{Create@{Create}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{xsize, }
+\item[{int}]{ysize, }
+\item[{int}]{zsize}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a5670ec6f80a34562bd9b1d841ce9d50b}
+
+
+A constructor. 
+
+\hypertarget{namespacegft_1_1Scene16_a060e453508078f16d404483157275cfd}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Create@{Create}}
+\index{Create@{Create}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a060e453508078f16d404483157275cfd}
+
+
+A constructor taking a reference scene as template. 
+
+\hypertarget{namespacegft_1_1Scene16_af18edf0cca9663e969d241e32a26f114}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$$\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_af18edf0cca9663e969d241e32a26f114}
+
+
+A destructor. 
+
+\hypertarget{namespacegft_1_1Scene16_a3da9fb32f1de72ea5eb7f5e60c198bfa}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Fill@{Fill}}
+\index{Fill@{Fill}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Fill}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Fill (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{ushort}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a3da9fb32f1de72ea5eb7f5e60c198bfa}
+\hypertarget{namespacegft_1_1Scene16_ad89b446bbffa7f1c50ef346942f3d226}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Address\-X@{Get\-Address\-X}}
+\index{Get\-Address\-X@{Get\-Address\-X}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Address\-X}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene16\-::\-Get\-Address\-X (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_ad89b446bbffa7f1c50ef346942f3d226}
+\hypertarget{namespacegft_1_1Scene16_afdebe8bff4de2db6d0158bf90555779d}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Address\-Y@{Get\-Address\-Y}}
+\index{Get\-Address\-Y@{Get\-Address\-Y}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Address\-Y}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene16\-::\-Get\-Address\-Y (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_afdebe8bff4de2db6d0158bf90555779d}
+\hypertarget{namespacegft_1_1Scene16_ac580f50ee7d9460976e950b002ce41ea}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Address\-Z@{Get\-Address\-Z}}
+\index{Get\-Address\-Z@{Get\-Address\-Z}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Address\-Z}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene16\-::\-Get\-Address\-Z (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_ac580f50ee7d9460976e950b002ce41ea}
+\hypertarget{namespacegft_1_1Scene16_ad5520ba6e50bbb048fb8b01303f9e621}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Maximum\-Value@{Get\-Maximum\-Value}}
+\index{Get\-Maximum\-Value@{Get\-Maximum\-Value}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Maximum\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ushort} gft\-::\-Scene16\-::\-Get\-Maximum\-Value (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ad5520ba6e50bbb048fb8b01303f9e621}
+\hypertarget{namespacegft_1_1Scene16_a1de25b9ee5b803367aadbe1573dd3ffa}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Minimum\-Value@{Get\-Minimum\-Value}}
+\index{Get\-Minimum\-Value@{Get\-Minimum\-Value}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Minimum\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ushort} gft\-::\-Scene16\-::\-Get\-Minimum\-Value (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a1de25b9ee5b803367aadbe1573dd3ffa}
+\hypertarget{namespacegft_1_1Scene16_a6f7b805c82d685e64d05addd3eb080ed}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Value@{Get\-Value}}
+\index{Get\-Value@{Get\-Value}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ushort} gft\-::\-Scene16\-::\-Get\-Value (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{Voxel}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_a6f7b805c82d685e64d05addd3eb080ed}
+\hypertarget{namespacegft_1_1Scene16_a33c2daad8034fcabc9c49cd8b3cac6c3}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Value@{Get\-Value}}
+\index{Get\-Value@{Get\-Value}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ushort} gft\-::\-Scene16\-::\-Get\-Value (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_a33c2daad8034fcabc9c49cd8b3cac6c3}
+\hypertarget{namespacegft_1_1Scene16_a2b657fdd4e43bcdaa4352933ac5ff0e8}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Value@{Get\-Value}}
+\index{Get\-Value@{Get\-Value}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Value}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ushort} gft\-::\-Scene16\-::\-Get\-Value (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_a2b657fdd4e43bcdaa4352933ac5ff0e8}
+\hypertarget{namespacegft_1_1Scene16_ad7874fa92918c9b05e0728bacbbd41d3}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Value\-\_\-nn@{Get\-Value\-\_\-nn}}
+\index{Get\-Value\-\_\-nn@{Get\-Value\-\_\-nn}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Value\-\_\-nn}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ushort} gft\-::\-Scene16\-::\-Get\-Value\-\_\-nn (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{z}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ad7874fa92918c9b05e0728bacbbd41d3}
+\hypertarget{namespacegft_1_1Scene16_ade630f4948df38db477427b7e47a685b}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Voxel\-Address@{Get\-Voxel\-Address}}
+\index{Get\-Voxel\-Address@{Get\-Voxel\-Address}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Voxel\-Address}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene16\-::\-Get\-Voxel\-Address (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{Voxel}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_ade630f4948df38db477427b7e47a685b}
+\hypertarget{namespacegft_1_1Scene16_ad23eb7a26580afe79537b979e3f327c4}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Get\-Voxel\-Address@{Get\-Voxel\-Address}}
+\index{Get\-Voxel\-Address@{Get\-Voxel\-Address}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Get\-Voxel\-Address}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Scene16\-::\-Get\-Voxel\-Address (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_ad23eb7a26580afe79537b979e3f327c4}
+\hypertarget{namespacegft_1_1Scene16_a4348db9e82ed5b133df9c6bcc9730cc8}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Histogram@{Histogram}}
+\index{Histogram@{Histogram}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Histogram}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Curve\-::\-Curve} $\ast$ gft\-::\-Scene16\-::\-Histogram (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{binwidth}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a4348db9e82ed5b133df9c6bcc9730cc8}
+\hypertarget{namespacegft_1_1Scene16_aabeec9ed19938564887ba79c5d88204f}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Is\-Valid\-Voxel@{Is\-Valid\-Voxel}}
+\index{Is\-Valid\-Voxel@{Is\-Valid\-Voxel}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Is\-Valid\-Voxel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Scene16\-::\-Is\-Valid\-Voxel (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_aabeec9ed19938564887ba79c5d88204f}
+\hypertarget{namespacegft_1_1Scene16_ad9004888b2b652cb25ff067745e59872}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Is\-Valid\-Voxel@{Is\-Valid\-Voxel}}
+\index{Is\-Valid\-Voxel@{Is\-Valid\-Voxel}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Is\-Valid\-Voxel}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bool} gft\-::\-Scene16\-::\-Is\-Valid\-Voxel (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{Voxel}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1Scene16_ad9004888b2b652cb25ff067745e59872}
+\hypertarget{namespacegft_1_1Scene16_afc66938b527550aca75ae95448bd1b31}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Linear\-Stretch@{Linear\-Stretch}}
+\index{Linear\-Stretch@{Linear\-Stretch}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Linear\-Stretch}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Linear\-Stretch (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{omin, }
+\item[{int}]{omax, }
+\item[{int}]{nmin, }
+\item[{int}]{nmax}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_afc66938b527550aca75ae95448bd1b31}
+\hypertarget{namespacegft_1_1Scene16_a549e2be62ddbc808f15f2618a72225a8}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Linear\-Stretchinplace@{Linear\-Stretchinplace}}
+\index{Linear\-Stretchinplace@{Linear\-Stretchinplace}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Linear\-Stretchinplace}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Linear\-Stretchinplace (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{omin, }
+\item[{int}]{omax, }
+\item[{int}]{nmin, }
+\item[{int}]{nmax}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a549e2be62ddbc808f15f2618a72225a8}
+\hypertarget{namespacegft_1_1Scene16_adeaf2e174a45dd586331749b79d78917}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!M\-B\-B@{M\-B\-B}}
+\index{M\-B\-B@{M\-B\-B}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{M\-B\-B}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-M\-B\-B (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{Voxel $\ast$}]{l, }
+\item[{Voxel $\ast$}]{h}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_adeaf2e174a45dd586331749b79d78917}
+\hypertarget{namespacegft_1_1Scene16_a18f87c7a63a930bb0ac931b676a269fa}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!M\-B\-B@{M\-B\-B}}
+\index{M\-B\-B@{M\-B\-B}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{M\-B\-B}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-M\-B\-B (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a18f87c7a63a930bb0ac931b676a269fa}
+\hypertarget{namespacegft_1_1Scene16_ae51eeb82a1aefeb23e04f3d1b1351c49}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Mult@{Mult}}
+\index{Mult@{Mult}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Mult}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Mult (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ae51eeb82a1aefeb23e04f3d1b1351c49}
+\hypertarget{namespacegft_1_1Scene16_a9de8f8cfaded8f90262b142f9b452f3a}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Or@{Or}}
+\index{Or@{Or}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Or}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Or (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a9de8f8cfaded8f90262b142f9b452f3a}
+\hypertarget{namespacegft_1_1Scene16_aa7871813f3ad11eb81f781f9afdf08b4}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Orinplace@{Orinplace}}
+\index{Orinplace@{Orinplace}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Orinplace}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Orinplace (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_aa7871813f3ad11eb81f781f9afdf08b4}
+Inplace version. \hypertarget{namespacegft_1_1Scene16_ada1a586124aa434cf15c4ee5ba412591}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Rem\-Frame@{Rem\-Frame}}
+\index{Rem\-Frame@{Rem\-Frame}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Rem\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Rem\-Frame (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{fscn, }
+\item[{int}]{sz}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_ada1a586124aa434cf15c4ee5ba412591}
+\hypertarget{namespacegft_1_1Scene16_a5bf49e8de124b3110ee2726e7ceddbd8}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Sub@{Sub}}
+\index{Sub@{Sub}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Sub}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Sub (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a5bf49e8de124b3110ee2726e7ceddbd8}
+\hypertarget{namespacegft_1_1Scene16_aaa057e39dd30be9221ee5dd68dddc354}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Subinplace@{Subinplace}}
+\index{Subinplace@{Subinplace}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Subinplace}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Subinplace (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_aaa057e39dd30be9221ee5dd68dddc354}
+Inplace version. \hypertarget{namespacegft_1_1Scene16_a96823e843813d5501a21ccac32ab56ef}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Sub\-Scene@{Sub\-Scene}}
+\index{Sub\-Scene@{Sub\-Scene}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Sub\-Scene}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Sub\-Scene (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{Voxel}]{l, }
+\item[{Voxel}]{h}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a96823e843813d5501a21ccac32ab56ef}
+\hypertarget{namespacegft_1_1Scene16_a5ff57462597822aaef548bef239655d0}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Sub\-Scene@{Sub\-Scene}}
+\index{Sub\-Scene@{Sub\-Scene}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Sub\-Scene}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-Sub\-Scene (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{xl, }
+\item[{int}]{yl, }
+\item[{int}]{zl, }
+\item[{int}]{xh, }
+\item[{int}]{yh, }
+\item[{int}]{zh}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a5ff57462597822aaef548bef239655d0}
+\hypertarget{namespacegft_1_1Scene16_a5a87aee8b1b7decd6ee96cbd6a964fca}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Threshold@{Threshold}}
+\index{Threshold@{Threshold}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Threshold}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene8\-::\-Scene8} $\ast$ gft\-::\-Scene16\-::\-Threshold (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{int}]{lower, }
+\item[{int}]{higher}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a5a87aee8b1b7decd6ee96cbd6a964fca}
+\hypertarget{namespacegft_1_1Scene16_a86ae2fa9229c928fd55c982f54dba374}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!Write@{Write}}
+\index{Write@{Write}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{Write}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Scene16\-::\-Write (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn, }
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a86ae2fa9229c928fd55c982f54dba374}
+\hypertarget{namespacegft_1_1Scene16_a3ebf6940f293328c6bcea356b582bd94}{\index{gft\-::\-Scene16@{gft\-::\-Scene16}!X\-Or@{X\-Or}}
+\index{X\-Or@{X\-Or}!gft::Scene16@{gft\-::\-Scene16}}
+\subsubsection[{X\-Or}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Scene16} $\ast$ gft\-::\-Scene16\-::\-X\-Or (
+\begin{DoxyParamCaption}
+\item[{Scene16 $\ast$}]{scn1, }
+\item[{Scene16 $\ast$}]{scn2}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1Scene16_a3ebf6940f293328c6bcea356b582bd94}

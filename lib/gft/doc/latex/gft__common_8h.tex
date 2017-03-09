@@ -1,0 +1,237 @@
+\hypertarget{gft__common_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-common.h File Reference}
+\label{gft__common_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-common.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-common.\-h}}
+}
+
+
+Header file for common definitions and function prototypes.  
+
+
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$malloc.\-h$>$}\\*
+{\ttfamily \#include $<$math.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$limits.\-h$>$}\\*
+{\ttfamily \#include $<$float.\-h$>$}\\*
+{\ttfamily \#include $<$sys/time.\-h$>$}\\*
+{\ttfamily \#include $<$xmmintrin.\-h$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+union \hyperlink{uniongft_1_1__voxel}{gft\-::\-\_\-voxel}
+\item 
+struct \hyperlink{structgft_1_1__pixel}{gft\-::\-\_\-pixel}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{gft__common_8h_a53f274963f4ee4586f05278c32a1fd07}{M\-S\-G1}~\char`\"{}Cannot allocate memory space\char`\"{}
+\item 
+\#define \hyperlink{gft__common_8h_a9affb724a6a5ef8064f4b4299e0062e9}{M\-S\-G2}~\char`\"{}Cannot open file\char`\"{}
+\item 
+\#define \hyperlink{gft__common_8h_acce559efe63c30861e87a127aa0987ef}{M\-S\-G3}~\char`\"{}Invalid option\char`\"{}
+\item 
+\#define \hyperlink{gft__common_8h_a0244235a999d8bc7d5486f20d7d22ff7}{M\-S\-G4}~\char`\"{}Could not locate nifti header\char`\"{}
+\item 
+\#define \hyperlink{gft__common_8h_a014bf5d427c76a29909cb4fe359d7395}{M\-S\-G5}~\char`\"{}Nifti-\/1 data type not supported\char`\"{}
+\item 
+\#define \hyperlink{gft__common_8h_a598a3330b3c21701223ee0ca14316eca}{P\-I}~3.\-1415926536
+\item 
+\#define \hyperlink{gft__common_8h_a86d4434206a75506f1ba5f0ab74d92c6}{I\-N\-T\-E\-R\-I\-O\-R}~0
+\item 
+\#define \hyperlink{gft__common_8h_ae8a6b5cbf51ab11f460c1bd92089e573}{E\-X\-T\-E\-R\-I\-O\-R}~1
+\item 
+\#define \hyperlink{gft__common_8h_a85ddca800985505ab1036cf0d1be748b}{B\-O\-T\-H}~2
+\item 
+\#define \hyperlink{gft__common_8h_a87b537f5fa5c109d3c05c13d6b18f382}{W\-H\-I\-T\-E}~0
+\item 
+\#define \hyperlink{gft__common_8h_ae5f70677050eecd8909e0248e07b9e73}{G\-R\-A\-Y}~1
+\item 
+\#define \hyperlink{gft__common_8h_a7b3b25cba33b07c303f3060fe41887f6}{B\-L\-A\-C\-K}~2
+\item 
+\#define \hyperlink{gft__common_8h_a263efce0e5cda1d387a1a43f94715445}{N\-I\-L}~-\/1
+\item 
+\#define \hyperlink{gft__common_8h_ad740ac3e6aec81148cd0a55423bdd4e2}{I\-N\-C\-R\-E\-A\-S\-I\-N\-G}~1
+\item 
+\#define \hyperlink{gft__common_8h_a519e79c95bbab9bffe79f1f0a5da5f4a}{D\-E\-C\-R\-E\-A\-S\-I\-N\-G}~0
+\item 
+\#define \hyperlink{gft__common_8h_a374328334281d6863559da9b44f127e0}{Epsilon}~1\-E-\/05
+\item 
+\#define \hyperlink{gft__common_8h_aacc3ee1a7f283f8ef65cea31f4436a95}{M\-A\-X}(x, y)~(((x) $>$ (y))?(x)\-:(y))
+\begin{DoxyCompactList}\small\item\em A macro that returns the maximum of {\itshape x} and {\itshape y}. \end{DoxyCompactList}\item 
+\#define \hyperlink{gft__common_8h_a74e75242132eaabbc1c512488a135926}{M\-I\-N}(x, y)~(((x) $<$ (y))?(x)\-:(y))
+\begin{DoxyCompactList}\small\item\em A macro that returns the minimum of {\itshape x} and {\itshape y}. \end{DoxyCompactList}\item 
+\#define \hyperlink{gft__common_8h_acd66e8cacf954c3bc3bba81d09425a12}{R\-O\-U\-N\-D}(x)~((x $<$ 0)?(int)(x-\/0.\-5)\-:(int)(x+0.\-5))
+\item 
+\#define \hyperlink{gft__common_8h_a8c5ff70b6b28cd0157c50a22406f92c4}{S\-I\-G\-N}(x)~((x $>$= 0)?1\-:-\/1)
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \hyperlink{namespacegft_a46216ea11b673fe8800c5666be2e5cc1}{gft\-::boolean} \hyperlink{namespacegft_a033dba4822661600b08d2bbf16879252}{gft\-::bool}
+\item 
+typedef unsigned short \hyperlink{namespacegft_a878518cf75338c097e2c8e9b10bfb00d}{gft\-::ushort}
+\item 
+typedef unsigned int \hyperlink{namespacegft_a4582b4dfe448021d46b76a75fb47799b}{gft\-::uint}
+\item 
+typedef unsigned char \hyperlink{namespacegft_a6411e297d5ac5aa9b91a37da00952197}{gft\-::uchar}
+\item 
+typedef struct timeval \hyperlink{namespacegft_af9c336df27e94c088477837089de57cf}{gft\-::timer}
+\item 
+typedef float \hyperlink{namespacegft_aefb7835e45e071d47ff9320a4015ad8f}{gft\-::v4sf}
+\begin{DoxyCompactList}\small\item\em Vector of four single floats. \end{DoxyCompactList}\item 
+typedef int \hyperlink{namespacegft_aba3889d81ba015326f093206316745b7}{gft\-::v4si}
+\begin{DoxyCompactList}\small\item\em Vector of four single integers. \end{DoxyCompactList}\item 
+typedef uchar \hyperlink{namespacegft_a8f84989647cef28b9a4861e651c0efd1}{gft\-::v8qi}
+\begin{DoxyCompactList}\small\item\em Vector of eight unsigned 8-\/bit integers. \end{DoxyCompactList}\item 
+typedef uchar \hyperlink{namespacegft_a146b2cce4e032edc85e179b693dbe5f7}{gft\-::v16qi}
+\begin{DoxyCompactList}\small\item\em Vector of sixteen unsigned 8-\/bit integers. \end{DoxyCompactList}\item 
+typedef ushort \hyperlink{namespacegft_ad8aa1dd830c817ab1974c6e4c1b28226}{gft\-::v8hi}
+\begin{DoxyCompactList}\small\item\em Vector of eight unsigned short integers. \end{DoxyCompactList}\item 
+typedef union \hyperlink{uniongft_1_1__voxel}{gft\-::\-\_\-voxel} \hyperlink{namespacegft_a16db894075bb714f877a3c5733772db6}{gft\-::\-Voxel}
+\item 
+typedef struct \hyperlink{structgft_1_1__pixel}{gft\-::\-\_\-pixel} \hyperlink{namespacegft_a92574f04d80bffa13cacefde2f266c14}{gft\-::\-Pixel}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{namespacegft_a46216ea11b673fe8800c5666be2e5cc1}{gft\-::boolean} \{ \hyperlink{namespacegft_a46216ea11b673fe8800c5666be2e5cc1af62c5372f4ab27de64940152597e29d9}{gft\-::false}, 
+\hyperlink{namespacegft_a46216ea11b673fe8800c5666be2e5cc1a67a7a3b7b088c1b0b77620ff2eeb9fc3}{gft\-::true}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{namespacegft_a5fdaa35ca4fb5b361349ad65df62f18d}{gft\-::\-Alloc\-Char\-Array} (int n)
+\item 
+uchar $\ast$ \hyperlink{namespacegft_a5019091af40bed4374b6017283935371}{gft\-::\-Alloc\-U\-Char\-Array} (int n)
+\begin{DoxyCompactList}\small\item\em It allocates 1\-D array of n characters. \end{DoxyCompactList}\item 
+ushort $\ast$ \hyperlink{namespacegft_a9092559de6e55ef73ff423a7e384fa31}{gft\-::\-Alloc\-U\-Short\-Array} (int n)
+\begin{DoxyCompactList}\small\item\em It allocates 1\-D array of n ushorts. \end{DoxyCompactList}\item 
+uint $\ast$ \hyperlink{namespacegft_a0b0afae6601a53d7ae797e9e84ea2943}{gft\-::\-Alloc\-U\-Int\-Array} (int n)
+\item 
+int $\ast$ \hyperlink{namespacegft_a0819a428b865b1c9f6195c43bf7a1a06}{gft\-::\-Alloc\-Int\-Array} (int n)
+\begin{DoxyCompactList}\small\item\em It allocates 1\-D array of n integers. \end{DoxyCompactList}\item 
+float $\ast$ \hyperlink{namespacegft_ac12cfe531311299124dee663341b144d}{gft\-::\-Alloc\-Float\-Array} (int n)
+\begin{DoxyCompactList}\small\item\em It allocates 1\-D array of n floats. \end{DoxyCompactList}\item 
+double $\ast$ \hyperlink{namespacegft_a7453f28bdf7db9da89f2da7844195889}{gft\-::\-Alloc\-Double\-Array} (int n)
+\item 
+void \hyperlink{namespacegft_a0f2a6bffb189beb38a7bcdc962a0a2c5}{gft\-::\-Free\-Int\-Array} (int $\ast$$\ast$a)
+\item 
+void \hyperlink{namespacegft_a5ec687d5e4384d55db997b3a66b852e7}{gft\-::\-Free\-Float\-Array} (float $\ast$$\ast$a)
+\item 
+void \hyperlink{namespacegft_abaf22a3821bbe3380cfd60ae79996c27}{gft\-::\-Free\-U\-Char\-Array} (uchar $\ast$$\ast$a)
+\item 
+void \hyperlink{namespacegft_aecdfb988241698a836ad3e2977b962cb}{gft\-::\-Free\-U\-Short\-Array} (ushort $\ast$$\ast$a)
+\item 
+void \hyperlink{namespacegft_a050094eb54bca97db90240d02835595c}{gft\-::\-Error} (char $\ast$msg, char $\ast$func)
+\begin{DoxyCompactList}\small\item\em It prints error message and exits the program. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_af1dd4eab5a649fc5a6b9d2c180bfca8c}{gft\-::\-Warning} (char $\ast$msg, char $\ast$func)
+\begin{DoxyCompactList}\small\item\em It prints warning message and leaves the routine. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_a51ce532a81292eb9a58459c4acafd8ca}{gft\-::\-Swap\-Int} (int $\ast$a, int $\ast$b)
+\begin{DoxyCompactList}\small\item\em It changes content between a and b. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_aa39bacf88e058b9f282868abec0a73f7}{gft\-::\-Swap\-Float} (float $\ast$a, float $\ast$b)
+\begin{DoxyCompactList}\small\item\em It changes content between a and b. \end{DoxyCompactList}\item 
+int \hyperlink{namespacegft_acb616184b19a85d20c201ddee209e954}{gft\-::\-N\-C\-Fgets} (char $\ast$s, int m, F\-I\-L\-E $\ast$f)
+\item 
+int \hyperlink{namespacegft_a9523e27c2d0a7b2186f024d9cd218a04}{gft\-::\-Random\-Integer} (int low, int high)
+\item 
+void \hyperlink{namespacegft_ae6903c75090e0a316cae6f37ade10cf2}{gft\-::\-Random\-Seed} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Header file for common definitions and function prototypes. 
+
+\subsection{Macro Definition Documentation}
+\hypertarget{gft__common_8h_a7b3b25cba33b07c303f3060fe41887f6}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!B\-L\-A\-C\-K@{B\-L\-A\-C\-K}}
+\index{B\-L\-A\-C\-K@{B\-L\-A\-C\-K}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{B\-L\-A\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}\#define B\-L\-A\-C\-K~2}}\label{gft__common_8h_a7b3b25cba33b07c303f3060fe41887f6}
+\hypertarget{gft__common_8h_a85ddca800985505ab1036cf0d1be748b}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!B\-O\-T\-H@{B\-O\-T\-H}}
+\index{B\-O\-T\-H@{B\-O\-T\-H}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{B\-O\-T\-H}]{\setlength{\rightskip}{0pt plus 5cm}\#define B\-O\-T\-H~2}}\label{gft__common_8h_a85ddca800985505ab1036cf0d1be748b}
+\hypertarget{gft__common_8h_a519e79c95bbab9bffe79f1f0a5da5f4a}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!D\-E\-C\-R\-E\-A\-S\-I\-N\-G@{D\-E\-C\-R\-E\-A\-S\-I\-N\-G}}
+\index{D\-E\-C\-R\-E\-A\-S\-I\-N\-G@{D\-E\-C\-R\-E\-A\-S\-I\-N\-G}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{D\-E\-C\-R\-E\-A\-S\-I\-N\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-E\-C\-R\-E\-A\-S\-I\-N\-G~0}}\label{gft__common_8h_a519e79c95bbab9bffe79f1f0a5da5f4a}
+\hypertarget{gft__common_8h_a374328334281d6863559da9b44f127e0}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!Epsilon@{Epsilon}}
+\index{Epsilon@{Epsilon}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{Epsilon}]{\setlength{\rightskip}{0pt plus 5cm}\#define Epsilon~1\-E-\/05}}\label{gft__common_8h_a374328334281d6863559da9b44f127e0}
+\hypertarget{gft__common_8h_ae8a6b5cbf51ab11f460c1bd92089e573}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!E\-X\-T\-E\-R\-I\-O\-R@{E\-X\-T\-E\-R\-I\-O\-R}}
+\index{E\-X\-T\-E\-R\-I\-O\-R@{E\-X\-T\-E\-R\-I\-O\-R}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{E\-X\-T\-E\-R\-I\-O\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-X\-T\-E\-R\-I\-O\-R~1}}\label{gft__common_8h_ae8a6b5cbf51ab11f460c1bd92089e573}
+\hypertarget{gft__common_8h_ae5f70677050eecd8909e0248e07b9e73}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!G\-R\-A\-Y@{G\-R\-A\-Y}}
+\index{G\-R\-A\-Y@{G\-R\-A\-Y}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{G\-R\-A\-Y}]{\setlength{\rightskip}{0pt plus 5cm}\#define G\-R\-A\-Y~1}}\label{gft__common_8h_ae5f70677050eecd8909e0248e07b9e73}
+\hypertarget{gft__common_8h_ad740ac3e6aec81148cd0a55423bdd4e2}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!I\-N\-C\-R\-E\-A\-S\-I\-N\-G@{I\-N\-C\-R\-E\-A\-S\-I\-N\-G}}
+\index{I\-N\-C\-R\-E\-A\-S\-I\-N\-G@{I\-N\-C\-R\-E\-A\-S\-I\-N\-G}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{I\-N\-C\-R\-E\-A\-S\-I\-N\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-N\-C\-R\-E\-A\-S\-I\-N\-G~1}}\label{gft__common_8h_ad740ac3e6aec81148cd0a55423bdd4e2}
+\hypertarget{gft__common_8h_a86d4434206a75506f1ba5f0ab74d92c6}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!I\-N\-T\-E\-R\-I\-O\-R@{I\-N\-T\-E\-R\-I\-O\-R}}
+\index{I\-N\-T\-E\-R\-I\-O\-R@{I\-N\-T\-E\-R\-I\-O\-R}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{I\-N\-T\-E\-R\-I\-O\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-N\-T\-E\-R\-I\-O\-R~0}}\label{gft__common_8h_a86d4434206a75506f1ba5f0ab74d92c6}
+\hypertarget{gft__common_8h_aacc3ee1a7f283f8ef65cea31f4436a95}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!M\-A\-X@{M\-A\-X}}
+\index{M\-A\-X@{M\-A\-X}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-A\-X(
+\begin{DoxyParamCaption}
+\item[{}]{x, }
+\item[{}]{y}
+\end{DoxyParamCaption}
+)~(((x) $>$ (y))?(x)\-:(y))}}\label{gft__common_8h_aacc3ee1a7f283f8ef65cea31f4436a95}
+
+
+A macro that returns the maximum of {\itshape x} and {\itshape y}. 
+
+\hypertarget{gft__common_8h_a74e75242132eaabbc1c512488a135926}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!M\-I\-N@{M\-I\-N}}
+\index{M\-I\-N@{M\-I\-N}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{M\-I\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-I\-N(
+\begin{DoxyParamCaption}
+\item[{}]{x, }
+\item[{}]{y}
+\end{DoxyParamCaption}
+)~(((x) $<$ (y))?(x)\-:(y))}}\label{gft__common_8h_a74e75242132eaabbc1c512488a135926}
+
+
+A macro that returns the minimum of {\itshape x} and {\itshape y}. 
+
+\hypertarget{gft__common_8h_a53f274963f4ee4586f05278c32a1fd07}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!M\-S\-G1@{M\-S\-G1}}
+\index{M\-S\-G1@{M\-S\-G1}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{M\-S\-G1}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-S\-G1~\char`\"{}Cannot allocate memory space\char`\"{}}}\label{gft__common_8h_a53f274963f4ee4586f05278c32a1fd07}
+\hypertarget{gft__common_8h_a9affb724a6a5ef8064f4b4299e0062e9}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!M\-S\-G2@{M\-S\-G2}}
+\index{M\-S\-G2@{M\-S\-G2}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{M\-S\-G2}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-S\-G2~\char`\"{}Cannot open file\char`\"{}}}\label{gft__common_8h_a9affb724a6a5ef8064f4b4299e0062e9}
+\hypertarget{gft__common_8h_acce559efe63c30861e87a127aa0987ef}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!M\-S\-G3@{M\-S\-G3}}
+\index{M\-S\-G3@{M\-S\-G3}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{M\-S\-G3}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-S\-G3~\char`\"{}Invalid option\char`\"{}}}\label{gft__common_8h_acce559efe63c30861e87a127aa0987ef}
+\hypertarget{gft__common_8h_a0244235a999d8bc7d5486f20d7d22ff7}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!M\-S\-G4@{M\-S\-G4}}
+\index{M\-S\-G4@{M\-S\-G4}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{M\-S\-G4}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-S\-G4~\char`\"{}Could not locate nifti header\char`\"{}}}\label{gft__common_8h_a0244235a999d8bc7d5486f20d7d22ff7}
+\hypertarget{gft__common_8h_a014bf5d427c76a29909cb4fe359d7395}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!M\-S\-G5@{M\-S\-G5}}
+\index{M\-S\-G5@{M\-S\-G5}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{M\-S\-G5}]{\setlength{\rightskip}{0pt plus 5cm}\#define M\-S\-G5~\char`\"{}Nifti-\/1 data type not supported\char`\"{}}}\label{gft__common_8h_a014bf5d427c76a29909cb4fe359d7395}
+\hypertarget{gft__common_8h_a263efce0e5cda1d387a1a43f94715445}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!N\-I\-L@{N\-I\-L}}
+\index{N\-I\-L@{N\-I\-L}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{N\-I\-L}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-I\-L~-\/1}}\label{gft__common_8h_a263efce0e5cda1d387a1a43f94715445}
+\hypertarget{gft__common_8h_a598a3330b3c21701223ee0ca14316eca}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!P\-I@{P\-I}}
+\index{P\-I@{P\-I}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{P\-I}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-I~3.\-1415926536}}\label{gft__common_8h_a598a3330b3c21701223ee0ca14316eca}
+\hypertarget{gft__common_8h_acd66e8cacf954c3bc3bba81d09425a12}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!R\-O\-U\-N\-D@{R\-O\-U\-N\-D}}
+\index{R\-O\-U\-N\-D@{R\-O\-U\-N\-D}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{R\-O\-U\-N\-D}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-O\-U\-N\-D(
+\begin{DoxyParamCaption}
+\item[{}]{x}
+\end{DoxyParamCaption}
+)~((x $<$ 0)?(int)(x-\/0.\-5)\-:(int)(x+0.\-5))}}\label{gft__common_8h_acd66e8cacf954c3bc3bba81d09425a12}
+\hypertarget{gft__common_8h_a8c5ff70b6b28cd0157c50a22406f92c4}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!S\-I\-G\-N@{S\-I\-G\-N}}
+\index{S\-I\-G\-N@{S\-I\-G\-N}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{S\-I\-G\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define S\-I\-G\-N(
+\begin{DoxyParamCaption}
+\item[{}]{x}
+\end{DoxyParamCaption}
+)~((x $>$= 0)?1\-:-\/1)}}\label{gft__common_8h_a8c5ff70b6b28cd0157c50a22406f92c4}
+\hypertarget{gft__common_8h_a87b537f5fa5c109d3c05c13d6b18f382}{\index{gft\-\_\-common.\-h@{gft\-\_\-common.\-h}!W\-H\-I\-T\-E@{W\-H\-I\-T\-E}}
+\index{W\-H\-I\-T\-E@{W\-H\-I\-T\-E}!gft_common.h@{gft\-\_\-common.\-h}}
+\subsubsection[{W\-H\-I\-T\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\-H\-I\-T\-E~0}}\label{gft__common_8h_a87b537f5fa5c109d3c05c13d6b18f382}

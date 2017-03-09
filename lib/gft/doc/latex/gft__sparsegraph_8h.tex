@@ -1,0 +1,74 @@
+\hypertarget{gft__sparsegraph_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-sparsegraph.h File Reference}
+\label{gft__sparsegraph_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-sparsegraph.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-sparsegraph.\-h}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-image32.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-cimage.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-adjrel.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1SparseGraph_1_1__sparseGraph}{gft\-::\-Sparse\-Graph\-::\-\_\-sparse\-Graph}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1SparseGraph}{gft\-::\-Sparse\-Graph}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{gft__sparsegraph_8h_ae7c0dd85a1b2e2b1d786b4a685367c1d}{D\-I\-S\-S\-I\-M\-I\-L\-A\-R\-I\-T\-Y}~0
+\item 
+\#define \hyperlink{gft__sparsegraph_8h_a91fbe6020a4bbd73084f0681b9092479}{C\-A\-P\-A\-C\-I\-T\-Y}~1
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1SparseGraph_1_1__sparseGraph}{gft\-::\-Sparse\-Graph\-::\-\_\-sparse\-Graph} \hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{gft\-::\-Sparse\-Graph\-::\-Sparse\-Graph}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Sparse\-Graph $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a51633f2f84584817242dedbbf2bb1542}{gft\-::\-Sparse\-Graph\-::\-By\-Abs\-Diff} (Image32\-::\-Image32 $\ast$img, float r)
+\item 
+Sparse\-Graph $\ast$ \hyperlink{namespacegft_1_1SparseGraph_aef9b7c44fdac1bc0074e36268a9a4118}{gft\-::\-Sparse\-Graph\-::\-By\-Weight\-Image} (Image32\-::\-Image32 $\ast$W, float r)
+\item 
+int \hyperlink{namespacegft_1_1SparseGraph_a0b89b539956863317a121d0772d659d2}{gft\-::\-Sparse\-Graph\-::get\-\_\-edge\-\_\-index} (int p, int q, Sparse\-Graph $\ast$g)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a51b7e9f8c9f3848c0ebabddf5b61ecab}{gft\-::\-Sparse\-Graph\-::\-Destroy} (Sparse\-Graph $\ast$$\ast$sg)
+\item 
+Sparse\-Graph $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a31c0ddf074368142c885769fa61d2a23}{gft\-::\-Sparse\-Graph\-::\-Create} (int ncols, int nrows, Adj\-Rel\-::\-Adj\-Rel $\ast$A)
+\item 
+Sparse\-Graph $\ast$ \hyperlink{namespacegft_1_1SparseGraph_aa2bfadc3dec5ddb4c12aeea6d51cc315}{gft\-::\-Sparse\-Graph\-::\-Clone} (Sparse\-Graph $\ast$g)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a990d220067b57b9ff7083ba36942513e}{gft\-::\-Sparse\-Graph\-::\-Change\-Type} (Sparse\-Graph $\ast$g, int type)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_ac6c3239f1f394e66d3ae917e79b76dd2}{gft\-::\-Sparse\-Graph\-::\-Pow} (Sparse\-Graph $\ast$sg, int power, int max)
+\item 
+Sparse\-Graph $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a8b2cd84e133c3a9f34aa40048358ab2a}{gft\-::\-Sparse\-Graph\-::\-Convert2\-Symmetric} (Sparse\-Graph $\ast$g, int method)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_ad47466cac07eaa9c920d5e0ef32cbc93}{gft\-::\-Sparse\-Graph\-::\-Suppress\-Zero\-Weighted\-Arcs} (Sparse\-Graph $\ast$g)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a29042a5e339a2963657e00e7ac90aaa2}{gft\-::\-Sparse\-Graph\-::\-Invert\-Arcs\-Digraph} (Sparse\-Graph $\ast$sg)
+\item 
+Image32\-::\-Image32 $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a886edc8a1608a7d03872491d12336b1b}{gft\-::\-Sparse\-Graph\-::\-Arc\-Weight\-Image} (Sparse\-Graph $\ast$sg)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a431511499ba1f83941ca67c6a5c245c9}{gft\-::\-Sparse\-Graph\-::\-Orient2\-Digraph} (Sparse\-Graph $\ast$sg, Image32\-::\-Image32 $\ast$img, float per)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_ab4367ac97b4c8766efc5cc26664940c3}{gft\-::\-Sparse\-Graph\-::\-Orient2\-Digraph\-Inner} (Sparse\-Graph $\ast$sg, Image32\-::\-Image32 $\ast$P\-\_\-sum)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_aa6fc88f6f24bdfca3c47a1f1a5908c82}{gft\-::\-Sparse\-Graph\-::\-Orient2\-Digraph\-Outer} (Sparse\-Graph $\ast$sg, Image32\-::\-Image32 $\ast$P\-\_\-sum)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{gft__sparsegraph_8h_a91fbe6020a4bbd73084f0681b9092479}{\index{gft\-\_\-sparsegraph.\-h@{gft\-\_\-sparsegraph.\-h}!C\-A\-P\-A\-C\-I\-T\-Y@{C\-A\-P\-A\-C\-I\-T\-Y}}
+\index{C\-A\-P\-A\-C\-I\-T\-Y@{C\-A\-P\-A\-C\-I\-T\-Y}!gft_sparsegraph.h@{gft\-\_\-sparsegraph.\-h}}
+\subsubsection[{C\-A\-P\-A\-C\-I\-T\-Y}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\-A\-P\-A\-C\-I\-T\-Y~1}}\label{gft__sparsegraph_8h_a91fbe6020a4bbd73084f0681b9092479}
+\hypertarget{gft__sparsegraph_8h_ae7c0dd85a1b2e2b1d786b4a685367c1d}{\index{gft\-\_\-sparsegraph.\-h@{gft\-\_\-sparsegraph.\-h}!D\-I\-S\-S\-I\-M\-I\-L\-A\-R\-I\-T\-Y@{D\-I\-S\-S\-I\-M\-I\-L\-A\-R\-I\-T\-Y}}
+\index{D\-I\-S\-S\-I\-M\-I\-L\-A\-R\-I\-T\-Y@{D\-I\-S\-S\-I\-M\-I\-L\-A\-R\-I\-T\-Y}!gft_sparsegraph.h@{gft\-\_\-sparsegraph.\-h}}
+\subsubsection[{D\-I\-S\-S\-I\-M\-I\-L\-A\-R\-I\-T\-Y}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-I\-S\-S\-I\-M\-I\-L\-A\-R\-I\-T\-Y~0}}\label{gft__sparsegraph_8h_ae7c0dd85a1b2e2b1d786b4a685367c1d}

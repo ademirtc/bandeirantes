@@ -1,0 +1,85 @@
+\hypertarget{gft__scene16_8h}{\section{/home/pavm/programming/lib/gft/include/gft\-\_\-scene16.h File Reference}
+\label{gft__scene16_8h}\index{/home/pavm/programming/lib/gft/include/gft\-\_\-scene16.\-h@{/home/pavm/programming/lib/gft/include/gft\-\_\-scene16.\-h}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-common.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-scene32.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gft\-\_\-scene8.\-h\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1Scene16_1_1__scene16}{gft\-::\-Scene16\-::\-\_\-scene16}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Scene16}{gft\-::\-Scene16}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1Scene16_1_1__scene16}{gft\-::\-Scene16\-::\-\_\-scene16} \hyperlink{namespacegft_1_1Scene16_a5a4b9571f9e3e6e1393f03bc708bf5ae}{gft\-::\-Scene16\-::\-Scene16}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_a5670ec6f80a34562bd9b1d841ce9d50b}{gft\-::\-Scene16\-::\-Create} (int xsize, int ysize, int zsize)
+\begin{DoxyCompactList}\small\item\em A constructor. \end{DoxyCompactList}\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_a060e453508078f16d404483157275cfd}{gft\-::\-Scene16\-::\-Create} (Scene16 $\ast$scn)
+\begin{DoxyCompactList}\small\item\em A constructor taking a reference scene as template. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1Scene16_af18edf0cca9663e969d241e32a26f114}{gft\-::\-Scene16\-::\-Destroy} (Scene16 $\ast$$\ast$scn)
+\begin{DoxyCompactList}\small\item\em A destructor. \end{DoxyCompactList}\item 
+void \hyperlink{namespacegft_1_1Scene16_aadf3d423473e161451a723fb19f26747}{gft\-::\-Scene16\-::\-Copy} (Scene16 $\ast$dest, Scene16 $\ast$src)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_a8634a924f565018cd693cf78dc815898}{gft\-::\-Scene16\-::\-Copy} (Scene16 $\ast$dest, Scene16 $\ast$src, Voxel v)
+\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_a7793ae34e03ab37cb41bf0ac7a7c4090}{gft\-::\-Scene16\-::\-Clone} (Scene16 $\ast$scn)
+\begin{DoxyCompactList}\small\item\em A copy constructor. \end{DoxyCompactList}\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_a96823e843813d5501a21ccac32ab56ef}{gft\-::\-Scene16\-::\-Sub\-Scene} (Scene16 $\ast$scn, Voxel l, Voxel h)
+\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_a5ff57462597822aaef548bef239655d0}{gft\-::\-Scene16\-::\-Sub\-Scene} (Scene16 $\ast$scn, int xl, int yl, int zl, int xh, int yh, int zh)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_a3da9fb32f1de72ea5eb7f5e60c198bfa}{gft\-::\-Scene16\-::\-Fill} (Scene16 $\ast$scn, ushort value)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_a86ae2fa9229c928fd55c982f54dba374}{gft\-::\-Scene16\-::\-Write} (Scene16 $\ast$scn, char $\ast$filename)
+\item 
+ushort \hyperlink{namespacegft_1_1Scene16_a6f7b805c82d685e64d05addd3eb080ed}{gft\-::\-Scene16\-::\-Get\-Value} (Scene16 $\ast$scn, Voxel v)
+\item 
+ushort \hyperlink{namespacegft_1_1Scene16_a33c2daad8034fcabc9c49cd8b3cac6c3}{gft\-::\-Scene16\-::\-Get\-Value} (Scene16 $\ast$scn, int p)
+\item 
+ushort \hyperlink{namespacegft_1_1Scene16_a2b657fdd4e43bcdaa4352933ac5ff0e8}{gft\-::\-Scene16\-::\-Get\-Value} (Scene16 $\ast$scn, int x, int y, int z)
+\item 
+ushort \hyperlink{namespacegft_1_1Scene16_ad7874fa92918c9b05e0728bacbbd41d3}{gft\-::\-Scene16\-::\-Get\-Value\-\_\-nn} (Scene16 $\ast$scn, float x, float y, float z)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ad89b446bbffa7f1c50ef346942f3d226}{gft\-::\-Scene16\-::\-Get\-Address\-X} (Scene16 $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_afdebe8bff4de2db6d0158bf90555779d}{gft\-::\-Scene16\-::\-Get\-Address\-Y} (Scene16 $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ac580f50ee7d9460976e950b002ce41ea}{gft\-::\-Scene16\-::\-Get\-Address\-Z} (Scene16 $\ast$scn, int p)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ade630f4948df38db477427b7e47a685b}{gft\-::\-Scene16\-::\-Get\-Voxel\-Address} (Scene16 $\ast$scn, Voxel v)
+\item 
+int \hyperlink{namespacegft_1_1Scene16_ad23eb7a26580afe79537b979e3f327c4}{gft\-::\-Scene16\-::\-Get\-Voxel\-Address} (Scene16 $\ast$scn, int x, int y, int z)
+\item 
+bool \hyperlink{namespacegft_1_1Scene16_aabeec9ed19938564887ba79c5d88204f}{gft\-::\-Scene16\-::\-Is\-Valid\-Voxel} (Scene16 $\ast$scn, int x, int y, int z)
+\item 
+bool \hyperlink{namespacegft_1_1Scene16_ad9004888b2b652cb25ff067745e59872}{gft\-::\-Scene16\-::\-Is\-Valid\-Voxel} (Scene16 $\ast$scn, Voxel v)
+\item 
+ushort \hyperlink{namespacegft_1_1Scene16_ad5520ba6e50bbb048fb8b01303f9e621}{gft\-::\-Scene16\-::\-Get\-Maximum\-Value} (Scene16 $\ast$scn)
+\item 
+ushort \hyperlink{namespacegft_1_1Scene16_a1de25b9ee5b803367aadbe1573dd3ffa}{gft\-::\-Scene16\-::\-Get\-Minimum\-Value} (Scene16 $\ast$scn)
+\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_a18f87c7a63a930bb0ac931b676a269fa}{gft\-::\-Scene16\-::\-M\-B\-B} (Scene16 $\ast$scn)
+\item 
+void \hyperlink{namespacegft_1_1Scene16_adeaf2e174a45dd586331749b79d78917}{gft\-::\-Scene16\-::\-M\-B\-B} (Scene16 $\ast$scn, Voxel $\ast$l, Voxel $\ast$h)
+\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_ac95ce918b74bc22306f906049c156a21}{gft\-::\-Scene16\-::\-Add\-Frame} (Scene16 $\ast$scn, int sz, ushort value)
+\item 
+Scene16 $\ast$ \hyperlink{namespacegft_1_1Scene16_ada1a586124aa434cf15c4ee5ba412591}{gft\-::\-Scene16\-::\-Rem\-Frame} (Scene16 $\ast$fscn, int sz)
+\item 
+Scene32\-::\-Scene32 $\ast$ \hyperlink{namespacegft_1_1Scene16_ac57d292a3ba37d27b57a2947c403a862}{gft\-::\-Scene16\-::\-Convert\-To32} (Scene16 $\ast$scn)
+\item 
+Scene8\-::\-Scene8 $\ast$ \hyperlink{namespacegft_1_1Scene16_ae2fead2700048ed33fbabfd3bcd956c0}{gft\-::\-Scene16\-::\-Convert\-To8} (Scene16 $\ast$scn)
+\end{DoxyCompactItemize}

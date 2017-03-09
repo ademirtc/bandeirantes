@@ -1,0 +1,56 @@
+\hypertarget{gft__color_8cpp}{\section{/home/pavm/programming/lib/gft/src/gft\-\_\-color.cpp File Reference}
+\label{gft__color_8cpp}\index{/home/pavm/programming/lib/gft/src/gft\-\_\-color.\-cpp@{/home/pavm/programming/lib/gft/src/gft\-\_\-color.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}gft\-\_\-color.\-h\char`\"{}}\\*
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft}{gft}
+\begin{DoxyCompactList}\small\item\em Base namespace for common definitions and prototypes. \end{DoxyCompactList}\item 
+\hyperlink{namespacegft_1_1Color}{gft\-::\-Color}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{gft__color_8cpp_a4b2be9444edc95c9a93d62919933abd7}{G\-M\-A\-X}(a, b, c)~(((a$>$=b)\&\&(a$>$=c))?a\-:((b$>$c)?b\-:c))
+\item 
+\#define \hyperlink{gft__color_8cpp_a7e6dc2af56cfebb04099f4f3374e77c0}{G\-M\-I\-N}(a, b, c)~(((a$<$=b)\&\&(a$<$=c))?a\-:((b$<$c)?b\-:c))
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{namespacegft_1_1Color_a41b5a3a9b4d326bee9a05ad926ab4550}{gft\-::\-Color\-::\-Triplet} (int a, int b, int c)
+\item 
+double \hyperlink{namespacegft_1_1Color_a2e60d3ec646d82d94efc41fd703607f1}{gft\-::\-Color\-::f} (double t)
+\item 
+Color\-Lab \hyperlink{namespacegft_1_1Color_a84cb5b4bc6b4a6367dd97f2f7b8d152e}{gft\-::\-Color\-::\-R\-G\-B2\-Lab\-\_\-2} (Color\-R\-G\-B rgb)
+\item 
+Color\-Lab \hyperlink{namespacegft_1_1Color_adf976faa16de836220f3a3c43502c8ab}{gft\-::\-Color\-::\-R\-G\-B2\-Lab} (Color\-R\-G\-B rgb)
+\item 
+Color\-R\-G\-B \hyperlink{namespacegft_1_1Color_ad40a48c4677b71d5393be675c5c12e7e}{gft\-::\-Color\-::\-Lab2\-R\-G\-B} (Color\-Lab lab)
+\item 
+Color\-H\-S\-V \hyperlink{namespacegft_1_1Color_a1090480cd015f882e7f618d0475db4b7}{gft\-::\-Color\-::\-R\-G\-B2\-H\-S\-V} (Color\-R\-G\-B rgb)
+\item 
+Color\-R\-G\-B \hyperlink{namespacegft_1_1Color_a8e77eae7710bf66c3c00dd2c8cf66bd2}{gft\-::\-Color\-::\-H\-S\-V2\-R\-G\-B} (Color\-H\-S\-V hsv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{gft__color_8cpp_a4b2be9444edc95c9a93d62919933abd7}{\index{gft\-\_\-color.\-cpp@{gft\-\_\-color.\-cpp}!G\-M\-A\-X@{G\-M\-A\-X}}
+\index{G\-M\-A\-X@{G\-M\-A\-X}!gft_color.cpp@{gft\-\_\-color.\-cpp}}
+\subsubsection[{G\-M\-A\-X}]{\setlength{\rightskip}{0pt plus 5cm}\#define G\-M\-A\-X(
+\begin{DoxyParamCaption}
+\item[{}]{a, }
+\item[{}]{b, }
+\item[{}]{c}
+\end{DoxyParamCaption}
+)~(((a$>$=b)\&\&(a$>$=c))?a\-:((b$>$c)?b\-:c))}}\label{gft__color_8cpp_a4b2be9444edc95c9a93d62919933abd7}
+\hypertarget{gft__color_8cpp_a7e6dc2af56cfebb04099f4f3374e77c0}{\index{gft\-\_\-color.\-cpp@{gft\-\_\-color.\-cpp}!G\-M\-I\-N@{G\-M\-I\-N}}
+\index{G\-M\-I\-N@{G\-M\-I\-N}!gft_color.cpp@{gft\-\_\-color.\-cpp}}
+\subsubsection[{G\-M\-I\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define G\-M\-I\-N(
+\begin{DoxyParamCaption}
+\item[{}]{a, }
+\item[{}]{b, }
+\item[{}]{c}
+\end{DoxyParamCaption}
+)~(((a$<$=b)\&\&(a$<$=c))?a\-:((b$<$c)?b\-:c))}}\label{gft__color_8cpp_a7e6dc2af56cfebb04099f4f3374e77c0}

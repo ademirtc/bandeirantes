@@ -1,0 +1,215 @@
+\hypertarget{namespacegft_1_1SparseGraph}{\section{gft\-:\-:Sparse\-Graph Namespace Reference}
+\label{namespacegft_1_1SparseGraph}\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1SparseGraph_1_1__sparseGraph}{\-\_\-sparse\-Graph}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \\*
+\hyperlink{structgft_1_1SparseGraph_1_1__sparseGraph}{gft\-::\-Sparse\-Graph\-::\-\_\-sparse\-Graph} \hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_ae46c44f103adfb8c8b3af36d652f17cc}{Abs\-Diff} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$img, float r)
+\item 
+\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_aef9b7c44fdac1bc0074e36268a9a4118}{By\-Weight\-Image} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$W, float r)
+\item 
+int \hyperlink{namespacegft_1_1SparseGraph_a0b89b539956863317a121d0772d659d2}{get\-\_\-edge\-\_\-index} (int p, int q, \hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$g)
+\item 
+\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a31c0ddf074368142c885769fa61d2a23}{Create} (int ncols, int nrows, \hyperlink{namespacegft_1_1AdjRel_a832ff5521af7a9801ff18dc3ae629b68}{Adj\-Rel\-::\-Adj\-Rel} $\ast$A)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a51b7e9f8c9f3848c0ebabddf5b61ecab}{Destroy} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$$\ast$sg)
+\item 
+\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a0134886916189972a610d84e3d5d2fe5}{Clone\-Sparse\-Graph} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg)
+\item 
+\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a886edc8a1608a7d03872491d12336b1b}{Arc\-Weight\-Image} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a431511499ba1f83941ca67c6a5c245c9}{Orient2\-Digraph} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg, \hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$img, float per)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a29042a5e339a2963657e00e7ac90aaa2}{Invert\-Arcs\-Digraph} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_ab4367ac97b4c8766efc5cc26664940c3}{Orient2\-Digraph\-Inner} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg, \hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$P\-\_\-sum)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_aa6fc88f6f24bdfca3c47a1f1a5908c82}{Orient2\-Digraph\-Outer} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg, \hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$P\-\_\-sum)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_ad47466cac07eaa9c920d5e0ef32cbc93}{Suppress\-Zero\-Weighted\-Arcs} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$g)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a8b92fb4867f8876479c234636d5f464f}{Change\-Sparse\-Graph\-Type} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg, int type)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a4923f1692c90f34d26fb96c3e71ae717}{Pow\-Sparse\-Graph} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg, int power, int max)
+\item 
+\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a8b2cd84e133c3a9f34aa40048358ab2a}{Convert2\-Symmetric} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$g, int method)
+\item 
+\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_a51633f2f84584817242dedbbf2bb1542}{By\-Abs\-Diff} (\hyperlink{namespacegft_1_1Image32_a6c5a03566b593bb406f1fe33266a0382}{Image32\-::\-Image32} $\ast$img, float r)
+\item 
+\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$ \hyperlink{namespacegft_1_1SparseGraph_aa2bfadc3dec5ddb4c12aeea6d51cc315}{Clone} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$g)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_a990d220067b57b9ff7083ba36942513e}{Change\-Type} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$g, int type)
+\item 
+void \hyperlink{namespacegft_1_1SparseGraph_ac6c3239f1f394e66d3ae917e79b76dd2}{Pow} (\hyperlink{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{Sparse\-Graph} $\ast$sg, int power, int max)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Sparse\-Graph@{Sparse\-Graph}}
+\index{Sparse\-Graph@{Sparse\-Graph}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Sparse\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-Sparse\-Graph\-::\-\_\-sparse\-Graph}  {\bf gft\-::\-Sparse\-Graph\-::\-Sparse\-Graph}}}\label{namespacegft_1_1SparseGraph_ac9894ef1cb4a15f8970806af9f79cc3f}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1SparseGraph_ae46c44f103adfb8c8b3af36d652f17cc}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Abs\-Diff@{Abs\-Diff}}
+\index{Abs\-Diff@{Abs\-Diff}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Abs\-Diff}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sparse\-Graph}$\ast$ gft\-::\-Sparse\-Graph\-::\-Abs\-Diff (
+\begin{DoxyParamCaption}
+\item[{Image32\-::\-Image32 $\ast$}]{img, }
+\item[{float}]{r}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_ae46c44f103adfb8c8b3af36d652f17cc}
+\hypertarget{namespacegft_1_1SparseGraph_a886edc8a1608a7d03872491d12336b1b}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Arc\-Weight\-Image@{Arc\-Weight\-Image}}
+\index{Arc\-Weight\-Image@{Arc\-Weight\-Image}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Arc\-Weight\-Image}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Image32\-::\-Image32} $\ast$ gft\-::\-Sparse\-Graph\-::\-Arc\-Weight\-Image (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a886edc8a1608a7d03872491d12336b1b}
+\hypertarget{namespacegft_1_1SparseGraph_a51633f2f84584817242dedbbf2bb1542}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!By\-Abs\-Diff@{By\-Abs\-Diff}}
+\index{By\-Abs\-Diff@{By\-Abs\-Diff}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{By\-Abs\-Diff}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sparse\-Graph}$\ast$ gft\-::\-Sparse\-Graph\-::\-By\-Abs\-Diff (
+\begin{DoxyParamCaption}
+\item[{Image32\-::\-Image32 $\ast$}]{img, }
+\item[{float}]{r}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a51633f2f84584817242dedbbf2bb1542}
+\hypertarget{namespacegft_1_1SparseGraph_aef9b7c44fdac1bc0074e36268a9a4118}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!By\-Weight\-Image@{By\-Weight\-Image}}
+\index{By\-Weight\-Image@{By\-Weight\-Image}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{By\-Weight\-Image}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sparse\-Graph} $\ast$ gft\-::\-Sparse\-Graph\-::\-By\-Weight\-Image (
+\begin{DoxyParamCaption}
+\item[{Image32\-::\-Image32 $\ast$}]{W, }
+\item[{float}]{r}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_aef9b7c44fdac1bc0074e36268a9a4118}
+\hypertarget{namespacegft_1_1SparseGraph_a8b92fb4867f8876479c234636d5f464f}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Change\-Sparse\-Graph\-Type@{Change\-Sparse\-Graph\-Type}}
+\index{Change\-Sparse\-Graph\-Type@{Change\-Sparse\-Graph\-Type}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Change\-Sparse\-Graph\-Type}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Change\-Sparse\-Graph\-Type (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg, }
+\item[{int}]{type}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a8b92fb4867f8876479c234636d5f464f}
+\hypertarget{namespacegft_1_1SparseGraph_a990d220067b57b9ff7083ba36942513e}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Change\-Type@{Change\-Type}}
+\index{Change\-Type@{Change\-Type}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Change\-Type}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Change\-Type (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{g, }
+\item[{int}]{type}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a990d220067b57b9ff7083ba36942513e}
+\hypertarget{namespacegft_1_1SparseGraph_aa2bfadc3dec5ddb4c12aeea6d51cc315}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Clone@{Clone}}
+\index{Clone@{Clone}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Clone}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sparse\-Graph}$\ast$ gft\-::\-Sparse\-Graph\-::\-Clone (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{g}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_aa2bfadc3dec5ddb4c12aeea6d51cc315}
+\hypertarget{namespacegft_1_1SparseGraph_a0134886916189972a610d84e3d5d2fe5}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Clone\-Sparse\-Graph@{Clone\-Sparse\-Graph}}
+\index{Clone\-Sparse\-Graph@{Clone\-Sparse\-Graph}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Clone\-Sparse\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sparse\-Graph}$\ast$ gft\-::\-Sparse\-Graph\-::\-Clone\-Sparse\-Graph (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a0134886916189972a610d84e3d5d2fe5}
+\hypertarget{namespacegft_1_1SparseGraph_a8b2cd84e133c3a9f34aa40048358ab2a}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Convert2\-Symmetric@{Convert2\-Symmetric}}
+\index{Convert2\-Symmetric@{Convert2\-Symmetric}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Convert2\-Symmetric}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sparse\-Graph} $\ast$ gft\-::\-Sparse\-Graph\-::\-Convert2\-Symmetric (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{g, }
+\item[{int}]{method}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a8b2cd84e133c3a9f34aa40048358ab2a}
+\hypertarget{namespacegft_1_1SparseGraph_a31c0ddf074368142c885769fa61d2a23}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Create@{Create}}
+\index{Create@{Create}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sparse\-Graph} $\ast$ gft\-::\-Sparse\-Graph\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{ncols, }
+\item[{int}]{nrows, }
+\item[{Adj\-Rel\-::\-Adj\-Rel $\ast$}]{A}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a31c0ddf074368142c885769fa61d2a23}
+\hypertarget{namespacegft_1_1SparseGraph_a51b7e9f8c9f3848c0ebabddf5b61ecab}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$$\ast$}]{sg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a51b7e9f8c9f3848c0ebabddf5b61ecab}
+\hypertarget{namespacegft_1_1SparseGraph_a0b89b539956863317a121d0772d659d2}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!get\-\_\-edge\-\_\-index@{get\-\_\-edge\-\_\-index}}
+\index{get\-\_\-edge\-\_\-index@{get\-\_\-edge\-\_\-index}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{get\-\_\-edge\-\_\-index}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-Sparse\-Graph\-::get\-\_\-edge\-\_\-index (
+\begin{DoxyParamCaption}
+\item[{int}]{p, }
+\item[{int}]{q, }
+\item[{Sparse\-Graph $\ast$}]{g}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a0b89b539956863317a121d0772d659d2}
+\hypertarget{namespacegft_1_1SparseGraph_a29042a5e339a2963657e00e7ac90aaa2}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Invert\-Arcs\-Digraph@{Invert\-Arcs\-Digraph}}
+\index{Invert\-Arcs\-Digraph@{Invert\-Arcs\-Digraph}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Invert\-Arcs\-Digraph}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Invert\-Arcs\-Digraph (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a29042a5e339a2963657e00e7ac90aaa2}
+\hypertarget{namespacegft_1_1SparseGraph_a431511499ba1f83941ca67c6a5c245c9}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Orient2\-Digraph@{Orient2\-Digraph}}
+\index{Orient2\-Digraph@{Orient2\-Digraph}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Orient2\-Digraph}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Orient2\-Digraph (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg, }
+\item[{Image32\-::\-Image32 $\ast$}]{img, }
+\item[{float}]{per}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a431511499ba1f83941ca67c6a5c245c9}
+\hypertarget{namespacegft_1_1SparseGraph_ab4367ac97b4c8766efc5cc26664940c3}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Orient2\-Digraph\-Inner@{Orient2\-Digraph\-Inner}}
+\index{Orient2\-Digraph\-Inner@{Orient2\-Digraph\-Inner}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Orient2\-Digraph\-Inner}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Orient2\-Digraph\-Inner (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg, }
+\item[{Image32\-::\-Image32 $\ast$}]{P\-\_\-sum}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_ab4367ac97b4c8766efc5cc26664940c3}
+\hypertarget{namespacegft_1_1SparseGraph_aa6fc88f6f24bdfca3c47a1f1a5908c82}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Orient2\-Digraph\-Outer@{Orient2\-Digraph\-Outer}}
+\index{Orient2\-Digraph\-Outer@{Orient2\-Digraph\-Outer}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Orient2\-Digraph\-Outer}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Orient2\-Digraph\-Outer (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg, }
+\item[{Image32\-::\-Image32 $\ast$}]{P\-\_\-sum}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_aa6fc88f6f24bdfca3c47a1f1a5908c82}
+\hypertarget{namespacegft_1_1SparseGraph_ac6c3239f1f394e66d3ae917e79b76dd2}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Pow@{Pow}}
+\index{Pow@{Pow}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Pow}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Pow (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg, }
+\item[{int}]{power, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_ac6c3239f1f394e66d3ae917e79b76dd2}
+\hypertarget{namespacegft_1_1SparseGraph_a4923f1692c90f34d26fb96c3e71ae717}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Pow\-Sparse\-Graph@{Pow\-Sparse\-Graph}}
+\index{Pow\-Sparse\-Graph@{Pow\-Sparse\-Graph}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Pow\-Sparse\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Pow\-Sparse\-Graph (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{sg, }
+\item[{int}]{power, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_a4923f1692c90f34d26fb96c3e71ae717}
+\hypertarget{namespacegft_1_1SparseGraph_ad47466cac07eaa9c920d5e0ef32cbc93}{\index{gft\-::\-Sparse\-Graph@{gft\-::\-Sparse\-Graph}!Suppress\-Zero\-Weighted\-Arcs@{Suppress\-Zero\-Weighted\-Arcs}}
+\index{Suppress\-Zero\-Weighted\-Arcs@{Suppress\-Zero\-Weighted\-Arcs}!gft::SparseGraph@{gft\-::\-Sparse\-Graph}}
+\subsubsection[{Suppress\-Zero\-Weighted\-Arcs}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-Sparse\-Graph\-::\-Suppress\-Zero\-Weighted\-Arcs (
+\begin{DoxyParamCaption}
+\item[{Sparse\-Graph $\ast$}]{g}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1SparseGraph_ad47466cac07eaa9c920d5e0ef32cbc93}

@@ -1,0 +1,126 @@
+\hypertarget{namespacegft_1_1BMap}{\section{gft\-:\-:B\-Map Namespace Reference}
+\label{namespacegft_1_1BMap}\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}}
+}
+
+
+Common definitions and functions to manipulate a vector of booleans.  
+
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structgft_1_1BMap_1_1__bmap}{\-\_\-bmap}
+\begin{DoxyCompactList}\small\item\em Vector of booleans. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structgft_1_1BMap_1_1__bmap}{gft\-::\-B\-Map\-::\-\_\-bmap} \hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map}
+\begin{DoxyCompactList}\small\item\em Vector of booleans. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$ \hyperlink{namespacegft_1_1BMap_a2fa05fc6252377c429e9e4a6f9deb48e}{Create} (int n)
+\item 
+void \hyperlink{namespacegft_1_1BMap_ae0ac845f44b759496c68f587b0eb61c7}{Destroy} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$$\ast$b)
+\item 
+void \hyperlink{namespacegft_1_1BMap_aca9363f4ab0f57c0c8d25280148973af}{Fill} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$b, int value)
+\item 
+void \hyperlink{namespacegft_1_1BMap_a9b988dc9df9d88e87e41ece4359d3dac}{Copy} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$dest, \hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$src)
+\item 
+int \hyperlink{namespacegft_1_1BMap_ac9c2e8f32c8f11a64217cbbc3f3d0109}{Get} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$b, int p)
+\item 
+void \hyperlink{namespacegft_1_1BMap_a287294d475dc6379a66312d90d1f31a5}{Set} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$b, int p, int value)
+\item 
+void \hyperlink{namespacegft_1_1BMap_a499d41c0bc16d3798afcdfaafc138077}{Set0} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$b, int p)
+\item 
+void \hyperlink{namespacegft_1_1BMap_ac1fd70d8535973339795337d4c2d42bc}{Set1} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$b, int p)
+\item 
+void \hyperlink{namespacegft_1_1BMap_af3dde81bb441bb44cee40b7e801bf32d}{Toggle} (\hyperlink{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{B\-Map} $\ast$b, int p)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Common definitions and functions to manipulate a vector of booleans. 
+
+\subsection{Typedef Documentation}
+\hypertarget{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!B\-Map@{B\-Map}}
+\index{B\-Map@{B\-Map}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{B\-Map}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf gft\-::\-B\-Map\-::\-\_\-bmap}  {\bf gft\-::\-B\-Map\-::\-B\-Map}}}\label{namespacegft_1_1BMap_a8f2cf1208156e700ed4ee3266e9608a3}
+
+
+Vector of booleans. 
+
+It uses one bit per boolean (i.\-e., size = ceil (n / 8)). 
+
+\subsection{Function Documentation}
+\hypertarget{namespacegft_1_1BMap_a9b988dc9df9d88e87e41ece4359d3dac}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Copy@{Copy}}
+\index{Copy@{Copy}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Copy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-B\-Map\-::\-Copy (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$}]{dest, }
+\item[{B\-Map $\ast$}]{src}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1BMap_a9b988dc9df9d88e87e41ece4359d3dac}
+\hypertarget{namespacegft_1_1BMap_a2fa05fc6252377c429e9e4a6f9deb48e}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Create@{Create}}
+\index{Create@{Create}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf B\-Map} $\ast$ gft\-::\-B\-Map\-::\-Create (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1BMap_a2fa05fc6252377c429e9e4a6f9deb48e}
+\hypertarget{namespacegft_1_1BMap_ae0ac845f44b759496c68f587b0eb61c7}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-B\-Map\-::\-Destroy (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$$\ast$}]{b}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1BMap_ae0ac845f44b759496c68f587b0eb61c7}
+\hypertarget{namespacegft_1_1BMap_aca9363f4ab0f57c0c8d25280148973af}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Fill@{Fill}}
+\index{Fill@{Fill}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Fill}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-B\-Map\-::\-Fill (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$}]{b, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespacegft_1_1BMap_aca9363f4ab0f57c0c8d25280148973af}
+\hypertarget{namespacegft_1_1BMap_ac9c2e8f32c8f11a64217cbbc3f3d0109}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Get@{Get}}
+\index{Get@{Get}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Get}]{\setlength{\rightskip}{0pt plus 5cm}int gft\-::\-B\-Map\-::\-Get (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$}]{b, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1BMap_ac9c2e8f32c8f11a64217cbbc3f3d0109}
+\hypertarget{namespacegft_1_1BMap_a287294d475dc6379a66312d90d1f31a5}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Set@{Set}}
+\index{Set@{Set}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Set}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-B\-Map\-::\-Set (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$}]{b, }
+\item[{int}]{p, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1BMap_a287294d475dc6379a66312d90d1f31a5}
+\hypertarget{namespacegft_1_1BMap_a499d41c0bc16d3798afcdfaafc138077}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Set0@{Set0}}
+\index{Set0@{Set0}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Set0}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-B\-Map\-::\-Set0 (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$}]{b, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1BMap_a499d41c0bc16d3798afcdfaafc138077}
+\hypertarget{namespacegft_1_1BMap_ac1fd70d8535973339795337d4c2d42bc}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Set1@{Set1}}
+\index{Set1@{Set1}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Set1}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-B\-Map\-::\-Set1 (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$}]{b, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1BMap_ac1fd70d8535973339795337d4c2d42bc}
+\hypertarget{namespacegft_1_1BMap_af3dde81bb441bb44cee40b7e801bf32d}{\index{gft\-::\-B\-Map@{gft\-::\-B\-Map}!Toggle@{Toggle}}
+\index{Toggle@{Toggle}!gft::BMap@{gft\-::\-B\-Map}}
+\subsubsection[{Toggle}]{\setlength{\rightskip}{0pt plus 5cm}void gft\-::\-B\-Map\-::\-Toggle (
+\begin{DoxyParamCaption}
+\item[{B\-Map $\ast$}]{b, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespacegft_1_1BMap_af3dde81bb441bb44cee40b7e801bf32d}
