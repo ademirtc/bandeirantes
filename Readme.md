@@ -48,7 +48,7 @@ x<sub>m</sub>    x<sub>m</sub>
 </pre>
 where: 
 <pre>n: number of initial points
-m: number of terminal points
+m: number of destination points
 [solution]: solution corresponding to order in list m 
 </pre>
 
