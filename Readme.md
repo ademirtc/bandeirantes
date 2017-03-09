@@ -10,9 +10,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 * Libraries:
-        * [munkres-cpp](https://github.com/saebyn/munkres-cpp) - Hungarian algorithm 
-        * gft (in code)
-            - optional: zlib: zlib1g-dev
+    * [munkres-cpp](https://github.com/saebyn/munkres-cpp) - Hungarian algorithm 
+    * gft (in code)
+        - optional: zlib: zlib1g-dev
 
 * Images:
         * [Images for test the methods](http://www.vision.ime.usp.br/~mtejadac/bandeirantes.html) - Scanned completed answers sheets used in the experiment
@@ -33,7 +33,7 @@ $ make clean && make
 
 ## Configurations files
 
-###Format of configuration of each image
+### Format of configuration of each image
 <pre>
 n
 x<sub>1</sub>    x<sub>1</sub>     [solution]
@@ -98,7 +98,7 @@ conf_image_last.txt</pre>
 ### Run individual image
 Usage:
 ```
-proj1 <image_file> <config_file> <method>
+main <image_file> <config_file> <method>
 method: 0 ... Riverbed
         1 ... LiveWire
         2 ... G-wire
@@ -107,10 +107,11 @@ method: 0 ... Riverbed
 
 Example:
 ```bash
-$ ./proj1 database/img_001.pgm database/img_001.txt 3
+$ ./main database/img_001.pgm database/img_001.txt 3
 ```
 
 ### Run list images
+Usage:
 ```
 runexp <image_list> <config_list> <method>
 method: 0 ... Riverbed
