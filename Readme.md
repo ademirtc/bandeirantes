@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
         - optional: zlib: zlib1g-dev
 
 * Images:
-        * [Images for test the methods](http://www.vision.ime.usp.br/~mtejadac/bandeirantes.html) - Scanned completed answers sheets used in the experiment
+    * [Images for test the methods](http://www.vision.ime.usp.br/~mtejadac/bandeirantes.html) - Scanned completed answers sheets used in the experiment
 
 
 ## Build
