@@ -36,20 +36,21 @@ $ make clean && make
 ### Format of configuration of each image
 <pre>
 n
-x<sub>1</sub>    x<sub>1</sub>     [solution]
-x<sub>2</sub>    x<sub>2</sub>     [solution]
+x<sub>1</sub>    y<sub>1</sub>     [solution]
+x<sub>2</sub>    y<sub>2</sub>     [solution]
 ...
-x<sub>n</sub>    x<sub>n</sub>     [solution]
+x<sub>n</sub>    y<sub>n</sub>     [solution]
 m
-x<sub>1</sub>    x<sub>1</sub>   
-x<sub>2</sub>    x<sub>2</sub>   
+x<sub>1</sub>    y<sub>1</sub>   
+x<sub>2</sub>    y<sub>2</sub>   
 ...
-x<sub>m</sub>    x<sub>m</sub> 
+x<sub>m</sub>    y<sub>m</sub> 
 </pre>
 where: 
 <pre>n: number of initial points
 m: number of destination points
-[solution]: solution corresponding to order in list m 
+[solution]: solution corresponding to order in list m
+x y : position of the point in the image
 </pre>
 
 
